@@ -4,26 +4,40 @@ plan_generator_v2.py  —  Iterative Krita plan generator
 
 PIPELINE OVERVIEW
 ─────────────────────────────────────────────────────────────────────────────
-Stage 0 │ Configuration   — model name, Ollama URL, canvas image size cap
-Stage 1 │ PIL renderer    — draws the accumulated manifest as a PNG so Qwen
-         │                  can literally see what's already on the canvas
-Stage 2 │ LLM call        — Qwen-VL reads the image + JSON manifest and
-         │                  outputs draw operations for the current step only
-Stage 3 │ Stroke refiner  — takes Qwen's rough 5-15 point paths and produces
-         │                  60-point mathematically smooth strokes with a
-         │                  natural pressure envelope (no hardcoded shapes)
-Stage 4 │ Action expander — converts each draw op dict into the exact sequence
-         │                  of Krita JSON actions (set_brush, set_color, paint_*)
-         │                  Brush preset is chosen per-draw by Qwen based on the
-         │                  element description + krita_presets.json
-Stage 5 │ Orchestrator    — loops over every process step, grows the manifest
-         │                  after each step, saves the final plan.json
+Stage 0  │ Configuration   — model name, Ollama URL, canvas image size cap,
+          │                  krita_presets.json path
+          │
+Stage 1  │ Context Builder — prepares all context before each LLM call
+  1a     │   PIL renderer  — renders manifest as PNG so Qwen can see the canvas
+  1b     │   Zone builder  — converts zone labels → pixel bounds (x,y,w,h)
+          │                  + builds full scene layout map for spatial context
+  1c     │   Manifest      — compacts draw history → token-efficient JSON
+          │                  showing prior coordinates to Qwen
+  1d     │   SVG snapshot  — saves step_NN.svg to disk after every step
+          │                  for human inspection; shown inline in Colab
+          │                  NOT sent to Qwen — purely for your review
+          │
+Stage 2  │ LLM call        — Qwen-VL receives (1a image + 1b zones + 1c manifest
+          │                  + brush list) and outputs draw operations + preset
+          │                  names for this step only
+          │
+Stage 3  │ Stroke refiner  — takes Qwen's rough 5-15 point paths and produces
+          │                  60-point smooth strokes with a natural pressure
+          │                  envelope via Catmull-Rom spline (no hardcoded shapes)
+          │
+Stage 4  │ Action expander — converts each draw op into Krita JSON actions
+          │                  (set_brush_preset from draw["preset"], set_brush_size,
+          │                  set_foreground_color, paint_*)
+          │
+Stage 5  │ Orchestrator    — loops over every process step running Stages 1→4,
+          │                  saves step SVG (Stage 1d) after each step,
+          │                  grows the manifest, writes the final plan.json
 
-One LangChain call per process step.  Each call sends Qwen-VL:
-  ① PIL-rendered PNG    — visual snapshot of the current canvas state
-  ② Zone context        — mandatory pixel bounds for this step derived from
-                          process_generator's zone map + full scene layout
-  ③ JSON manifest       — compact coordinates of everything painted so far
+One LangChain call per process step (Stage 2).  Each call sends Qwen-VL:
+  ① PIL-rendered PNG  (Stage 1a) — visual snapshot of current canvas state
+  ② Zone context      (Stage 1b) — pixel bounds for this step + full scene layout
+  ③ JSON manifest     (Stage 1c) — compact coordinates of everything painted so far
+  ④ Brush list                   — name + description from krita_presets.json
 
 Usage:
     python plan_generator_v2.py <process.json> [<output.json>] [--canvas WxH]
@@ -81,10 +95,17 @@ STROKE_TARGET_POINTS = 60
 
 
 # ════════════════════════════════════════════════════════════════════════════
-# Stage 1 — PIL canvas renderer
-# Converts the accumulated draw manifest into a real image so Qwen-VL can
-# *see* the current canvas state instead of just reading text coordinates.
+# Stage 1 — Context Builder
+# Prepares all four context inputs Qwen needs before each LLM call:
+#   1a  PIL renderer  → canvas PNG  (visual — what's already painted)
+#   1b  Zone builder  → pixel bounds (spatial — where to draw this step)
+#   1c  Manifest      → compact JSON (coordinate — what's already painted)
+#   1d  SVG snapshot  → .svg file    (human inspection — NOT sent to Qwen)
 # ════════════════════════════════════════════════════════════════════════════
+
+# ── Stage 1a — PIL Canvas Renderer ──────────────────────────────────────────
+# Renders the accumulated manifest as a raster PNG so Qwen-VL can *see*
+# the current canvas state visually, not just read coordinates as text.
 
 def _hex_to_rgb(hex_str: str, opacity: float = 1.0) -> tuple[int, int, int]:
     """
@@ -155,7 +176,7 @@ def manifest_to_image(manifest: list[dict],
                       canvas_h: int,
                       bg_color: str = "#111111") -> Image.Image:
     """
-    Stage 1 entry point.
+    Stage 1a entry point — PIL canvas renderer.
 
     Render every draw-op in the entire manifest (all previous steps) onto a
     PIL Image in the correct paint order (step 1 at the bottom, latest on top).
@@ -224,12 +245,13 @@ def _compact_manifest(manifest: list[dict]) -> list[dict]:
     return out
 
 
-# ════════════════════════════════════════════════════════════════════════════
-# Stage 1b — SVG renderer
-# Produces a human-readable SVG snapshot of the canvas at any point in time.
-# Saved to  <output_dir>/<basename>_steps/step_N.svg  after every step so
-# you can open each file in a browser and watch the painting build up.
-# ════════════════════════════════════════════════════════════════════════════
+# ── Stage 1c — Manifest Compactor ───────────────────────────────────────────
+# _compact_manifest() above is Stage 1c — it compacts the draw history into
+# a token-efficient JSON string of prior coordinates passed to Qwen.
+
+# ── Stage 1d — SVG Snapshot ──────────────────────────────────────────────────
+# Saves a human-readable SVG after every step for human inspection.
+# NOT sent to Qwen. Displays inline in Colab. Functions defined below.
 
 def _draw_to_svg(d: dict) -> str:
     """
@@ -295,13 +317,14 @@ def manifest_to_svg(manifest: list[dict],
                     canvas_h: int,
                     bg_color: str = "#111111") -> str:
     """
-    Stage 1b entry point.
+    Stage 1d entry point — SVG snapshot renderer.
 
-    Render the full accumulated manifest as an SVG string.
+    Render the full accumulated manifest as an SVG string for human inspection.
     Steps are painted in order (earlier steps at the bottom).
-    Each step's draws are wrapped in an SVG <g> group with an id and label
-    so you can inspect individual layers when opening in a browser.
+    Each step's draws are wrapped in an SVG <g> group with an id so you can
+    inspect individual layers when opening in a browser or Inkscape.
 
+    NOT sent to Qwen — this is purely for your visual review.
     Returns a complete SVG document string ready to write to a .svg file.
     """
     lines = [
@@ -353,9 +376,10 @@ def save_step_svg(manifest: list[dict],
 
 
 # ════════════════════════════════════════════════════════════════════════════
-# Zone → pixel utilities
-# Converts the 3×3 zone grid from process.json into pixel bounding boxes
-# that Qwen can use directly as draw coordinates.
+# Stage 1b — Zone Builder
+# Converts the 3×3 zone grid from process.json into pixel bounding boxes.
+# _zone_to_pixels()  → zone label list → {x, y, w, h} bounding box
+# _build_zone_context() → assembles the zone text injected into every prompt
 # ════════════════════════════════════════════════════════════════════════════
 
 def _zone_to_pixels(zones: list[str], canvas_w: int, canvas_h: int) -> dict:
@@ -453,12 +477,13 @@ def _build_zone_context(step_zones: list[str],
 
 
 # ════════════════════════════════════════════════════════════════════════════
-# Stage 2 — LLM call (Qwen-VL via Ollama + LangChain)
-# One call per process step.  Qwen receives THREE context formats:
-#   ① PIL-rendered PNG image   — visual snapshot of the current canvas state
-#   ② Zone assignment text     — mandatory pixel bounds for this step + full
-#                                scene layout showing where every element goes
-#   ③ JSON geometry manifest   — compact coordinates of everything drawn so far
+# Stage 2 — LLM Call (Qwen-VL via Ollama + LangChain)
+# One call per process step.  Qwen receives FOUR context inputs:
+#   ① PNG image   (Stage 1a) — visual snapshot of current canvas state
+#   ② Zone text   (Stage 1b) — pixel bounds for this step + full scene layout
+#   ③ JSON manifest (Stage 1c) — compact coordinates of prior draws
+#   ④ Brush list              — name + description from krita_presets.json
+# Qwen outputs draw operations with a "preset" field per draw.
 # ════════════════════════════════════════════════════════════════════════════
 
 # --- Output schema Qwen must follow ---
@@ -529,10 +554,7 @@ def decide_background_color(process: dict, llm: ChatOllama) -> str:
     first_step = ""
     if steps:
         s = steps[0]
-        first_step = " | ".join(
-            str(s[k]) for k in ("action", "observation", "rule", "hypothesis")
-            if s.get(k)
-        )
+        first_step = s.get("action", "")
 
     prompt = (
         f"Painting summary: {summary}\n"
@@ -910,88 +932,21 @@ def refine_stroke(draw: dict) -> dict:
     return {**draw, "path": smooth_pts, "pressures": pressures}
 
 
-# ════════════════════════════════════════════════════════════════════════════
-# Stage 4a — Brush preset selector
-# One LLM call before the main loop.  Reads krita_presets.json (exported
-# from Krita's Scripter) and asks the model to choose the best brush for
-# each draw type given the painting's style and subject matter.
-# ════════════════════════════════════════════════════════════════════════════
-
 # Prefix letters that correspond to actual painting brushes.
 # Excluded: a (erasers), k (blenders — smear only, no new colour),
 #           l (adjustment: dodge/burn), u (pixel art), w (normal map), x (filter blur/sharpen)
-# Included: z (stamps — Stamp Grass, Stamp Leaves etc. are genuinely useful painting brushes)
-#           t (shape stamps), v (sketching), y (texture brushes like Texture Hair, Wood Fiber)
+# Included: z (stamps — Stamp Grass, Stamp Leaves etc. are genuinely useful)
+#           t (shape stamps), v (sketching), y (texture brushes — hair, wood fiber etc.)
+# Used in Stage 5 (Orchestrator) when loading krita_presets.json.
 _PAINTING_PREFIXES = {"b", "c", "d", "e", "f", "g", "h", "i", "j", "m", "t", "v", "y", "z"}
 
 
-def select_brush_presets(presets: list[dict],
-                         summary: str,
-                         llm: ChatOllama) -> dict:
-    """
-    Stage 4a — one LLM call before the step loop.
-
-    Given the installed Krita brush list and the painting summary, asks the
-    model to pick the best preset for each of the five draw types.
-
-    Returns a mapping dict:
-      {"filled_rect": "b) Basic-5 Size", "strokes": "f) Bristles-2 Flat Rough", ...}
-
-    Falls back to b) Basic-5 Size for any preset the model invents that does
-    not exist in the installed list.
-    """
-    # Only show painting-relevant brushes to keep the prompt short.
-    painting_presets = [
-        p for p in presets
-        if p.get("name", "")[0].lower() in _PAINTING_PREFIXES
-    ]
-
-    preset_lines = "\n".join(
-        f'  {p["name"]:<38} — {p["description"]}'
-        for p in painting_presets
-    )
-
-    prompt = (
-        f'Painting: "{summary}"\n\n'
-        "Available Krita brush presets:\n"
-        f"{preset_lines}\n\n"
-        "Choose the single best preset for each draw type that suits this "
-        "painting's style and subject matter.\n"
-        "Output ONLY valid JSON — no markdown, no comments:\n"
-        "{\n"
-        '  "filled_rect":   "exact preset name",\n'
-        '  "strokes":       "exact preset name",\n'
-        '  "polygon":       "exact preset name",\n'
-        '  "ellipse":       "exact preset name",\n'
-        '  "outlined_rect": "exact preset name"\n'
-        "}"
-    )
-
-    response = llm.invoke([HumanMessage(content=prompt)])
-    raw      = response.content.strip()
-
-    try:
-        preset_map = _parse_llm_json(raw)
-    except (json.JSONDecodeError, ValueError):
-        preset_map = {}
-
-    # Validate every chosen name against the actual installed list.
-    valid_names = {p["name"] for p in presets}
-    fallback    = "b) Basic-5 Size"
-    for key in ("filled_rect", "strokes", "polygon", "ellipse", "outlined_rect"):
-        chosen = preset_map.get(key, "")
-        if chosen not in valid_names:
-            print(f"  [presets] '{chosen}' not installed — using {fallback}")
-            preset_map[key] = fallback
-
-    return preset_map
-
-
 # ════════════════════════════════════════════════════════════════════════════
-# Stage 4 — Krita action expander
-# Converts each draw-op dict into the specific sequence of Krita JSON actions
-# that runner.py will execute inside Krita.  No LLM involved here — pure
-# deterministic Python.
+# Stage 4 — Action Expander
+# Converts each draw-op dict into the exact sequence of Krita JSON actions
+# that runner.py will execute inside Krita.  No LLM — pure deterministic Python.
+# Reads draw["preset"] chosen by Qwen (Stage 2) and validates it against
+# valid_presets before emitting set_brush_preset.
 # ════════════════════════════════════════════════════════════════════════════
 
 def _expand_draw(actions: list[dict], node_ref: str, draw: dict,
@@ -1100,9 +1055,10 @@ def _expand_draw(actions: list[dict], node_ref: str, draw: dict,
 
 
 # ════════════════════════════════════════════════════════════════════════════
-# Stage 5 — Main pipeline / orchestrator
-# Ties all stages together: reads process.json, loops over steps, grows the
-# manifest, and writes the final plan.json that runner.py executes in Krita.
+# Stage 5 — Orchestrator
+# Ties all stages together: reads process.json + krita_presets.json, loops
+# over every process step running Stages 1→4 + 1d, grows the manifest after
+# each step, and writes the final plan.json that runner.py executes in Krita.
 # ════════════════════════════════════════════════════════════════════════════
 
 def generate(process_path: str,
@@ -1111,7 +1067,7 @@ def generate(process_path: str,
              canvas_h: int = 950,
              presets_path: str = "") -> str:
     """
-    Stage 5 entry point.
+    Stage 5 — Orchestrator entry point.
 
     Full pipeline: process.json → plan.json.
     Returns the path to the written plan file.
