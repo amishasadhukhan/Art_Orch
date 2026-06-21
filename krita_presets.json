@@ -1,0 +1,574 @@
+[
+  {
+    "name": "b) Airbrush Soft",
+    "description": "airbrush — smooth soft gradients, good for glows and shading"
+  },
+  {
+    "name": "b) Airbrush Soft Copy",
+    "description": "airbrush — smooth soft gradients, good for glows and shading"
+  },
+  {
+    "name": "b) Basic-1",
+    "description": "basic hard round — simple hard-edged brush"
+  },
+  {
+    "name": "b) Basic-2 Opacity",
+    "description": "basic round — pressure controls opacity, good for transparent washes"
+  },
+  {
+    "name": "b) Basic-3 Flow",
+    "description": "basic round — pressure controls flow, builds colour gradually"
+  },
+  {
+    "name": "b) Basic-4 Flow Opacity",
+    "description": "basic round — pressure controls both flow and opacity, very controllable layering"
+  },
+  {
+    "name": "b) Basic-5 Size",
+    "description": "basic round — pressure controls size, the most versatile general-purpose brush"
+  },
+  {
+    "name": "b) Basic-5 Size Opacity",
+    "description": "basic round — pressure controls both size and opacity"
+  },
+  {
+    "name": "b) Basic-6 Details",
+    "description": "basic small detail brush — fine marks and hatching"
+  },
+  {
+    "name": "c) Pencil 1 Sketch (mypaint)",
+    "description": "pencil — rough sketchy mypaint pencil"
+  },
+  {
+    "name": "c) Pencil 2b (mypaint)",
+    "description": "pencil — soft 2B mypaint pencil"
+  },
+  {
+    "name": "c) Pencil-1 Hard",
+    "description": "pencil — hard precise pencil line"
+  },
+  {
+    "name": "c) Pencil-2",
+    "description": "pencil — standard natural pencil texture"
+  },
+  {
+    "name": "c) Pencil-3 Large 4B",
+    "description": "pencil — wide soft 4B pencil, good for large shading areas"
+  },
+  {
+    "name": "c) Pencil-4 Soft",
+    "description": "pencil — soft gentle light marks"
+  },
+  {
+    "name": "c) Pencil-5 Tilted",
+    "description": "pencil — tilted side-of-pencil shading effect"
+  },
+  {
+    "name": "c) Pencil-6 Quick Shade",
+    "description": "pencil — quick tonal shading"
+  },
+  {
+    "name": "d) Ink pen (mypaint)",
+    "description": "ink — mypaint ink pen, expressive variable-width line"
+  },
+  {
+    "name": "d) Ink-1 Precision",
+    "description": "ink — ultra-precise finest line, best for intricate outlines"
+  },
+  {
+    "name": "d) Ink-2 Fineliner",
+    "description": "ink — consistent fine liner, good for clean outlines and details"
+  },
+  {
+    "name": "d) Ink-3 Gpen",
+    "description": "ink — calligraphy G-pen, pressure gives thick-to-thin variation"
+  },
+  {
+    "name": "d) Ink-4 Pen Rough",
+    "description": "ink — rough textured ink stroke, organic expressive lines"
+  },
+  {
+    "name": "d) Ink-7 Brush Rough",
+    "description": "ink — bristly rough ink brush, loose expressive marks"
+  },
+  {
+    "name": "d) Ink-8 Sumi-e",
+    "description": "ink — sumi-e calligraphy brush, flowing East Asian style strokes"
+  },
+  {
+    "name": "e) Marker Chisel Smooth",
+    "description": "marker — chisel tip, flat angled strokes good for bold fills"
+  },
+  {
+    "name": "e) Marker Details",
+    "description": "marker — fine-tip marker for detailed linework"
+  },
+  {
+    "name": "e) Marker Dry",
+    "description": "marker — dry streaky marker, uneven coverage"
+  },
+  {
+    "name": "e) Marker Medium (mypaint)",
+    "description": "marker — medium opaque mypaint marker"
+  },
+  {
+    "name": "e) Marker Plain (mypaint)",
+    "description": "marker — plain opaque mypaint marker"
+  },
+  {
+    "name": "f) Bristles-1 Details",
+    "description": "bristle — fine detail bristle for small textured marks"
+  },
+  {
+    "name": "f) Bristles-2 Flat Rough",
+    "description": "bristle — flat rough bristle, strong directional texture"
+  },
+  {
+    "name": "f) Bristles-3 Large Smooth",
+    "description": "bristle — large smooth bristle, wide painterly coverage"
+  },
+  {
+    "name": "f) Bristles-4 Glaze",
+    "description": "bristle — semi-transparent glaze strokes, good for layering colour"
+  },
+  {
+    "name": "f) Bristles-5 Flat",
+    "description": "bristle — flat bristle for broad smooth strokes"
+  },
+  {
+    "name": "f) Charcoal Rock Soft",
+    "description": "bristle — soft charcoal-rock texture, grainy dark coverage"
+  },
+  {
+    "name": "f) Dry Roller",
+    "description": "bristle — dry roller, leaves a repetitive textured pattern"
+  },
+  {
+    "name": "g) Dry Bristles",
+    "description": "dry — dry bristle, rough scratchy coverage"
+  },
+  {
+    "name": "g) Dry Bristles Eroded",
+    "description": "dry — heavily eroded bristle, very rough broken texture"
+  },
+  {
+    "name": "g) Dry Brushing",
+    "description": "dry — classic dry-brush effect, rough scratchy marks"
+  },
+  {
+    "name": "g) Dry Textured Creases",
+    "description": "dry — dry texture with crease marks, complex surface texture"
+  },
+  {
+    "name": "h) Chalk Details",
+    "description": "chalk — fine chalk detail marks"
+  },
+  {
+    "name": "h) Chalk Grainy",
+    "description": "chalk — grainy chalk with visible texture"
+  },
+  {
+    "name": "h) Chalk Soft",
+    "description": "chalk — smooth soft chalk coverage"
+  },
+  {
+    "name": "h) Charcoal Pencil Medium",
+    "description": "charcoal — medium-width charcoal pencil stroke"
+  },
+  {
+    "name": "h) Charcoal Pencil Thin",
+    "description": "charcoal — thin precise charcoal line"
+  },
+  {
+    "name": "h) Charcoal pencil large",
+    "description": "charcoal — large area charcoal shading"
+  },
+  {
+    "name": "i) Wet Bristles",
+    "description": "wet — smooth wet bristle brush"
+  },
+  {
+    "name": "i) Wet Bristles Rough",
+    "description": "wet — rough wet bristle, textured fluid stroke"
+  },
+  {
+    "name": "i) Wet Circle",
+    "description": "wet — circular wet brush, soft round blendable marks"
+  },
+  {
+    "name": "i) Wet Knife",
+    "description": "wet — palette knife effect, flat spreading strokes"
+  },
+  {
+    "name": "i) Wet Knife Plus (mypaint)",
+    "description": "wet — palette knife plus, spreading and mixing strokes"
+  },
+  {
+    "name": "i) Wet Paint",
+    "description": "wet — general wet paint, blendable soft strokes"
+  },
+  {
+    "name": "i) Wet Paint Details",
+    "description": "wet — fine wet paint brush for detailed wet marks"
+  },
+  {
+    "name": "i) Wet Paint Plus (mypaint)",
+    "description": "wet — wet paint plus mypaint, very fluid blendable"
+  },
+  {
+    "name": "i) Wet Smear",
+    "description": "wet — smearing brush, blends and drags existing colour"
+  },
+  {
+    "name": "i) Wet Textured Soft",
+    "description": "wet — soft textured wet brush"
+  },
+  {
+    "name": "j) WaterC Basic Lines-Dry",
+    "description": "watercolor — dry crisp watercolor lines"
+  },
+  {
+    "name": "j) WaterC Basic Lines-Wet",
+    "description": "watercolor — wet fluid lines, colour bleeds"
+  },
+  {
+    "name": "j) WaterC Basic Lines-Wet-Pattern",
+    "description": "watercolor — wet lines with pattern texture"
+  },
+  {
+    "name": "j) WaterC Basic Round-Fringe 02",
+    "description": "watercolor — round brush with fringe edge"
+  },
+  {
+    "name": "j) WaterC Basic Round-Grain",
+    "description": "watercolor — round brush with grain texture"
+  },
+  {
+    "name": "j) WaterC Basic Round-Grunge",
+    "description": "watercolor — round brush with grunge texture"
+  },
+  {
+    "name": "j) WaterC Flat Big-Grain Tilt",
+    "description": "watercolor — large flat tilted brush, grain texture"
+  },
+  {
+    "name": "j) WaterC Flat Decay Tilt",
+    "description": "watercolor — flat tilted decayed edge brush"
+  },
+  {
+    "name": "j) WaterC Special Blobs",
+    "description": "watercolor — blob strokes for organic shapes"
+  },
+  {
+    "name": "j) WaterC Special Splats",
+    "description": "watercolor — splat marks for loose organic texture"
+  },
+  {
+    "name": "j) WaterC Spread",
+    "description": "watercolor — spreading wash strokes"
+  },
+  {
+    "name": "j) WaterC Spread WideArea",
+    "description": "watercolor — wide spreading wash"
+  },
+  {
+    "name": "j) WaterC Spread-Pattern",
+    "description": "watercolor — spreading strokes with pattern"
+  },
+  {
+    "name": "j) WaterC Water-Pattern",
+    "description": "watercolor — water-like pattern wash"
+  },
+  {
+    "name": "j) Watercolor Fringe",
+    "description": "watercolor — soft fringe edge"
+  },
+  {
+    "name": "j) Watercolor Texture",
+    "description": "watercolor — textured wash"
+  },
+  {
+    "name": "j) Waterpaint Hard Edges",
+    "description": "watercolor — wet paint with hard dried edges"
+  },
+  {
+    "name": "j) Waterpaint Soft Edges",
+    "description": "watercolor — wet paint with soft blended edges"
+  },
+  {
+    "name": "k) Blender Basic",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "k) Blender Blur",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "k) Blender Knife Edge",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "k) Blender Pixelize",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "k) Blender Rake",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "k) Blender Smear",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "k) Blender Textured Soft",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "l) Adjust Color",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "l) Adjust Dodge",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "l) Adjust Lighten",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "l) Adjust Multiply",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "l) Adjust Overlay Burn",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "m) RGBA 01 Thick-dry",
+    "description": "impasto — thick dry textured paint"
+  },
+  {
+    "name": "m) RGBA 02 Thickpaint",
+    "description": "impasto — thick opaque paint"
+  },
+  {
+    "name": "m) RGBA 03 Rake",
+    "description": "impasto — rake comb texture"
+  },
+  {
+    "name": "m) RGBA 04 Impasto",
+    "description": "impasto — classic thick impasto strokes"
+  },
+  {
+    "name": "m) RGBA 05 Impasto-details",
+    "description": "impasto — impasto fine detail marks"
+  },
+  {
+    "name": "m) RGBA 06 Rock",
+    "description": "impasto — rock-like rough texture"
+  },
+  {
+    "name": "t) Shapes Fill",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "t) Shapes Mecha",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "t) Shapes Rounded",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "t) Shapes Spikes",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "t) Shapes Square",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "u) Pixel Art",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "u) Pixel Art Dithering",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "u) Pixel Art Fill",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "v) Clone Tool",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "v) Distort Grow",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "v) Distort Move",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "v) Distort Shrink",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "v) Experimental Webs",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "v) Sketching-1 Chrome Thin",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "v) Sketching-2 Chrome Large",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "v) Sketching-3 Leaky",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "v) Texture Impressionism",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "v) Texture Pointillism",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "w) Texture Normal Map",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "x) Filter Blur",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "x) Filter Sharpen",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "y) Screentone Moire",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "y) Screentone Pressure",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "y) Screentones Regular",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "y) Texture Big",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "y) Texture Crackles",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "y) Texture Hair",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "y) Texture Large Splat",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "y) Texture Noise",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "y) Texture Random Particles",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "y) Texture Reptile",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "y) Texture Reptile Copy",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "y) Texture Snow Pile",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "y) Texture Spines",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "y) Texture Splat",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "y) Texture Spray",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "y) Texture Starfield",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "y) Texture Wood Fiber",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "z) Stamp Bokeh",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "z) Stamp Floor",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "z) Stamp Grass",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "z) Stamp Grass Patch",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "z) Stamp Hearts",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "z) Stamp Herbals",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "z) Stamp Leaves",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "z) Stamp Mountains Distant",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "z) Stamp Shoujo Bubbles",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "z) Stamp Sparkles",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "z) Stamp Stylised Tree",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "z) Stamp Vegetal",
+    "description": "general purpose brush"
+  },
+  {
+    "name": "z) Stamp Water",
+    "description": "general purpose brush"
+  }
+]
