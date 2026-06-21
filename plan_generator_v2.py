@@ -918,10 +918,11 @@ def refine_stroke(draw: dict) -> dict:
 # ════════════════════════════════════════════════════════════════════════════
 
 # Prefix letters that correspond to actual painting brushes.
-# Skips erasers (a), blenders (k), adjustment (l), pixel art (u),
-# distort/experimental (v), normal-map (w), filter (x), screentones (y),
-# stamps (z) — these are not useful for painting shapes.
-_PAINTING_PREFIXES = {"b", "c", "d", "e", "f", "g", "h", "i", "j", "m"}
+# Excluded: a (erasers), k (blenders — smear only, no new colour),
+#           l (adjustment: dodge/burn), u (pixel art), w (normal map), x (filter blur/sharpen)
+# Included: z (stamps — Stamp Grass, Stamp Leaves etc. are genuinely useful painting brushes)
+#           t (shape stamps), v (sketching), y (texture brushes like Texture Hair, Wood Fiber)
+_PAINTING_PREFIXES = {"b", "c", "d", "e", "f", "g", "h", "i", "j", "m", "t", "v", "y", "z"}
 
 
 def select_brush_presets(presets: list[dict],
