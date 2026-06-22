@@ -1,0 +1,9966 @@
+{
+  "title": "Nerdy Boy in Gadget Room",
+  "summary": "Nerdy Boy in Gadget Room",
+  "metadata": {
+    "canvas": [
+      600,
+      475
+    ],
+    "manifest": [
+      {
+        "step": 1,
+        "element": "wall band warm rust red",
+        "layer_hint": "background",
+        "draws": [
+          {
+            "type": "strokes",
+            "path": [
+              [
+                0,
+                0
+              ],
+              [
+                100,
+                0
+              ],
+              [
+                200,
+                0
+              ],
+              [
+                300,
+                0
+              ],
+              [
+                400,
+                0
+              ],
+              [
+                500,
+                0
+              ],
+              [
+                600,
+                0
+              ]
+            ],
+            "pressures": [
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8
+            ],
+            "color": "#d46b3c",
+            "opacity": 1.0,
+            "brush_size": 20,
+            "preset": "Basic-1"
+          },
+          {
+            "type": "strokes",
+            "path": [
+              [
+                0,
+                100
+              ],
+              [
+                100,
+                100
+              ],
+              [
+                200,
+                100
+              ],
+              [
+                300,
+                100
+              ],
+              [
+                400,
+                100
+              ],
+              [
+                500,
+                100
+              ],
+              [
+                600,
+                100
+              ]
+            ],
+            "pressures": [
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8
+            ],
+            "color": "#d46b3c",
+            "opacity": 1.0,
+            "brush_size": 20,
+            "preset": "Basic-1"
+          },
+          {
+            "type": "strokes",
+            "path": [
+              [
+                0,
+                200
+              ],
+              [
+                100,
+                200
+              ],
+              [
+                200,
+                200
+              ],
+              [
+                300,
+                200
+              ],
+              [
+                400,
+                200
+              ],
+              [
+                500,
+                200
+              ],
+              [
+                600,
+                200
+              ]
+            ],
+            "pressures": [
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8
+            ],
+            "color": "#d46b3c",
+            "opacity": 1.0,
+            "brush_size": 20,
+            "preset": "Basic-1"
+          },
+          {
+            "type": "strokes",
+            "path": [
+              [
+                0,
+                300
+              ],
+              [
+                100,
+                300
+              ],
+              [
+                200,
+                300
+              ],
+              [
+                300,
+                300
+              ],
+              [
+                400,
+                300
+              ],
+              [
+                500,
+                300
+              ],
+              [
+                600,
+                300
+              ]
+            ],
+            "pressures": [
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8
+            ],
+            "color": "#d46b3c",
+            "opacity": 1.0,
+            "brush_size": 20,
+            "preset": "Basic-1"
+          },
+          {
+            "type": "strokes",
+            "path": [
+              [
+                0,
+                400
+              ],
+              [
+                100,
+                400
+              ],
+              [
+                200,
+                400
+              ],
+              [
+                300,
+                400
+              ],
+              [
+                400,
+                400
+              ],
+              [
+                500,
+                400
+              ],
+              [
+                600,
+                400
+              ]
+            ],
+            "pressures": [
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8
+            ],
+            "color": "#d46b3c",
+            "opacity": 1.0,
+            "brush_size": 20,
+            "preset": "Basic-1"
+          },
+          {
+            "type": "strokes",
+            "path": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                100
+              ],
+              [
+                0,
+                200
+              ],
+              [
+                0,
+                300
+              ],
+              [
+                0,
+                400
+              ],
+              [
+                0,
+                475
+              ]
+            ],
+            "pressures": [
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8
+            ],
+            "color": "#d46b3c",
+            "opacity": 0.8,
+            "brush_size": 20,
+            "preset": "Dry Brushing"
+          },
+          {
+            "type": "strokes",
+            "path": [
+              [
+                150,
+                0
+              ],
+              [
+                150,
+                100
+              ],
+              [
+                150,
+                200
+              ],
+              [
+                150,
+                300
+              ],
+              [
+                150,
+                400
+              ],
+              [
+                150,
+                475
+              ]
+            ],
+            "pressures": [
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8
+            ],
+            "color": "#d46b3c",
+            "opacity": 0.8,
+            "brush_size": 20,
+            "preset": "Dry Brushing"
+          },
+          {
+            "type": "strokes",
+            "path": [
+              [
+                300,
+                0
+              ],
+              [
+                300,
+                100
+              ],
+              [
+                300,
+                200
+              ],
+              [
+                300,
+                300
+              ],
+              [
+                300,
+                400
+              ],
+              [
+                300,
+                475
+              ]
+            ],
+            "pressures": [
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8
+            ],
+            "color": "#d46b3c",
+            "opacity": 0.8,
+            "brush_size": 20,
+            "preset": "Dry Brushing"
+          },
+          {
+            "type": "strokes",
+            "path": [
+              [
+                450,
+                0
+              ],
+              [
+                450,
+                100
+              ],
+              [
+                450,
+                200
+              ],
+              [
+                450,
+                300
+              ],
+              [
+                450,
+                400
+              ],
+              [
+                450,
+                475
+              ]
+            ],
+            "pressures": [
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8
+            ],
+            "color": "#d46b3c",
+            "opacity": 0.8,
+            "brush_size": 20,
+            "preset": "Dry Brushing"
+          }
+        ]
+      },
+      {
+        "step": 2,
+        "element": "wall band ivory white",
+        "layer_hint": "background",
+        "draws": [
+          {
+            "type": "strokes",
+            "path": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                100
+              ],
+              [
+                0,
+                200
+              ],
+              [
+                0,
+                300
+              ],
+              [
+                0,
+                400
+              ],
+              [
+                0,
+                475
+              ]
+            ],
+            "pressures": [
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8
+            ],
+            "color": "#f8f4e6",
+            "opacity": 1.0,
+            "brush_size": 20,
+            "preset": "Ink-2 Fineliner"
+          },
+          {
+            "type": "strokes",
+            "path": [
+              [
+                150,
+                0
+              ],
+              [
+                150,
+                100
+              ],
+              [
+                150,
+                200
+              ],
+              [
+                150,
+                300
+              ],
+              [
+                150,
+                400
+              ],
+              [
+                150,
+                475
+              ]
+            ],
+            "pressures": [
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8
+            ],
+            "color": "#f8f4e6",
+            "opacity": 1.0,
+            "brush_size": 20,
+            "preset": "Ink-2 Fineliner"
+          },
+          {
+            "type": "strokes",
+            "path": [
+              [
+                300,
+                0
+              ],
+              [
+                300,
+                100
+              ],
+              [
+                300,
+                200
+              ],
+              [
+                300,
+                300
+              ],
+              [
+                300,
+                400
+              ],
+              [
+                300,
+                475
+              ]
+            ],
+            "pressures": [
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8
+            ],
+            "color": "#f8f4e6",
+            "opacity": 1.0,
+            "brush_size": 20,
+            "preset": "Ink-2 Fineliner"
+          },
+          {
+            "type": "strokes",
+            "path": [
+              [
+                450,
+                0
+              ],
+              [
+                450,
+                100
+              ],
+              [
+                450,
+                200
+              ],
+              [
+                450,
+                300
+              ],
+              [
+                450,
+                400
+              ],
+              [
+                450,
+                475
+              ]
+            ],
+            "pressures": [
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8
+            ],
+            "color": "#f8f4e6",
+            "opacity": 1.0,
+            "brush_size": 20,
+            "preset": "Ink-2 Fineliner"
+          },
+          {
+            "type": "strokes",
+            "path": [
+              [
+                0,
+                0
+              ],
+              [
+                100,
+                0
+              ],
+              [
+                200,
+                0
+              ],
+              [
+                500,
+                0
+              ],
+              [
+                600,
+                0
+              ]
+            ],
+            "pressures": [
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8
+            ],
+            "color": "#f8f4e6",
+            "opacity": 1.0,
+            "brush_size": 20,
+            "preset": "Ink-2 Fineliner"
+          },
+          {
+            "type": "strokes",
+            "path": [
+              [
+                0,
+                100
+              ],
+              [
+                100,
+                100
+              ],
+              [
+                200,
+                100
+              ],
+              [
+                500,
+                100
+              ],
+              [
+                600,
+                100
+              ]
+            ],
+            "pressures": [
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8
+            ],
+            "color": "#f8f4e6",
+            "opacity": 1.0,
+            "brush_size": 20,
+            "preset": "Ink-2 Fineliner"
+          },
+          {
+            "type": "strokes",
+            "path": [
+              [
+                0,
+                200
+              ],
+              [
+                100,
+                200
+              ],
+              [
+                200,
+                200
+              ],
+              [
+                500,
+                200
+              ],
+              [
+                600,
+                200
+              ]
+            ],
+            "pressures": [
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8
+            ],
+            "color": "#f8f4e6",
+            "opacity": 1.0,
+            "brush_size": 20,
+            "preset": "Ink-2 Fineliner"
+          },
+          {
+            "type": "strokes",
+            "path": [
+              [
+                0,
+                300
+              ],
+              [
+                100,
+                300
+              ],
+              [
+                200,
+                300
+              ],
+              [
+                500,
+                300
+              ],
+              [
+                600,
+                300
+              ]
+            ],
+            "pressures": [
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8
+            ],
+            "color": "#f8f4e6",
+            "opacity": 1.0,
+            "brush_size": 20,
+            "preset": "Ink-2 Fineliner"
+          },
+          {
+            "type": "strokes",
+            "path": [
+              [
+                0,
+                400
+              ],
+              [
+                100,
+                400
+              ],
+              [
+                200,
+                400
+              ],
+              [
+                500,
+                400
+              ],
+              [
+                600,
+                400
+              ]
+            ],
+            "pressures": [
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8
+            ],
+            "color": "#f8f4e6",
+            "opacity": 1.0,
+            "brush_size": 20,
+            "preset": "Ink-2 Fineliner"
+          }
+        ]
+      },
+      {
+        "step": 3,
+        "element": "floor tiles",
+        "layer_hint": "background",
+        "draws": [
+          {
+            "type": "filled_rect",
+            "x": 0,
+            "y": 316,
+            "w": 150,
+            "h": 53,
+            "color": "#5d4037",
+            "opacity": 1.0,
+            "brush_size": 200,
+            "preset": "Basic-1"
+          },
+          {
+            "type": "outlined_rect",
+            "x": 0,
+            "y": 316,
+            "w": 150,
+            "h": 53,
+            "color": "#f0f0f0",
+            "opacity": 1.0,
+            "brush_size": 2,
+            "preset": "Ink-2 Fineliner"
+          },
+          {
+            "type": "filled_rect",
+            "x": 150,
+            "y": 316,
+            "w": 150,
+            "h": 53,
+            "color": "#c6c6c6",
+            "opacity": 1.0,
+            "brush_size": 200,
+            "preset": "Basic-1"
+          },
+          {
+            "type": "outlined_rect",
+            "x": 150,
+            "y": 316,
+            "w": 150,
+            "h": 53,
+            "color": "#f0f0f0",
+            "opacity": 1.0,
+            "brush_size": 2,
+            "preset": "Ink-2 Fineliner"
+          },
+          {
+            "type": "filled_rect",
+            "x": 300,
+            "y": 316,
+            "w": 150,
+            "h": 53,
+            "color": "#e8d1a9",
+            "opacity": 1.0,
+            "brush_size": 200,
+            "preset": "Basic-1"
+          },
+          {
+            "type": "outlined_rect",
+            "x": 300,
+            "y": 316,
+            "w": 150,
+            "h": 53,
+            "color": "#f0f0f0",
+            "opacity": 1.0,
+            "brush_size": 2,
+            "preset": "Ink-2 Fineliner"
+          },
+          {
+            "type": "filled_rect",
+            "x": 450,
+            "y": 316,
+            "w": 150,
+            "h": 53,
+            "color": "#5d4037",
+            "opacity": 1.0,
+            "brush_size": 200,
+            "preset": "Basic-1"
+          },
+          {
+            "type": "outlined_rect",
+            "x": 450,
+            "y": 316,
+            "w": 150,
+            "h": 53,
+            "color": "#f0f0f0",
+            "opacity": 1.0,
+            "brush_size": 2,
+            "preset": "Ink-2 Fineliner"
+          },
+          {
+            "type": "filled_rect",
+            "x": 0,
+            "y": 369,
+            "w": 150,
+            "h": 53,
+            "color": "#c6c6c6",
+            "opacity": 1.0,
+            "brush_size": 200,
+            "preset": "Basic-1"
+          },
+          {
+            "type": "outlined_rect",
+            "x": 0,
+            "y": 369,
+            "w": 150,
+            "h": 53,
+            "color": "#f0f0f0",
+            "opacity": 1.0,
+            "brush_size": 2,
+            "preset": "Ink-2 Fineliner"
+          },
+          {
+            "type": "filled_rect",
+            "x": 150,
+            "y": 369,
+            "w": 150,
+            "h": 53,
+            "color": "#e8d1a9",
+            "opacity": 1.0,
+            "brush_size": 200,
+            "preset": "Basic-1"
+          },
+          {
+            "type": "outlined_rect",
+            "x": 150,
+            "y": 369,
+            "w": 150,
+            "h": 53,
+            "color": "#f0f0f0",
+            "opacity": 1.0,
+            "brush_size": 2,
+            "preset": "Ink-2 Fineliner"
+          },
+          {
+            "type": "filled_rect",
+            "x": 300,
+            "y": 369,
+            "w": 150,
+            "h": 53,
+            "color": "#5d4037",
+            "opacity": 1.0,
+            "brush_size": 200,
+            "preset": "Basic-1"
+          },
+          {
+            "type": "outlined_rect",
+            "x": 300,
+            "y": 369,
+            "w": 150,
+            "h": 53,
+            "color": "#f0f0f0",
+            "opacity": 1.0,
+            "brush_size": 2,
+            "preset": "Ink-2 Fineliner"
+          },
+          {
+            "type": "filled_rect",
+            "x": 450,
+            "y": 369,
+            "w": 150,
+            "h": 53,
+            "color": "#c6c6c6",
+            "opacity": 1.0,
+            "brush_size": 200,
+            "preset": "Basic-1"
+          },
+          {
+            "type": "outlined_rect",
+            "x": 450,
+            "y": 369,
+            "w": 150,
+            "h": 53,
+            "color": "#f0f0f0",
+            "opacity": 1.0,
+            "brush_size": 2,
+            "preset": "Ink-2 Fineliner"
+          },
+          {
+            "type": "filled_rect",
+            "x": 0,
+            "y": 422,
+            "w": 150,
+            "h": 53,
+            "color": "#e8d1a9",
+            "opacity": 1.0,
+            "brush_size": 200,
+            "preset": "Basic-1"
+          },
+          {
+            "type": "outlined_rect",
+            "x": 0,
+            "y": 422,
+            "w": 150,
+            "h": 53,
+            "color": "#f0f0f0",
+            "opacity": 1.0,
+            "brush_size": 2,
+            "preset": "Ink-2 Fineliner"
+          },
+          {
+            "type": "filled_rect",
+            "x": 150,
+            "y": 422,
+            "w": 150,
+            "h": 53,
+            "color": "#5d4037",
+            "opacity": 1.0,
+            "brush_size": 200,
+            "preset": "Basic-1"
+          },
+          {
+            "type": "outlined_rect",
+            "x": 150,
+            "y": 422,
+            "w": 150,
+            "h": 53,
+            "color": "#f0f0f0",
+            "opacity": 1.0,
+            "brush_size": 2,
+            "preset": "Ink-2 Fineliner"
+          },
+          {
+            "type": "filled_rect",
+            "x": 300,
+            "y": 422,
+            "w": 150,
+            "h": 53,
+            "color": "#c6c6c6",
+            "opacity": 1.0,
+            "brush_size": 200,
+            "preset": "Basic-1"
+          },
+          {
+            "type": "outlined_rect",
+            "x": 300,
+            "y": 422,
+            "w": 150,
+            "h": 53,
+            "color": "#f0f0f0",
+            "opacity": 1.0,
+            "brush_size": 2,
+            "preset": "Ink-2 Fineliner"
+          },
+          {
+            "type": "filled_rect",
+            "x": 450,
+            "y": 422,
+            "w": 150,
+            "h": 53,
+            "color": "#e8d1a9",
+            "opacity": 1.0,
+            "brush_size": 200,
+            "preset": "Basic-1"
+          },
+          {
+            "type": "outlined_rect",
+            "x": 450,
+            "y": 422,
+            "w": 150,
+            "h": 53,
+            "color": "#f0f0f0",
+            "opacity": 1.0,
+            "brush_size": 2,
+            "preset": "Ink-2 Fineliner"
+          }
+        ]
+      },
+      {
+        "step": 4,
+        "element": "desk",
+        "layer_hint": "midground",
+        "draws": [
+          {
+            "type": "filled_rect",
+            "x": 200,
+            "y": 316,
+            "w": 200,
+            "h": 159,
+            "color": "#8a9b9c",
+            "opacity": 1.0,
+            "brush_size": 150,
+            "preset": "Bristles-2 Flat Rough"
+          }
+        ]
+      },
+      {
+        "step": 5,
+        "element": "gadgets",
+        "layer_hint": "midground",
+        "draws": [
+          {
+            "type": "filled_rect",
+            "x": 0,
+            "y": 200,
+            "w": 50,
+            "h": 50,
+            "color": "#d4c69b",
+            "opacity": 1.0,
+            "brush_size": 200,
+            "preset": "Basic-1"
+          },
+          {
+            "type": "filled_rect",
+            "x": 100,
+            "y": 250,
+            "w": 50,
+            "h": 50,
+            "color": "#d4c69b",
+            "opacity": 1.0,
+            "brush_size": 200,
+            "preset": "Basic-1"
+          },
+          {
+            "type": "filled_rect",
+            "x": 300,
+            "y": 200,
+            "w": 50,
+            "h": 50,
+            "color": "#a1b3a1",
+            "opacity": 1.0,
+            "brush_size": 200,
+            "preset": "Basic-1"
+          },
+          {
+            "type": "filled_rect",
+            "x": 500,
+            "y": 200,
+            "w": 50,
+            "h": 50,
+            "color": "#e07a5f",
+            "opacity": 1.0,
+            "brush_size": 200,
+            "preset": "Basic-1"
+          },
+          {
+            "type": "filled_rect",
+            "x": 550,
+            "y": 250,
+            "w": 50,
+            "h": 50,
+            "color": "#e07a5f",
+            "opacity": 1.0,
+            "brush_size": 200,
+            "preset": "Basic-1"
+          }
+        ]
+      },
+      {
+        "step": 6,
+        "element": "computer",
+        "layer_hint": "midground",
+        "draws": [
+          {
+            "type": "filled_rect",
+            "x": 200,
+            "y": 158,
+            "w": 200,
+            "h": 158,
+            "color": "#8c9dab",
+            "opacity": 1.0,
+            "brush_size": 200,
+            "preset": "Basic-1"
+          },
+          {
+            "type": "filled_rect",
+            "x": 250,
+            "y": 187,
+            "w": 100,
+            "h": 100,
+            "color": "#b0c1d3",
+            "opacity": 0.4,
+            "brush_size": 100,
+            "preset": "Airbrush Soft"
+          }
+        ]
+      },
+      {
+        "step": 7,
+        "element": "chair",
+        "layer_hint": "midground",
+        "draws": [
+          {
+            "type": "filled_rect",
+            "x": 200,
+            "y": 316,
+            "w": 200,
+            "h": 34,
+            "color": "#808080",
+            "opacity": 1.0,
+            "brush_size": 200,
+            "preset": "Basic-1"
+          },
+          {
+            "type": "filled_rect",
+            "x": 200,
+            "y": 350,
+            "w": 200,
+            "h": 125,
+            "color": "#808080",
+            "opacity": 1.0,
+            "brush_size": 200,
+            "preset": "Basic-1"
+          }
+        ]
+      },
+      {
+        "step": 8,
+        "element": "boy",
+        "layer_hint": "foreground",
+        "draws": [
+          {
+            "type": "filled_rect",
+            "x": 250,
+            "y": 198,
+            "w": 100,
+            "h": 78,
+            "color": "#000000",
+            "opacity": 1.0,
+            "brush_size": 200,
+            "preset": "Basic-1"
+          },
+          {
+            "type": "polygon",
+            "points": [
+              [
+                295,
+                237
+              ],
+              [
+                305,
+                237
+              ],
+              [
+                305,
+                242
+              ],
+              [
+                300,
+                242
+              ],
+              [
+                295,
+                242
+              ],
+              [
+                295,
+                237
+              ]
+            ],
+            "fill": true,
+            "color": "#ffffff",
+            "opacity": 1.0,
+            "brush_size": 4,
+            "preset": "Ink-2 Fineliner"
+          },
+          {
+            "type": "polygon",
+            "points": [
+              [
+                295,
+                250
+              ],
+              [
+                305,
+                250
+              ],
+              [
+                305,
+                255
+              ],
+              [
+                300,
+                255
+              ],
+              [
+                295,
+                255
+              ],
+              [
+                295,
+                250
+              ]
+            ],
+            "fill": true,
+            "color": "#ffffff",
+            "opacity": 1.0,
+            "brush_size": 4,
+            "preset": "Ink-2 Fineliner"
+          }
+        ]
+      },
+      {
+        "step": 9,
+        "element": "glasses",
+        "layer_hint": "foreground",
+        "draws": [
+          {
+            "type": "strokes",
+            "path": [
+              [
+                270,
+                205
+              ],
+              [
+                280,
+                205
+              ],
+              [
+                290,
+                205
+              ],
+              [
+                300,
+                205
+              ],
+              [
+                310,
+                205
+              ],
+              [
+                320,
+                205
+              ],
+              [
+                330,
+                205
+              ]
+            ],
+            "pressures": [
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8
+            ],
+            "color": "#ffffff",
+            "opacity": 1.0,
+            "brush_size": 3,
+            "preset": "Ink-1 Precision"
+          },
+          {
+            "type": "strokes",
+            "path": [
+              [
+                270,
+                205
+              ],
+              [
+                268,
+                210
+              ],
+              [
+                265,
+                215
+              ],
+              [
+                263,
+                225
+              ],
+              [
+                260,
+                240
+              ]
+            ],
+            "pressures": [
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8
+            ],
+            "color": "#ffffff",
+            "opacity": 1.0,
+            "brush_size": 3,
+            "preset": "Ink-1 Precision"
+          },
+          {
+            "type": "strokes",
+            "path": [
+              [
+                330,
+                205
+              ],
+              [
+                332,
+                210
+              ],
+              [
+                335,
+                215
+              ],
+              [
+                338,
+                225
+              ],
+              [
+                340,
+                240
+              ]
+            ],
+            "pressures": [
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8
+            ],
+            "color": "#ffffff",
+            "opacity": 1.0,
+            "brush_size": 3,
+            "preset": "Ink-1 Precision"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "set_batchmode",
+      "value": true
+    },
+    {
+      "type": "create_document",
+      "ref": "doc:main",
+      "width": 600,
+      "height": 475,
+      "name": "Nerdy Boy in Gadget Room",
+      "color_model": "RGBA",
+      "color_depth": "U8",
+      "profile": "sRGB-elle-V2-srgbtrc.icc",
+      "resolution": 300.0
+    },
+    {
+      "type": "set_background_color",
+      "doc_ref": "doc:main",
+      "color": {
+        "hex": "#c05e2b"
+      }
+    },
+    {
+      "type": "method_call",
+      "target_ref": "noop",
+      "method": "noop",
+      "comment": "=== Step 1: wall band warm rust red (background) ==="
+    },
+    {
+      "type": "create_node",
+      "ref": "node:step1",
+      "doc_ref": "doc:main",
+      "name": "wall band warm rust red",
+      "node_type": "paintlayer"
+    },
+    {
+      "type": "set_node_blending_mode",
+      "node_ref": "node:step1",
+      "mode": "normal"
+    },
+    {
+      "type": "set_node_opacity",
+      "node_ref": "node:step1",
+      "value": 255
+    },
+    {
+      "type": "set_active_node",
+      "doc_ref": "doc:main",
+      "node_ref": "node:step1"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 20.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#d46b3c"
+      }
+    },
+    {
+      "type": "paint_strokes",
+      "node_ref": "node:step1",
+      "path": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          10.0,
+          0.0
+        ],
+        [
+          20.0,
+          0.0
+        ],
+        [
+          30.0,
+          0.0
+        ],
+        [
+          40.0,
+          0.0
+        ],
+        [
+          50.0,
+          0.0
+        ],
+        [
+          60.0,
+          0.0
+        ],
+        [
+          70.0,
+          0.0
+        ],
+        [
+          80.0,
+          0.0
+        ],
+        [
+          90.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ],
+        [
+          110.0,
+          0.0
+        ],
+        [
+          120.0,
+          0.0
+        ],
+        [
+          130.0,
+          0.0
+        ],
+        [
+          140.0,
+          0.0
+        ],
+        [
+          150.0,
+          0.0
+        ],
+        [
+          160.0,
+          0.0
+        ],
+        [
+          170.0,
+          0.0
+        ],
+        [
+          180.0,
+          0.0
+        ],
+        [
+          190.0,
+          0.0
+        ],
+        [
+          200.0,
+          0.0
+        ],
+        [
+          210.0,
+          0.0
+        ],
+        [
+          220.0,
+          0.0
+        ],
+        [
+          230.0,
+          0.0
+        ],
+        [
+          240.0,
+          0.0
+        ],
+        [
+          250.0,
+          0.0
+        ],
+        [
+          260.0,
+          0.0
+        ],
+        [
+          270.0,
+          0.0
+        ],
+        [
+          280.0,
+          0.0
+        ],
+        [
+          290.0,
+          0.0
+        ],
+        [
+          300.0,
+          0.0
+        ],
+        [
+          310.0,
+          0.0
+        ],
+        [
+          320.0,
+          0.0
+        ],
+        [
+          330.0,
+          0.0
+        ],
+        [
+          340.0,
+          0.0
+        ],
+        [
+          350.0,
+          0.0
+        ],
+        [
+          360.0,
+          0.0
+        ],
+        [
+          370.0,
+          0.0
+        ],
+        [
+          380.0,
+          0.0
+        ],
+        [
+          390.0,
+          0.0
+        ],
+        [
+          400.0,
+          0.0
+        ],
+        [
+          410.0,
+          0.0
+        ],
+        [
+          420.0,
+          0.0
+        ],
+        [
+          430.0,
+          0.0
+        ],
+        [
+          440.0,
+          0.0
+        ],
+        [
+          450.0,
+          0.0
+        ],
+        [
+          460.0,
+          0.0
+        ],
+        [
+          470.0,
+          0.0
+        ],
+        [
+          480.0,
+          0.0
+        ],
+        [
+          490.0,
+          0.0
+        ],
+        [
+          500.0,
+          0.0
+        ],
+        [
+          510.0,
+          0.0
+        ],
+        [
+          520.0,
+          0.0
+        ],
+        [
+          530.0,
+          0.0
+        ],
+        [
+          540.0,
+          0.0
+        ],
+        [
+          550.0,
+          0.0
+        ],
+        [
+          560.0,
+          0.0
+        ],
+        [
+          570.0,
+          0.0
+        ],
+        [
+          580.0,
+          0.0
+        ],
+        [
+          590.0,
+          0.0
+        ],
+        [
+          600,
+          0
+        ]
+      ],
+      "pressures": [
+        0.7865938123256658,
+        0.7582843099366331,
+        0.7929333290072366,
+        0.7703684134013363,
+        0.7662235041479166,
+        0.8373091327758334,
+        0.7753822570140498,
+        0.7794734139531339,
+        0.8436135637029079,
+        0.767944353594784,
+        0.7585034770952144,
+        0.7956011719776579,
+        0.8005602704772335,
+        0.7554667788185534,
+        0.7818749547028072,
+        0.7653244710048686,
+        0.8356142841801697,
+        0.7899471389929551,
+        0.7863573214979303,
+        0.8176781894606269,
+        0.8465488743788934,
+        0.8177000518762852,
+        0.7970323604315274,
+        0.7935581290974275,
+        0.7875619628066851,
+        0.8416834376925121,
+        0.7780836641686453,
+        0.839864371630185,
+        0.7906909825752071,
+        0.7999903224652931,
+        0.7915925934201624,
+        0.8328665973425858,
+        0.780553489429853,
+        0.8161360764861892,
+        0.8476852280526983,
+        0.8100668200744185,
+        0.7651213713857912,
+        0.7998731667141111,
+        0.828402867855904,
+        0.7736642380769556,
+        0.8493719267310625,
+        0.7944041176514774,
+        0.8294632888519743,
+        0.8075578582362496,
+        0.813441313190017,
+        0.8100426339559291,
+        0.7819543962442576,
+        0.7505486204455663,
+        0.7943983018497666,
+        0.8215633026828002,
+        0.8281727110245778,
+        0.7554433456605354,
+        0.7548590344458432,
+        0.8184596295803205,
+        0.7758108343865188,
+        0.8258512944218194,
+        0.7792051435619082,
+        0.8266958802876466,
+        0.782888957385057,
+        0.7560814399971637,
+        0.7617127688262112
+      ],
+      "stroke_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 20.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#d46b3c"
+      }
+    },
+    {
+      "type": "paint_strokes",
+      "node_ref": "node:step1",
+      "path": [
+        [
+          0.0,
+          100.0
+        ],
+        [
+          10.0,
+          100.0
+        ],
+        [
+          20.0,
+          100.0
+        ],
+        [
+          30.0,
+          100.0
+        ],
+        [
+          40.0,
+          100.0
+        ],
+        [
+          50.0,
+          100.0
+        ],
+        [
+          60.0,
+          100.0
+        ],
+        [
+          70.0,
+          100.0
+        ],
+        [
+          80.0,
+          100.0
+        ],
+        [
+          90.0,
+          100.0
+        ],
+        [
+          100.0,
+          100.0
+        ],
+        [
+          110.0,
+          100.0
+        ],
+        [
+          120.0,
+          100.0
+        ],
+        [
+          130.0,
+          100.0
+        ],
+        [
+          140.0,
+          100.0
+        ],
+        [
+          150.0,
+          100.0
+        ],
+        [
+          160.0,
+          100.0
+        ],
+        [
+          170.0,
+          100.0
+        ],
+        [
+          180.0,
+          100.0
+        ],
+        [
+          190.0,
+          100.0
+        ],
+        [
+          200.0,
+          100.0
+        ],
+        [
+          210.0,
+          100.0
+        ],
+        [
+          220.0,
+          100.0
+        ],
+        [
+          230.0,
+          100.0
+        ],
+        [
+          240.0,
+          100.0
+        ],
+        [
+          250.0,
+          100.0
+        ],
+        [
+          260.0,
+          100.0
+        ],
+        [
+          270.0,
+          100.0
+        ],
+        [
+          280.0,
+          100.0
+        ],
+        [
+          290.0,
+          100.0
+        ],
+        [
+          300.0,
+          100.0
+        ],
+        [
+          310.0,
+          100.0
+        ],
+        [
+          320.0,
+          100.0
+        ],
+        [
+          330.0,
+          100.0
+        ],
+        [
+          340.0,
+          100.0
+        ],
+        [
+          350.0,
+          100.0
+        ],
+        [
+          360.0,
+          100.0
+        ],
+        [
+          370.0,
+          100.0
+        ],
+        [
+          380.0,
+          100.0
+        ],
+        [
+          390.0,
+          100.0
+        ],
+        [
+          400.0,
+          100.0
+        ],
+        [
+          410.0,
+          100.0
+        ],
+        [
+          420.0,
+          100.0
+        ],
+        [
+          430.0,
+          100.0
+        ],
+        [
+          440.0,
+          100.0
+        ],
+        [
+          450.0,
+          100.0
+        ],
+        [
+          460.0,
+          100.0
+        ],
+        [
+          470.0,
+          100.0
+        ],
+        [
+          480.0,
+          100.0
+        ],
+        [
+          490.0,
+          100.0
+        ],
+        [
+          500.0,
+          100.0
+        ],
+        [
+          510.0,
+          100.0
+        ],
+        [
+          520.0,
+          100.0
+        ],
+        [
+          530.0,
+          100.0
+        ],
+        [
+          540.0,
+          100.0
+        ],
+        [
+          550.0,
+          100.0
+        ],
+        [
+          560.0,
+          100.0
+        ],
+        [
+          570.0,
+          100.0
+        ],
+        [
+          580.0,
+          100.0
+        ],
+        [
+          590.0,
+          100.0
+        ],
+        [
+          600,
+          100
+        ]
+      ],
+      "pressures": [
+        0.8095137849737727,
+        0.791813480370406,
+        0.7747313408391504,
+        0.7748854137520303,
+        0.8262886778258283,
+        0.8408475464813726,
+        0.7548482809825379,
+        0.791727001827495,
+        0.792176542115223,
+        0.7681198619359251,
+        0.7747776035142175,
+        0.8040272088193013,
+        0.8277265951596668,
+        0.8449899447635926,
+        0.7917036387620773,
+        0.7762820526741361,
+        0.750717285212551,
+        0.7969551692834895,
+        0.7735197612071498,
+        0.7760457938050935,
+        0.7600617112065158,
+        0.7894556000140237,
+        0.7841403821467139,
+        0.7903479760979011,
+        0.7778269543970046,
+        0.8116618617179039,
+        0.7531155016219018,
+        0.8355007004601493,
+        0.8425249381197455,
+        0.8401978349944285,
+        0.7692641672221412,
+        0.7532595297565245,
+        0.8014320562552883,
+        0.8324653519445749,
+        0.7638309010206917,
+        0.8224382638936204,
+        0.8122865416606608,
+        0.7677841603114071,
+        0.7833796613348314,
+        0.8447480201950698,
+        0.7712757925271021,
+        0.8454779844680615,
+        0.8245409162764734,
+        0.8279822164355858,
+        0.8104560272935816,
+        0.8123504122039988,
+        0.7716056784511507,
+        0.7897127259497962,
+        0.8382052183075466,
+        0.8223395414197262,
+        0.8474734786615901,
+        0.7918180610933113,
+        0.8270279379401945,
+        0.7898015139593689,
+        0.8494650007916461,
+        0.8090205345946871,
+        0.793945327708369,
+        0.8128256125145181,
+        0.8208607921189891,
+        0.8325809447513872,
+        0.8339861259914135
+      ],
+      "stroke_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 20.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#d46b3c"
+      }
+    },
+    {
+      "type": "paint_strokes",
+      "node_ref": "node:step1",
+      "path": [
+        [
+          0.0,
+          200.0
+        ],
+        [
+          10.0,
+          200.0
+        ],
+        [
+          20.0,
+          200.0
+        ],
+        [
+          30.0,
+          200.0
+        ],
+        [
+          40.0,
+          200.0
+        ],
+        [
+          50.0,
+          200.0
+        ],
+        [
+          60.0,
+          200.0
+        ],
+        [
+          70.0,
+          200.0
+        ],
+        [
+          80.0,
+          200.0
+        ],
+        [
+          90.0,
+          200.0
+        ],
+        [
+          100.0,
+          200.0
+        ],
+        [
+          110.0,
+          200.0
+        ],
+        [
+          120.0,
+          200.0
+        ],
+        [
+          130.0,
+          200.0
+        ],
+        [
+          140.0,
+          200.0
+        ],
+        [
+          150.0,
+          200.0
+        ],
+        [
+          160.0,
+          200.0
+        ],
+        [
+          170.0,
+          200.0
+        ],
+        [
+          180.0,
+          200.0
+        ],
+        [
+          190.0,
+          200.0
+        ],
+        [
+          200.0,
+          200.0
+        ],
+        [
+          210.0,
+          200.0
+        ],
+        [
+          220.0,
+          200.0
+        ],
+        [
+          230.0,
+          200.0
+        ],
+        [
+          240.0,
+          200.0
+        ],
+        [
+          250.0,
+          200.0
+        ],
+        [
+          260.0,
+          200.0
+        ],
+        [
+          270.0,
+          200.0
+        ],
+        [
+          280.0,
+          200.0
+        ],
+        [
+          290.0,
+          200.0
+        ],
+        [
+          300.0,
+          200.0
+        ],
+        [
+          310.0,
+          200.0
+        ],
+        [
+          320.0,
+          200.0
+        ],
+        [
+          330.0,
+          200.0
+        ],
+        [
+          340.0,
+          200.0
+        ],
+        [
+          350.0,
+          200.0
+        ],
+        [
+          360.0,
+          200.0
+        ],
+        [
+          370.0,
+          200.0
+        ],
+        [
+          380.0,
+          200.0
+        ],
+        [
+          390.0,
+          200.0
+        ],
+        [
+          400.0,
+          200.0
+        ],
+        [
+          410.0,
+          200.0
+        ],
+        [
+          420.0,
+          200.0
+        ],
+        [
+          430.0,
+          200.0
+        ],
+        [
+          440.0,
+          200.0
+        ],
+        [
+          450.0,
+          200.0
+        ],
+        [
+          460.0,
+          200.0
+        ],
+        [
+          470.0,
+          200.0
+        ],
+        [
+          480.0,
+          200.0
+        ],
+        [
+          490.0,
+          200.0
+        ],
+        [
+          500.0,
+          200.0
+        ],
+        [
+          510.0,
+          200.0
+        ],
+        [
+          520.0,
+          200.0
+        ],
+        [
+          530.0,
+          200.0
+        ],
+        [
+          540.0,
+          200.0
+        ],
+        [
+          550.0,
+          200.0
+        ],
+        [
+          560.0,
+          200.0
+        ],
+        [
+          570.0,
+          200.0
+        ],
+        [
+          580.0,
+          200.0
+        ],
+        [
+          590.0,
+          200.0
+        ],
+        [
+          600,
+          200
+        ]
+      ],
+      "pressures": [
+        0.8304816728022192,
+        0.8419139939187121,
+        0.8284315458439592,
+        0.7865662005484033,
+        0.8018350090841556,
+        0.8311081896444372,
+        0.8190285513177764,
+        0.7858006155262344,
+        0.7605282131063129,
+        0.7864763858232843,
+        0.8325287055129268,
+        0.8385595698285704,
+        0.7954533515083771,
+        0.8457209627389108,
+        0.7724892451097435,
+        0.7799731499744661,
+        0.760918955844563,
+        0.8096963148479038,
+        0.7747961020941083,
+        0.7755168197362732,
+        0.7668546023731669,
+        0.8194985561478966,
+        0.8433992797947436,
+        0.7769974290078218,
+        0.761719049139223,
+        0.7615488115855557,
+        0.753802680744052,
+        0.813785261176819,
+        0.8280055783515508,
+        0.7843039667251526,
+        0.8292823884559732,
+        0.8096593688969197,
+        0.8461468018058773,
+        0.7730586477941773,
+        0.7732850423211804,
+        0.8449730561563029,
+        0.8196273997499197,
+        0.7676058136254666,
+        0.8167937071484636,
+        0.8245858771177476,
+        0.8192040349598217,
+        0.7691302246359101,
+        0.8153743023547128,
+        0.7579648759676479,
+        0.8352035265632138,
+        0.7569113257747058,
+        0.8412983279253545,
+        0.8171725671126625,
+        0.8248621888477315,
+        0.8110527928840364,
+        0.8417073464366261,
+        0.8036795103928529,
+        0.7570235056801105,
+        0.7704045145255524,
+        0.8006421127104721,
+        0.7517974268571814,
+        0.8332622336717781,
+        0.7608257073368803,
+        0.7754517403162559,
+        0.7520551059533513,
+        0.7879279728995221
+      ],
+      "stroke_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 20.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#d46b3c"
+      }
+    },
+    {
+      "type": "paint_strokes",
+      "node_ref": "node:step1",
+      "path": [
+        [
+          0.0,
+          300.0
+        ],
+        [
+          10.0,
+          300.0
+        ],
+        [
+          20.0,
+          300.0
+        ],
+        [
+          30.0,
+          300.0
+        ],
+        [
+          40.0,
+          300.0
+        ],
+        [
+          50.0,
+          300.0
+        ],
+        [
+          60.0,
+          300.0
+        ],
+        [
+          70.0,
+          300.0
+        ],
+        [
+          80.0,
+          300.0
+        ],
+        [
+          90.0,
+          300.0
+        ],
+        [
+          100.0,
+          300.0
+        ],
+        [
+          110.0,
+          300.0
+        ],
+        [
+          120.0,
+          300.0
+        ],
+        [
+          130.0,
+          300.0
+        ],
+        [
+          140.0,
+          300.0
+        ],
+        [
+          150.0,
+          300.0
+        ],
+        [
+          160.0,
+          300.0
+        ],
+        [
+          170.0,
+          300.0
+        ],
+        [
+          180.0,
+          300.0
+        ],
+        [
+          190.0,
+          300.0
+        ],
+        [
+          200.0,
+          300.0
+        ],
+        [
+          210.0,
+          300.0
+        ],
+        [
+          220.0,
+          300.0
+        ],
+        [
+          230.0,
+          300.0
+        ],
+        [
+          240.0,
+          300.0
+        ],
+        [
+          250.0,
+          300.0
+        ],
+        [
+          260.0,
+          300.0
+        ],
+        [
+          270.0,
+          300.0
+        ],
+        [
+          280.0,
+          300.0
+        ],
+        [
+          290.0,
+          300.0
+        ],
+        [
+          300.0,
+          300.0
+        ],
+        [
+          310.0,
+          300.0
+        ],
+        [
+          320.0,
+          300.0
+        ],
+        [
+          330.0,
+          300.0
+        ],
+        [
+          340.0,
+          300.0
+        ],
+        [
+          350.0,
+          300.0
+        ],
+        [
+          360.0,
+          300.0
+        ],
+        [
+          370.0,
+          300.0
+        ],
+        [
+          380.0,
+          300.0
+        ],
+        [
+          390.0,
+          300.0
+        ],
+        [
+          400.0,
+          300.0
+        ],
+        [
+          410.0,
+          300.0
+        ],
+        [
+          420.0,
+          300.0
+        ],
+        [
+          430.0,
+          300.0
+        ],
+        [
+          440.0,
+          300.0
+        ],
+        [
+          450.0,
+          300.0
+        ],
+        [
+          460.0,
+          300.0
+        ],
+        [
+          470.0,
+          300.0
+        ],
+        [
+          480.0,
+          300.0
+        ],
+        [
+          490.0,
+          300.0
+        ],
+        [
+          500.0,
+          300.0
+        ],
+        [
+          510.0,
+          300.0
+        ],
+        [
+          520.0,
+          300.0
+        ],
+        [
+          530.0,
+          300.0
+        ],
+        [
+          540.0,
+          300.0
+        ],
+        [
+          550.0,
+          300.0
+        ],
+        [
+          560.0,
+          300.0
+        ],
+        [
+          570.0,
+          300.0
+        ],
+        [
+          580.0,
+          300.0
+        ],
+        [
+          590.0,
+          300.0
+        ],
+        [
+          600,
+          300
+        ]
+      ],
+      "pressures": [
+        0.755340849938903,
+        0.7689965022732688,
+        0.8288676749549868,
+        0.8245792470894882,
+        0.7538112551750462,
+        0.8085934823513539,
+        0.8242699651185805,
+        0.8325320899775677,
+        0.8204859657304799,
+        0.8002354153586488,
+        0.7933819552983857,
+        0.7697288338307446,
+        0.8391627500640105,
+        0.80046836430934,
+        0.8335836451594032,
+        0.7689041657984349,
+        0.8280733905214797,
+        0.7998940948001444,
+        0.7531741873320411,
+        0.8214550073871076,
+        0.8148547569732998,
+        0.7711142543745619,
+        0.7793719243942262,
+        0.7839912978390786,
+        0.8494415999805912,
+        0.8311481827070373,
+        0.7596910598720669,
+        0.7879178735834316,
+        0.829242727040599,
+        0.8067532084722965,
+        0.826874724862468,
+        0.7651200064533549,
+        0.7570736299311475,
+        0.7969232624497452,
+        0.7971917897886613,
+        0.8043415275115082,
+        0.8039768132641861,
+        0.7607619273361084,
+        0.8146875023036132,
+        0.815938600803528,
+        0.8214523011673392,
+        0.7560438765350034,
+        0.7549532266717618,
+        0.8222887648710214,
+        0.80009054510451,
+        0.7683899359489953,
+        0.7539170602782772,
+        0.7667616173576579,
+        0.8209099510966457,
+        0.7629702980876122,
+        0.8363305529465487,
+        0.8007529993998495,
+        0.7610668491198203,
+        0.8063404695864331,
+        0.8412711718767024,
+        0.8262599368638068,
+        0.793189238695009,
+        0.7583778686860971,
+        0.8163653044256078,
+        0.7560709380378593,
+        0.8273363563091825
+      ],
+      "stroke_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 20.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#d46b3c"
+      }
+    },
+    {
+      "type": "paint_strokes",
+      "node_ref": "node:step1",
+      "path": [
+        [
+          0.0,
+          400.0
+        ],
+        [
+          10.0,
+          400.0
+        ],
+        [
+          20.0,
+          400.0
+        ],
+        [
+          30.0,
+          400.0
+        ],
+        [
+          40.0,
+          400.0
+        ],
+        [
+          50.0,
+          400.0
+        ],
+        [
+          60.0,
+          400.0
+        ],
+        [
+          70.0,
+          400.0
+        ],
+        [
+          80.0,
+          400.0
+        ],
+        [
+          90.0,
+          400.0
+        ],
+        [
+          100.0,
+          400.0
+        ],
+        [
+          110.0,
+          400.0
+        ],
+        [
+          120.0,
+          400.0
+        ],
+        [
+          130.0,
+          400.0
+        ],
+        [
+          140.0,
+          400.0
+        ],
+        [
+          150.0,
+          400.0
+        ],
+        [
+          160.0,
+          400.0
+        ],
+        [
+          170.0,
+          400.0
+        ],
+        [
+          180.0,
+          400.0
+        ],
+        [
+          190.0,
+          400.0
+        ],
+        [
+          200.0,
+          400.0
+        ],
+        [
+          210.0,
+          400.0
+        ],
+        [
+          220.0,
+          400.0
+        ],
+        [
+          230.0,
+          400.0
+        ],
+        [
+          240.0,
+          400.0
+        ],
+        [
+          250.0,
+          400.0
+        ],
+        [
+          260.0,
+          400.0
+        ],
+        [
+          270.0,
+          400.0
+        ],
+        [
+          280.0,
+          400.0
+        ],
+        [
+          290.0,
+          400.0
+        ],
+        [
+          300.0,
+          400.0
+        ],
+        [
+          310.0,
+          400.0
+        ],
+        [
+          320.0,
+          400.0
+        ],
+        [
+          330.0,
+          400.0
+        ],
+        [
+          340.0,
+          400.0
+        ],
+        [
+          350.0,
+          400.0
+        ],
+        [
+          360.0,
+          400.0
+        ],
+        [
+          370.0,
+          400.0
+        ],
+        [
+          380.0,
+          400.0
+        ],
+        [
+          390.0,
+          400.0
+        ],
+        [
+          400.0,
+          400.0
+        ],
+        [
+          410.0,
+          400.0
+        ],
+        [
+          420.0,
+          400.0
+        ],
+        [
+          430.0,
+          400.0
+        ],
+        [
+          440.0,
+          400.0
+        ],
+        [
+          450.0,
+          400.0
+        ],
+        [
+          460.0,
+          400.0
+        ],
+        [
+          470.0,
+          400.0
+        ],
+        [
+          480.0,
+          400.0
+        ],
+        [
+          490.0,
+          400.0
+        ],
+        [
+          500.0,
+          400.0
+        ],
+        [
+          510.0,
+          400.0
+        ],
+        [
+          520.0,
+          400.0
+        ],
+        [
+          530.0,
+          400.0
+        ],
+        [
+          540.0,
+          400.0
+        ],
+        [
+          550.0,
+          400.0
+        ],
+        [
+          560.0,
+          400.0
+        ],
+        [
+          570.0,
+          400.0
+        ],
+        [
+          580.0,
+          400.0
+        ],
+        [
+          590.0,
+          400.0
+        ],
+        [
+          600,
+          400
+        ]
+      ],
+      "pressures": [
+        0.8376923830738353,
+        0.8057998531076445,
+        0.7692583400751904,
+        0.7818000351163641,
+        0.7766000772007429,
+        0.8021193364648889,
+        0.7638741717520497,
+        0.7749706855211637,
+        0.8278827196039643,
+        0.8276787000602122,
+        0.7915310589053082,
+        0.7995921849839726,
+        0.7626385028442769,
+        0.8135815479758167,
+        0.783647778798179,
+        0.8326710331986344,
+        0.8052883541548344,
+        0.848757639193322,
+        0.7785923392579721,
+        0.8357723244110834,
+        0.798766145481467,
+        0.7713614612022733,
+        0.8039248572101209,
+        0.8290062314136609,
+        0.7516328740588989,
+        0.827839126729159,
+        0.7878954355199244,
+        0.7734353865632068,
+        0.8457226350683686,
+        0.7581545783617987,
+        0.7933633716893747,
+        0.8402720581106033,
+        0.7618687120326118,
+        0.7826337122990741,
+        0.8062502759277742,
+        0.7922560528021214,
+        0.7704545877166904,
+        0.7682197274712705,
+        0.752237865260775,
+        0.8152606317506644,
+        0.7556050219626661,
+        0.7832512351764904,
+        0.7864268429568353,
+        0.7792091595259201,
+        0.787170876020335,
+        0.8470504203831779,
+        0.7737885644784255,
+        0.8204811359547922,
+        0.78994963808836,
+        0.781478491051102,
+        0.8156602850116753,
+        0.8407225205652656,
+        0.7691189993195825,
+        0.7987372495182604,
+        0.8241860639104887,
+        0.7992424773009785,
+        0.8298932091782226,
+        0.7799210409357406,
+        0.8447809823106641,
+        0.8097991046979782,
+        0.7810413532730609
+      ],
+      "stroke_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 20.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 0.8
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#d46b3c"
+      }
+    },
+    {
+      "type": "paint_strokes",
+      "node_ref": "node:step1",
+      "path": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          8.333333333333332
+        ],
+        [
+          0.0,
+          16.666666666666664
+        ],
+        [
+          0.0,
+          25.0
+        ],
+        [
+          0.0,
+          33.33333333333333
+        ],
+        [
+          0.0,
+          41.66666666666667
+        ],
+        [
+          0.0,
+          50.0
+        ],
+        [
+          0.0,
+          58.333333333333336
+        ],
+        [
+          0.0,
+          66.66666666666666
+        ],
+        [
+          0.0,
+          75.0
+        ],
+        [
+          0.0,
+          83.33333333333334
+        ],
+        [
+          0.0,
+          91.66666666666666
+        ],
+        [
+          0.0,
+          100.0
+        ],
+        [
+          0.0,
+          108.33333333333333
+        ],
+        [
+          0.0,
+          116.66666666666666
+        ],
+        [
+          0.0,
+          125.0
+        ],
+        [
+          0.0,
+          133.33333333333331
+        ],
+        [
+          0.0,
+          141.66666666666669
+        ],
+        [
+          0.0,
+          150.0
+        ],
+        [
+          0.0,
+          158.33333333333334
+        ],
+        [
+          0.0,
+          166.66666666666666
+        ],
+        [
+          0.0,
+          175.0
+        ],
+        [
+          0.0,
+          183.33333333333334
+        ],
+        [
+          0.0,
+          191.66666666666666
+        ],
+        [
+          0.0,
+          200.0
+        ],
+        [
+          0.0,
+          208.33333333333334
+        ],
+        [
+          0.0,
+          216.66666666666666
+        ],
+        [
+          0.0,
+          225.0
+        ],
+        [
+          0.0,
+          233.33333333333331
+        ],
+        [
+          0.0,
+          241.66666666666669
+        ],
+        [
+          0.0,
+          250.0
+        ],
+        [
+          0.0,
+          258.3333333333333
+        ],
+        [
+          0.0,
+          266.66666666666663
+        ],
+        [
+          0.0,
+          275.0
+        ],
+        [
+          0.0,
+          283.33333333333337
+        ],
+        [
+          0.0,
+          291.66666666666663
+        ],
+        [
+          0.0,
+          300.0
+        ],
+        [
+          0.0,
+          308.41290509259255
+        ],
+        [
+          0.0,
+          316.95601851851853
+        ],
+        [
+          0.0,
+          325.5859375
+        ],
+        [
+          0.0,
+          334.25925925925924
+        ],
+        [
+          0.0,
+          342.9325810185186
+        ],
+        [
+          0.0,
+          351.5625
+        ],
+        [
+          0.0,
+          360.1056134259259
+        ],
+        [
+          0.0,
+          368.5185185185185
+        ],
+        [
+          0.0,
+          376.7578125
+        ],
+        [
+          0.0,
+          384.7800925925926
+        ],
+        [
+          0.0,
+          392.5419560185185
+        ],
+        [
+          0.0,
+          400.0
+        ],
+        [
+          0.0,
+          407.1252893518519
+        ],
+        [
+          0.0,
+          413.94675925925924
+        ],
+        [
+          0.0,
+          420.5078125
+        ],
+        [
+          0.0,
+          426.8518518518519
+        ],
+        [
+          0.0,
+          433.02228009259255
+        ],
+        [
+          0.0,
+          439.0625
+        ],
+        [
+          0.0,
+          445.01591435185185
+        ],
+        [
+          0.0,
+          450.9259259259259
+        ],
+        [
+          0.0,
+          456.8359375
+        ],
+        [
+          0.0,
+          462.78935185185185
+        ],
+        [
+          0.0,
+          468.82957175925924
+        ],
+        [
+          0,
+          475
+        ]
+      ],
+      "pressures": [
+        0.752995891483803,
+        0.7692765615740873,
+        0.7791841525640184,
+        0.8100744942530306,
+        0.7682076113067255,
+        0.7830702647441258,
+        0.78735093414358,
+        0.7973675360198524,
+        0.8206806622303373,
+        0.7917359965234868,
+        0.7740752015855223,
+        0.8308333310198573,
+        0.8299194523414929,
+        0.8469168799224478,
+        0.8153065995818499,
+        0.8319381245296196,
+        0.7889077168511808,
+        0.8442920578399474,
+        0.8013045981690653,
+        0.7734012363514011,
+        0.783959383981614,
+        0.8303107882243134,
+        0.7712543114757451,
+        0.8455191313843637,
+        0.7619408930144014,
+        0.8037413673761389,
+        0.8311164385609366,
+        0.823322002671701,
+        0.846394997530908,
+        0.7729566150756846,
+        0.8254194822723919,
+        0.7956712284118413,
+        0.8136575441500661,
+        0.7745475160468421,
+        0.8335829989465441,
+        0.8032468193035548,
+        0.7995451720389889,
+        0.8160456011219437,
+        0.8202431213921959,
+        0.8119723833711612,
+        0.7839326788140794,
+        0.847433666769063,
+        0.811639835953418,
+        0.7707071952537192,
+        0.7503392630736158,
+        0.7574877563215923,
+        0.7684933474678441,
+        0.8491509990689137,
+        0.7767822124259243,
+        0.7831720441704602,
+        0.7821221119996061,
+        0.7735700852616753,
+        0.8132105138149782,
+        0.7871157395386476,
+        0.796490851833343,
+        0.8479758938459726,
+        0.8002343434039905,
+        0.8086931994565137,
+        0.7906345934060042,
+        0.7959402448464844,
+        0.8168723370053397
+      ],
+      "stroke_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 20.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 0.8
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#d46b3c"
+      }
+    },
+    {
+      "type": "paint_strokes",
+      "node_ref": "node:step1",
+      "path": [
+        [
+          150.0,
+          0.0
+        ],
+        [
+          150.0,
+          8.333333333333332
+        ],
+        [
+          150.0,
+          16.666666666666664
+        ],
+        [
+          150.0,
+          25.0
+        ],
+        [
+          150.0,
+          33.33333333333333
+        ],
+        [
+          150.0,
+          41.66666666666667
+        ],
+        [
+          150.0,
+          50.0
+        ],
+        [
+          150.0,
+          58.333333333333336
+        ],
+        [
+          150.0,
+          66.66666666666666
+        ],
+        [
+          150.0,
+          75.0
+        ],
+        [
+          150.0,
+          83.33333333333334
+        ],
+        [
+          150.0,
+          91.66666666666666
+        ],
+        [
+          150.0,
+          100.0
+        ],
+        [
+          150.0,
+          108.33333333333333
+        ],
+        [
+          150.0,
+          116.66666666666666
+        ],
+        [
+          150.0,
+          125.0
+        ],
+        [
+          150.0,
+          133.33333333333331
+        ],
+        [
+          150.0,
+          141.66666666666669
+        ],
+        [
+          150.0,
+          150.0
+        ],
+        [
+          150.0,
+          158.33333333333334
+        ],
+        [
+          150.0,
+          166.66666666666666
+        ],
+        [
+          150.0,
+          175.0
+        ],
+        [
+          150.0,
+          183.33333333333334
+        ],
+        [
+          150.0,
+          191.66666666666666
+        ],
+        [
+          150.0,
+          200.0
+        ],
+        [
+          150.0,
+          208.33333333333334
+        ],
+        [
+          150.0,
+          216.66666666666666
+        ],
+        [
+          150.0,
+          225.0
+        ],
+        [
+          150.0,
+          233.33333333333331
+        ],
+        [
+          150.0,
+          241.66666666666669
+        ],
+        [
+          150.0,
+          250.0
+        ],
+        [
+          150.0,
+          258.3333333333333
+        ],
+        [
+          150.0,
+          266.66666666666663
+        ],
+        [
+          150.0,
+          275.0
+        ],
+        [
+          150.0,
+          283.33333333333337
+        ],
+        [
+          150.0,
+          291.66666666666663
+        ],
+        [
+          150.0,
+          300.0
+        ],
+        [
+          150.0,
+          308.41290509259255
+        ],
+        [
+          150.0,
+          316.95601851851853
+        ],
+        [
+          150.0,
+          325.5859375
+        ],
+        [
+          150.0,
+          334.25925925925924
+        ],
+        [
+          150.0,
+          342.9325810185186
+        ],
+        [
+          150.0,
+          351.5625
+        ],
+        [
+          150.0,
+          360.1056134259259
+        ],
+        [
+          150.0,
+          368.5185185185185
+        ],
+        [
+          150.0,
+          376.7578125
+        ],
+        [
+          150.0,
+          384.7800925925926
+        ],
+        [
+          150.0,
+          392.5419560185185
+        ],
+        [
+          150.0,
+          400.0
+        ],
+        [
+          150.0,
+          407.1252893518519
+        ],
+        [
+          150.0,
+          413.94675925925924
+        ],
+        [
+          150.0,
+          420.5078125
+        ],
+        [
+          150.0,
+          426.8518518518519
+        ],
+        [
+          150.0,
+          433.02228009259255
+        ],
+        [
+          150.0,
+          439.0625
+        ],
+        [
+          150.0,
+          445.01591435185185
+        ],
+        [
+          150.0,
+          450.9259259259259
+        ],
+        [
+          150.0,
+          456.8359375
+        ],
+        [
+          150.0,
+          462.78935185185185
+        ],
+        [
+          150.0,
+          468.82957175925924
+        ],
+        [
+          150,
+          475
+        ]
+      ],
+      "pressures": [
+        0.7729697007163195,
+        0.7810845542709697,
+        0.8419919587584392,
+        0.76918359748517,
+        0.8380417052444885,
+        0.8413925316181589,
+        0.796561781158608,
+        0.8366307108999449,
+        0.7564086660312039,
+        0.8292287424782321,
+        0.759658615754172,
+        0.7753502085804382,
+        0.8312538507306431,
+        0.8322077004373698,
+        0.7755282201606081,
+        0.7693876575178604,
+        0.8412553625394396,
+        0.7765572102458529,
+        0.842492485537552,
+        0.8103532797953721,
+        0.8005098347637126,
+        0.8197102694587692,
+        0.7547281177460429,
+        0.8390018862193189,
+        0.8270905609556934,
+        0.7653297207303793,
+        0.8140172198505877,
+        0.7520823341755007,
+        0.7933112713830448,
+        0.7782784214767914,
+        0.794982131110009,
+        0.7548262854243176,
+        0.7609163290190024,
+        0.8073245946349225,
+        0.8320979188360468,
+        0.8295604111472616,
+        0.8064608857860119,
+        0.7707191924556542,
+        0.7706621916266183,
+        0.7577404250100752,
+        0.7552288146760616,
+        0.8425667228160514,
+        0.7915439307378436,
+        0.7756141968834671,
+        0.7809206873081881,
+        0.8331942234207246,
+        0.8072501976014506,
+        0.7582762222241834,
+        0.8013307094257976,
+        0.8475686251962835,
+        0.8355063469794494,
+        0.7726399029011124,
+        0.7821148689830447,
+        0.7772154746421976,
+        0.8316977728184332,
+        0.7627856327490656,
+        0.8147069489673865,
+        0.7879284756605772,
+        0.7868557293222042,
+        0.8053590458218487,
+        0.7662826678807281
+      ],
+      "stroke_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 20.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 0.8
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#d46b3c"
+      }
+    },
+    {
+      "type": "paint_strokes",
+      "node_ref": "node:step1",
+      "path": [
+        [
+          300.0,
+          0.0
+        ],
+        [
+          300.0,
+          8.333333333333332
+        ],
+        [
+          300.0,
+          16.666666666666664
+        ],
+        [
+          300.0,
+          25.0
+        ],
+        [
+          300.0,
+          33.33333333333333
+        ],
+        [
+          300.0,
+          41.66666666666667
+        ],
+        [
+          300.0,
+          50.0
+        ],
+        [
+          300.0,
+          58.333333333333336
+        ],
+        [
+          300.0,
+          66.66666666666666
+        ],
+        [
+          300.0,
+          75.0
+        ],
+        [
+          300.0,
+          83.33333333333334
+        ],
+        [
+          300.0,
+          91.66666666666666
+        ],
+        [
+          300.0,
+          100.0
+        ],
+        [
+          300.0,
+          108.33333333333333
+        ],
+        [
+          300.0,
+          116.66666666666666
+        ],
+        [
+          300.0,
+          125.0
+        ],
+        [
+          300.0,
+          133.33333333333331
+        ],
+        [
+          300.0,
+          141.66666666666669
+        ],
+        [
+          300.0,
+          150.0
+        ],
+        [
+          300.0,
+          158.33333333333334
+        ],
+        [
+          300.0,
+          166.66666666666666
+        ],
+        [
+          300.0,
+          175.0
+        ],
+        [
+          300.0,
+          183.33333333333334
+        ],
+        [
+          300.0,
+          191.66666666666666
+        ],
+        [
+          300.0,
+          200.0
+        ],
+        [
+          300.0,
+          208.33333333333334
+        ],
+        [
+          300.0,
+          216.66666666666666
+        ],
+        [
+          300.0,
+          225.0
+        ],
+        [
+          300.0,
+          233.33333333333331
+        ],
+        [
+          300.0,
+          241.66666666666669
+        ],
+        [
+          300.0,
+          250.0
+        ],
+        [
+          300.0,
+          258.3333333333333
+        ],
+        [
+          300.0,
+          266.66666666666663
+        ],
+        [
+          300.0,
+          275.0
+        ],
+        [
+          300.0,
+          283.33333333333337
+        ],
+        [
+          300.0,
+          291.66666666666663
+        ],
+        [
+          300.0,
+          300.0
+        ],
+        [
+          300.0,
+          308.41290509259255
+        ],
+        [
+          300.0,
+          316.95601851851853
+        ],
+        [
+          300.0,
+          325.5859375
+        ],
+        [
+          300.0,
+          334.25925925925924
+        ],
+        [
+          300.0,
+          342.9325810185186
+        ],
+        [
+          300.0,
+          351.5625
+        ],
+        [
+          300.0,
+          360.1056134259259
+        ],
+        [
+          300.0,
+          368.5185185185185
+        ],
+        [
+          300.0,
+          376.7578125
+        ],
+        [
+          300.0,
+          384.7800925925926
+        ],
+        [
+          300.0,
+          392.5419560185185
+        ],
+        [
+          300.0,
+          400.0
+        ],
+        [
+          300.0,
+          407.1252893518519
+        ],
+        [
+          300.0,
+          413.94675925925924
+        ],
+        [
+          300.0,
+          420.5078125
+        ],
+        [
+          300.0,
+          426.8518518518519
+        ],
+        [
+          300.0,
+          433.02228009259255
+        ],
+        [
+          300.0,
+          439.0625
+        ],
+        [
+          300.0,
+          445.01591435185185
+        ],
+        [
+          300.0,
+          450.9259259259259
+        ],
+        [
+          300.0,
+          456.8359375
+        ],
+        [
+          300.0,
+          462.78935185185185
+        ],
+        [
+          300.0,
+          468.82957175925924
+        ],
+        [
+          300,
+          475
+        ]
+      ],
+      "pressures": [
+        0.7971590371473456,
+        0.8197776978389345,
+        0.8177893730554935,
+        0.7983761335626449,
+        0.7657401700295979,
+        0.7748249562840259,
+        0.7924807582253388,
+        0.8479002250370358,
+        0.8384923031139929,
+        0.7718982261675225,
+        0.7682769940225151,
+        0.8065607438174706,
+        0.7917720590814737,
+        0.8485734839511494,
+        0.8019235381718064,
+        0.793475918200164,
+        0.7904338536684187,
+        0.8029537565551,
+        0.8047075215266655,
+        0.8453464057280177,
+        0.8167380300662355,
+        0.7648426563056535,
+        0.8103562788743088,
+        0.7912589781663416,
+        0.7628658880469419,
+        0.8210133339527966,
+        0.815943226134394,
+        0.8083731287630296,
+        0.8011048945840902,
+        0.7878134526043492,
+        0.8093520294517468,
+        0.7664286103766825,
+        0.7733491748066483,
+        0.7821621388628971,
+        0.7915808166291113,
+        0.7865457211854079,
+        0.7942510443109229,
+        0.8179949131155543,
+        0.7934081853207522,
+        0.7689509796275602,
+        0.8254754040551032,
+        0.812443152735757,
+        0.8129159684602432,
+        0.8168874288863449,
+        0.781472752335194,
+        0.7861725863997953,
+        0.7647467599790378,
+        0.8058257415691413,
+        0.764168472826128,
+        0.8349779191233467,
+        0.8127157626797339,
+        0.7882632969809475,
+        0.8408459809809178,
+        0.7944096667941608,
+        0.7972758175399332,
+        0.8326075918117688,
+        0.7994571547271105,
+        0.8064013858836693,
+        0.8320911954822058,
+        0.7709193338631573,
+        0.7852798405471157
+      ],
+      "stroke_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 20.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 0.8
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#d46b3c"
+      }
+    },
+    {
+      "type": "paint_strokes",
+      "node_ref": "node:step1",
+      "path": [
+        [
+          450.0,
+          0.0
+        ],
+        [
+          450.0,
+          8.333333333333332
+        ],
+        [
+          450.0,
+          16.666666666666664
+        ],
+        [
+          450.0,
+          25.0
+        ],
+        [
+          450.0,
+          33.33333333333333
+        ],
+        [
+          450.0,
+          41.66666666666667
+        ],
+        [
+          450.0,
+          50.0
+        ],
+        [
+          450.0,
+          58.333333333333336
+        ],
+        [
+          450.0,
+          66.66666666666666
+        ],
+        [
+          450.0,
+          75.0
+        ],
+        [
+          450.0,
+          83.33333333333334
+        ],
+        [
+          450.0,
+          91.66666666666666
+        ],
+        [
+          450.0,
+          100.0
+        ],
+        [
+          450.0,
+          108.33333333333333
+        ],
+        [
+          450.0,
+          116.66666666666666
+        ],
+        [
+          450.0,
+          125.0
+        ],
+        [
+          450.0,
+          133.33333333333331
+        ],
+        [
+          450.0,
+          141.66666666666669
+        ],
+        [
+          450.0,
+          150.0
+        ],
+        [
+          450.0,
+          158.33333333333334
+        ],
+        [
+          450.0,
+          166.66666666666666
+        ],
+        [
+          450.0,
+          175.0
+        ],
+        [
+          450.0,
+          183.33333333333334
+        ],
+        [
+          450.0,
+          191.66666666666666
+        ],
+        [
+          450.0,
+          200.0
+        ],
+        [
+          450.0,
+          208.33333333333334
+        ],
+        [
+          450.0,
+          216.66666666666666
+        ],
+        [
+          450.0,
+          225.0
+        ],
+        [
+          450.0,
+          233.33333333333331
+        ],
+        [
+          450.0,
+          241.66666666666669
+        ],
+        [
+          450.0,
+          250.0
+        ],
+        [
+          450.0,
+          258.3333333333333
+        ],
+        [
+          450.0,
+          266.66666666666663
+        ],
+        [
+          450.0,
+          275.0
+        ],
+        [
+          450.0,
+          283.33333333333337
+        ],
+        [
+          450.0,
+          291.66666666666663
+        ],
+        [
+          450.0,
+          300.0
+        ],
+        [
+          450.0,
+          308.41290509259255
+        ],
+        [
+          450.0,
+          316.95601851851853
+        ],
+        [
+          450.0,
+          325.5859375
+        ],
+        [
+          450.0,
+          334.25925925925924
+        ],
+        [
+          450.0,
+          342.9325810185186
+        ],
+        [
+          450.0,
+          351.5625
+        ],
+        [
+          450.0,
+          360.1056134259259
+        ],
+        [
+          450.0,
+          368.5185185185185
+        ],
+        [
+          450.0,
+          376.7578125
+        ],
+        [
+          450.0,
+          384.7800925925926
+        ],
+        [
+          450.0,
+          392.5419560185185
+        ],
+        [
+          450.0,
+          400.0
+        ],
+        [
+          450.0,
+          407.1252893518519
+        ],
+        [
+          450.0,
+          413.94675925925924
+        ],
+        [
+          450.0,
+          420.5078125
+        ],
+        [
+          450.0,
+          426.8518518518519
+        ],
+        [
+          450.0,
+          433.02228009259255
+        ],
+        [
+          450.0,
+          439.0625
+        ],
+        [
+          450.0,
+          445.01591435185185
+        ],
+        [
+          450.0,
+          450.9259259259259
+        ],
+        [
+          450.0,
+          456.8359375
+        ],
+        [
+          450.0,
+          462.78935185185185
+        ],
+        [
+          450.0,
+          468.82957175925924
+        ],
+        [
+          450,
+          475
+        ]
+      ],
+      "pressures": [
+        0.823481958988922,
+        0.753707902470348,
+        0.7958049644275241,
+        0.8430202075390847,
+        0.7854736781793689,
+        0.8358818187183781,
+        0.7531531882495852,
+        0.8271139967521071,
+        0.8255307671741601,
+        0.836801848463131,
+        0.7536492900302895,
+        0.76636325187564,
+        0.8063276487798288,
+        0.7884865691775419,
+        0.7754704044512367,
+        0.7887598172857228,
+        0.7584191681360318,
+        0.7874708916056964,
+        0.8292567815455177,
+        0.7810379835791761,
+        0.7650277883513166,
+        0.7958879063914283,
+        0.7558745208277611,
+        0.8031400328757535,
+        0.8305724064804496,
+        0.8440197741304686,
+        0.8041242909155347,
+        0.8019062105852297,
+        0.81031955272196,
+        0.7584708853731116,
+        0.8357978264595982,
+        0.7980257072855836,
+        0.7807923098075706,
+        0.8008100675055703,
+        0.7714228313832936,
+        0.8116408098381708,
+        0.7939170035537167,
+        0.8189833471736436,
+        0.8047341448623128,
+        0.7930532757527309,
+        0.7734165084398028,
+        0.7509615429541817,
+        0.8235799795945672,
+        0.8321301522988915,
+        0.8007102303146761,
+        0.7609827717471755,
+        0.7913555275128369,
+        0.7780842781440926,
+        0.8232447884001022,
+        0.8458871855222179,
+        0.7789998823365462,
+        0.7953138092603661,
+        0.8087535928205953,
+        0.7985688845622554,
+        0.8269859687517409,
+        0.7625277774004359,
+        0.8159571871896442,
+        0.7973409286766369,
+        0.8221477634077955,
+        0.8410416350591824,
+        0.7784461848156776
+      ],
+      "stroke_style": "ForegroundColor"
+    },
+    {
+      "type": "method_call",
+      "target_ref": "noop",
+      "method": "noop",
+      "comment": "=== Step 2: wall band ivory white (background) ==="
+    },
+    {
+      "type": "create_node",
+      "ref": "node:step2",
+      "doc_ref": "doc:main",
+      "name": "wall band ivory white",
+      "node_type": "paintlayer"
+    },
+    {
+      "type": "set_node_blending_mode",
+      "node_ref": "node:step2",
+      "mode": "normal"
+    },
+    {
+      "type": "set_node_opacity",
+      "node_ref": "node:step2",
+      "value": 255
+    },
+    {
+      "type": "set_active_node",
+      "doc_ref": "doc:main",
+      "node_ref": "node:step2"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 20.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#f8f4e6"
+      }
+    },
+    {
+      "type": "paint_strokes",
+      "node_ref": "node:step2",
+      "path": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          8.333333333333332
+        ],
+        [
+          0.0,
+          16.666666666666664
+        ],
+        [
+          0.0,
+          25.0
+        ],
+        [
+          0.0,
+          33.33333333333333
+        ],
+        [
+          0.0,
+          41.66666666666667
+        ],
+        [
+          0.0,
+          50.0
+        ],
+        [
+          0.0,
+          58.333333333333336
+        ],
+        [
+          0.0,
+          66.66666666666666
+        ],
+        [
+          0.0,
+          75.0
+        ],
+        [
+          0.0,
+          83.33333333333334
+        ],
+        [
+          0.0,
+          91.66666666666666
+        ],
+        [
+          0.0,
+          100.0
+        ],
+        [
+          0.0,
+          108.33333333333333
+        ],
+        [
+          0.0,
+          116.66666666666666
+        ],
+        [
+          0.0,
+          125.0
+        ],
+        [
+          0.0,
+          133.33333333333331
+        ],
+        [
+          0.0,
+          141.66666666666669
+        ],
+        [
+          0.0,
+          150.0
+        ],
+        [
+          0.0,
+          158.33333333333334
+        ],
+        [
+          0.0,
+          166.66666666666666
+        ],
+        [
+          0.0,
+          175.0
+        ],
+        [
+          0.0,
+          183.33333333333334
+        ],
+        [
+          0.0,
+          191.66666666666666
+        ],
+        [
+          0.0,
+          200.0
+        ],
+        [
+          0.0,
+          208.33333333333334
+        ],
+        [
+          0.0,
+          216.66666666666666
+        ],
+        [
+          0.0,
+          225.0
+        ],
+        [
+          0.0,
+          233.33333333333331
+        ],
+        [
+          0.0,
+          241.66666666666669
+        ],
+        [
+          0.0,
+          250.0
+        ],
+        [
+          0.0,
+          258.3333333333333
+        ],
+        [
+          0.0,
+          266.66666666666663
+        ],
+        [
+          0.0,
+          275.0
+        ],
+        [
+          0.0,
+          283.33333333333337
+        ],
+        [
+          0.0,
+          291.66666666666663
+        ],
+        [
+          0.0,
+          300.0
+        ],
+        [
+          0.0,
+          308.41290509259255
+        ],
+        [
+          0.0,
+          316.95601851851853
+        ],
+        [
+          0.0,
+          325.5859375
+        ],
+        [
+          0.0,
+          334.25925925925924
+        ],
+        [
+          0.0,
+          342.9325810185186
+        ],
+        [
+          0.0,
+          351.5625
+        ],
+        [
+          0.0,
+          360.1056134259259
+        ],
+        [
+          0.0,
+          368.5185185185185
+        ],
+        [
+          0.0,
+          376.7578125
+        ],
+        [
+          0.0,
+          384.7800925925926
+        ],
+        [
+          0.0,
+          392.5419560185185
+        ],
+        [
+          0.0,
+          400.0
+        ],
+        [
+          0.0,
+          407.1252893518519
+        ],
+        [
+          0.0,
+          413.94675925925924
+        ],
+        [
+          0.0,
+          420.5078125
+        ],
+        [
+          0.0,
+          426.8518518518519
+        ],
+        [
+          0.0,
+          433.02228009259255
+        ],
+        [
+          0.0,
+          439.0625
+        ],
+        [
+          0.0,
+          445.01591435185185
+        ],
+        [
+          0.0,
+          450.9259259259259
+        ],
+        [
+          0.0,
+          456.8359375
+        ],
+        [
+          0.0,
+          462.78935185185185
+        ],
+        [
+          0.0,
+          468.82957175925924
+        ],
+        [
+          0,
+          475
+        ]
+      ],
+      "pressures": [
+        0.8306656766936749,
+        0.7649665454078133,
+        0.7572353753826091,
+        0.7674315678724412,
+        0.8457825827305981,
+        0.7515269465682493,
+        0.8471875969697439,
+        0.8025715961917177,
+        0.761387696801625,
+        0.8315317689756291,
+        0.7785046431347263,
+        0.758405152820034,
+        0.7672284178478458,
+        0.8221447037145685,
+        0.825275987742728,
+        0.8343637297821627,
+        0.7752628379062435,
+        0.7511109262373477,
+        0.7943227819908225,
+        0.8148339432890283,
+        0.7876099011353926,
+        0.8242092878418441,
+        0.7566907675948618,
+        0.8326892802985307,
+        0.7926278066949225,
+        0.7701339354077512,
+        0.7896408730836731,
+        0.8480471077762632,
+        0.8190202788291466,
+        0.7733353919834933,
+        0.7843402642463737,
+        0.7572430653585351,
+        0.7894387796778415,
+        0.768755877628603,
+        0.8190845651899025,
+        0.8341194529986891,
+        0.7974982602286881,
+        0.7701698963891929,
+        0.8467840244486158,
+        0.8334767023779167,
+        0.8219484023249727,
+        0.7527417839561761,
+        0.8278442510832181,
+        0.7711699073906662,
+        0.8217144783963937,
+        0.7913804076474422,
+        0.8164767875658847,
+        0.8211052000298096,
+        0.7941081813963712,
+        0.7644164476380887,
+        0.8428805868763025,
+        0.7873825924218588,
+        0.7551832911795552,
+        0.8313572198742676,
+        0.7507062072940501,
+        0.8261786120640647,
+        0.8386000343950061,
+        0.7789061265732431,
+        0.7521219075879436,
+        0.8046614447420902,
+        0.8205030715312688
+      ],
+      "stroke_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 20.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#f8f4e6"
+      }
+    },
+    {
+      "type": "paint_strokes",
+      "node_ref": "node:step2",
+      "path": [
+        [
+          150.0,
+          0.0
+        ],
+        [
+          150.0,
+          8.333333333333332
+        ],
+        [
+          150.0,
+          16.666666666666664
+        ],
+        [
+          150.0,
+          25.0
+        ],
+        [
+          150.0,
+          33.33333333333333
+        ],
+        [
+          150.0,
+          41.66666666666667
+        ],
+        [
+          150.0,
+          50.0
+        ],
+        [
+          150.0,
+          58.333333333333336
+        ],
+        [
+          150.0,
+          66.66666666666666
+        ],
+        [
+          150.0,
+          75.0
+        ],
+        [
+          150.0,
+          83.33333333333334
+        ],
+        [
+          150.0,
+          91.66666666666666
+        ],
+        [
+          150.0,
+          100.0
+        ],
+        [
+          150.0,
+          108.33333333333333
+        ],
+        [
+          150.0,
+          116.66666666666666
+        ],
+        [
+          150.0,
+          125.0
+        ],
+        [
+          150.0,
+          133.33333333333331
+        ],
+        [
+          150.0,
+          141.66666666666669
+        ],
+        [
+          150.0,
+          150.0
+        ],
+        [
+          150.0,
+          158.33333333333334
+        ],
+        [
+          150.0,
+          166.66666666666666
+        ],
+        [
+          150.0,
+          175.0
+        ],
+        [
+          150.0,
+          183.33333333333334
+        ],
+        [
+          150.0,
+          191.66666666666666
+        ],
+        [
+          150.0,
+          200.0
+        ],
+        [
+          150.0,
+          208.33333333333334
+        ],
+        [
+          150.0,
+          216.66666666666666
+        ],
+        [
+          150.0,
+          225.0
+        ],
+        [
+          150.0,
+          233.33333333333331
+        ],
+        [
+          150.0,
+          241.66666666666669
+        ],
+        [
+          150.0,
+          250.0
+        ],
+        [
+          150.0,
+          258.3333333333333
+        ],
+        [
+          150.0,
+          266.66666666666663
+        ],
+        [
+          150.0,
+          275.0
+        ],
+        [
+          150.0,
+          283.33333333333337
+        ],
+        [
+          150.0,
+          291.66666666666663
+        ],
+        [
+          150.0,
+          300.0
+        ],
+        [
+          150.0,
+          308.41290509259255
+        ],
+        [
+          150.0,
+          316.95601851851853
+        ],
+        [
+          150.0,
+          325.5859375
+        ],
+        [
+          150.0,
+          334.25925925925924
+        ],
+        [
+          150.0,
+          342.9325810185186
+        ],
+        [
+          150.0,
+          351.5625
+        ],
+        [
+          150.0,
+          360.1056134259259
+        ],
+        [
+          150.0,
+          368.5185185185185
+        ],
+        [
+          150.0,
+          376.7578125
+        ],
+        [
+          150.0,
+          384.7800925925926
+        ],
+        [
+          150.0,
+          392.5419560185185
+        ],
+        [
+          150.0,
+          400.0
+        ],
+        [
+          150.0,
+          407.1252893518519
+        ],
+        [
+          150.0,
+          413.94675925925924
+        ],
+        [
+          150.0,
+          420.5078125
+        ],
+        [
+          150.0,
+          426.8518518518519
+        ],
+        [
+          150.0,
+          433.02228009259255
+        ],
+        [
+          150.0,
+          439.0625
+        ],
+        [
+          150.0,
+          445.01591435185185
+        ],
+        [
+          150.0,
+          450.9259259259259
+        ],
+        [
+          150.0,
+          456.8359375
+        ],
+        [
+          150.0,
+          462.78935185185185
+        ],
+        [
+          150.0,
+          468.82957175925924
+        ],
+        [
+          150,
+          475
+        ]
+      ],
+      "pressures": [
+        0.7775796326204503,
+        0.8082111638633758,
+        0.7832009593613188,
+        0.828926308878436,
+        0.8210184806337195,
+        0.7794740914080482,
+        0.8315731486535018,
+        0.7771201062181029,
+        0.7804456680850341,
+        0.7948382534574042,
+        0.7528862721249787,
+        0.7761510507743754,
+        0.7748149751098959,
+        0.7736104213607107,
+        0.8322009838611389,
+        0.811370394959664,
+        0.7539418808130933,
+        0.805003784594665,
+        0.8179836039029993,
+        0.8176681423133861,
+        0.8313419895337985,
+        0.8310066847339466,
+        0.8269187473993337,
+        0.7613021512404987,
+        0.7742172708166265,
+        0.8021827606178555,
+        0.7628156458785197,
+        0.8132486109532108,
+        0.8428179702646605,
+        0.8042482449620957,
+        0.8078398512172643,
+        0.818387286625567,
+        0.7818438808980729,
+        0.7716483349666236,
+        0.846532195524124,
+        0.8453498606016279,
+        0.7524947430560882,
+        0.7976007766619966,
+        0.787991012712427,
+        0.8371119722734202,
+        0.8263796423318751,
+        0.8220281975756262,
+        0.8237075899791138,
+        0.848596934824622,
+        0.7781077006545133,
+        0.8105870880540924,
+        0.8274459622194765,
+        0.8101390730668465,
+        0.7694011995187616,
+        0.8494035969106462,
+        0.848670325828506,
+        0.8428654722202544,
+        0.7616632740925947,
+        0.8425787554821416,
+        0.8136441467382715,
+        0.821003685188588,
+        0.8432147327769196,
+        0.7949256151920451,
+        0.792597893401459,
+        0.8033372301621824,
+        0.8447799574445851
+      ],
+      "stroke_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 20.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#f8f4e6"
+      }
+    },
+    {
+      "type": "paint_strokes",
+      "node_ref": "node:step2",
+      "path": [
+        [
+          300.0,
+          0.0
+        ],
+        [
+          300.0,
+          8.333333333333332
+        ],
+        [
+          300.0,
+          16.666666666666664
+        ],
+        [
+          300.0,
+          25.0
+        ],
+        [
+          300.0,
+          33.33333333333333
+        ],
+        [
+          300.0,
+          41.66666666666667
+        ],
+        [
+          300.0,
+          50.0
+        ],
+        [
+          300.0,
+          58.333333333333336
+        ],
+        [
+          300.0,
+          66.66666666666666
+        ],
+        [
+          300.0,
+          75.0
+        ],
+        [
+          300.0,
+          83.33333333333334
+        ],
+        [
+          300.0,
+          91.66666666666666
+        ],
+        [
+          300.0,
+          100.0
+        ],
+        [
+          300.0,
+          108.33333333333333
+        ],
+        [
+          300.0,
+          116.66666666666666
+        ],
+        [
+          300.0,
+          125.0
+        ],
+        [
+          300.0,
+          133.33333333333331
+        ],
+        [
+          300.0,
+          141.66666666666669
+        ],
+        [
+          300.0,
+          150.0
+        ],
+        [
+          300.0,
+          158.33333333333334
+        ],
+        [
+          300.0,
+          166.66666666666666
+        ],
+        [
+          300.0,
+          175.0
+        ],
+        [
+          300.0,
+          183.33333333333334
+        ],
+        [
+          300.0,
+          191.66666666666666
+        ],
+        [
+          300.0,
+          200.0
+        ],
+        [
+          300.0,
+          208.33333333333334
+        ],
+        [
+          300.0,
+          216.66666666666666
+        ],
+        [
+          300.0,
+          225.0
+        ],
+        [
+          300.0,
+          233.33333333333331
+        ],
+        [
+          300.0,
+          241.66666666666669
+        ],
+        [
+          300.0,
+          250.0
+        ],
+        [
+          300.0,
+          258.3333333333333
+        ],
+        [
+          300.0,
+          266.66666666666663
+        ],
+        [
+          300.0,
+          275.0
+        ],
+        [
+          300.0,
+          283.33333333333337
+        ],
+        [
+          300.0,
+          291.66666666666663
+        ],
+        [
+          300.0,
+          300.0
+        ],
+        [
+          300.0,
+          308.41290509259255
+        ],
+        [
+          300.0,
+          316.95601851851853
+        ],
+        [
+          300.0,
+          325.5859375
+        ],
+        [
+          300.0,
+          334.25925925925924
+        ],
+        [
+          300.0,
+          342.9325810185186
+        ],
+        [
+          300.0,
+          351.5625
+        ],
+        [
+          300.0,
+          360.1056134259259
+        ],
+        [
+          300.0,
+          368.5185185185185
+        ],
+        [
+          300.0,
+          376.7578125
+        ],
+        [
+          300.0,
+          384.7800925925926
+        ],
+        [
+          300.0,
+          392.5419560185185
+        ],
+        [
+          300.0,
+          400.0
+        ],
+        [
+          300.0,
+          407.1252893518519
+        ],
+        [
+          300.0,
+          413.94675925925924
+        ],
+        [
+          300.0,
+          420.5078125
+        ],
+        [
+          300.0,
+          426.8518518518519
+        ],
+        [
+          300.0,
+          433.02228009259255
+        ],
+        [
+          300.0,
+          439.0625
+        ],
+        [
+          300.0,
+          445.01591435185185
+        ],
+        [
+          300.0,
+          450.9259259259259
+        ],
+        [
+          300.0,
+          456.8359375
+        ],
+        [
+          300.0,
+          462.78935185185185
+        ],
+        [
+          300.0,
+          468.82957175925924
+        ],
+        [
+          300,
+          475
+        ]
+      ],
+      "pressures": [
+        0.8491686258349318,
+        0.8110375210124151,
+        0.7827237379495161,
+        0.8337938374035452,
+        0.7944747258189168,
+        0.7844496481931023,
+        0.7751280649062611,
+        0.8057082989288133,
+        0.781014870865298,
+        0.7607643321049531,
+        0.8374737706802501,
+        0.8091469005673637,
+        0.811335976252331,
+        0.844480294255978,
+        0.8111244333579827,
+        0.8173418936837157,
+        0.7589182022892205,
+        0.7739930775223868,
+        0.8386379314571116,
+        0.8343910884776973,
+        0.7957848757782477,
+        0.8064200576079594,
+        0.7598281984811,
+        0.8074657369677873,
+        0.8181940992964534,
+        0.8320678528843463,
+        0.757517090194776,
+        0.7580331544965965,
+        0.7529334133738682,
+        0.7952310344337195,
+        0.8115762336712201,
+        0.7522747706595204,
+        0.8467739223363955,
+        0.7706866582010088,
+        0.8126447713361761,
+        0.8093636852550271,
+        0.767381967527589,
+        0.7997709642094794,
+        0.8359599548316898,
+        0.827890320563422,
+        0.8019256827657877,
+        0.8199905555450309,
+        0.7599388064588566,
+        0.8332565592097438,
+        0.7994843748629624,
+        0.7627287405776746,
+        0.7555850527854536,
+        0.7956453695526686,
+        0.7785628758789268,
+        0.7685548764292547,
+        0.8301769071870329,
+        0.8207747712936903,
+        0.8031186866524187,
+        0.8431938103713355,
+        0.8131256632439242,
+        0.7760159892010116,
+        0.7524745744534982,
+        0.8475155876658238,
+        0.8209138242156246,
+        0.7565769929497025,
+        0.8159791704698759
+      ],
+      "stroke_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 20.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#f8f4e6"
+      }
+    },
+    {
+      "type": "paint_strokes",
+      "node_ref": "node:step2",
+      "path": [
+        [
+          450.0,
+          0.0
+        ],
+        [
+          450.0,
+          8.333333333333332
+        ],
+        [
+          450.0,
+          16.666666666666664
+        ],
+        [
+          450.0,
+          25.0
+        ],
+        [
+          450.0,
+          33.33333333333333
+        ],
+        [
+          450.0,
+          41.66666666666667
+        ],
+        [
+          450.0,
+          50.0
+        ],
+        [
+          450.0,
+          58.333333333333336
+        ],
+        [
+          450.0,
+          66.66666666666666
+        ],
+        [
+          450.0,
+          75.0
+        ],
+        [
+          450.0,
+          83.33333333333334
+        ],
+        [
+          450.0,
+          91.66666666666666
+        ],
+        [
+          450.0,
+          100.0
+        ],
+        [
+          450.0,
+          108.33333333333333
+        ],
+        [
+          450.0,
+          116.66666666666666
+        ],
+        [
+          450.0,
+          125.0
+        ],
+        [
+          450.0,
+          133.33333333333331
+        ],
+        [
+          450.0,
+          141.66666666666669
+        ],
+        [
+          450.0,
+          150.0
+        ],
+        [
+          450.0,
+          158.33333333333334
+        ],
+        [
+          450.0,
+          166.66666666666666
+        ],
+        [
+          450.0,
+          175.0
+        ],
+        [
+          450.0,
+          183.33333333333334
+        ],
+        [
+          450.0,
+          191.66666666666666
+        ],
+        [
+          450.0,
+          200.0
+        ],
+        [
+          450.0,
+          208.33333333333334
+        ],
+        [
+          450.0,
+          216.66666666666666
+        ],
+        [
+          450.0,
+          225.0
+        ],
+        [
+          450.0,
+          233.33333333333331
+        ],
+        [
+          450.0,
+          241.66666666666669
+        ],
+        [
+          450.0,
+          250.0
+        ],
+        [
+          450.0,
+          258.3333333333333
+        ],
+        [
+          450.0,
+          266.66666666666663
+        ],
+        [
+          450.0,
+          275.0
+        ],
+        [
+          450.0,
+          283.33333333333337
+        ],
+        [
+          450.0,
+          291.66666666666663
+        ],
+        [
+          450.0,
+          300.0
+        ],
+        [
+          450.0,
+          308.41290509259255
+        ],
+        [
+          450.0,
+          316.95601851851853
+        ],
+        [
+          450.0,
+          325.5859375
+        ],
+        [
+          450.0,
+          334.25925925925924
+        ],
+        [
+          450.0,
+          342.9325810185186
+        ],
+        [
+          450.0,
+          351.5625
+        ],
+        [
+          450.0,
+          360.1056134259259
+        ],
+        [
+          450.0,
+          368.5185185185185
+        ],
+        [
+          450.0,
+          376.7578125
+        ],
+        [
+          450.0,
+          384.7800925925926
+        ],
+        [
+          450.0,
+          392.5419560185185
+        ],
+        [
+          450.0,
+          400.0
+        ],
+        [
+          450.0,
+          407.1252893518519
+        ],
+        [
+          450.0,
+          413.94675925925924
+        ],
+        [
+          450.0,
+          420.5078125
+        ],
+        [
+          450.0,
+          426.8518518518519
+        ],
+        [
+          450.0,
+          433.02228009259255
+        ],
+        [
+          450.0,
+          439.0625
+        ],
+        [
+          450.0,
+          445.01591435185185
+        ],
+        [
+          450.0,
+          450.9259259259259
+        ],
+        [
+          450.0,
+          456.8359375
+        ],
+        [
+          450.0,
+          462.78935185185185
+        ],
+        [
+          450.0,
+          468.82957175925924
+        ],
+        [
+          450,
+          475
+        ]
+      ],
+      "pressures": [
+        0.7724923235277978,
+        0.8420359742434583,
+        0.7630030652411592,
+        0.8236477146816132,
+        0.8232625387681018,
+        0.8288315409255507,
+        0.8290286167407656,
+        0.7746463806068813,
+        0.8281880899556356,
+        0.7598709944160775,
+        0.823796151196741,
+        0.8163521992982778,
+        0.7705107737829303,
+        0.8018145950689878,
+        0.7934786101748122,
+        0.8054060143474021,
+        0.8034638359991315,
+        0.7747023376384852,
+        0.7611325554110193,
+        0.8095068585526329,
+        0.7819260770760025,
+        0.7980021222162759,
+        0.8245134499707927,
+        0.8241967065875359,
+        0.7763349326417082,
+        0.7975250549334015,
+        0.8023054813962254,
+        0.765682157064581,
+        0.7561980313911315,
+        0.7842094657746268,
+        0.7733302957889692,
+        0.8481835638584575,
+        0.837304694801385,
+        0.8089355780060701,
+        0.7600802057847014,
+        0.7532735067910175,
+        0.7857306646851231,
+        0.817490333328361,
+        0.7922236271362365,
+        0.7992816137934317,
+        0.7551548926640771,
+        0.8393808964340004,
+        0.7951647155325255,
+        0.8489228197996181,
+        0.8115331442503972,
+        0.7866133466223248,
+        0.7919744138870776,
+        0.7594391619798075,
+        0.8455511008526073,
+        0.8271191333572637,
+        0.8192468499869533,
+        0.8154767450724905,
+        0.8125952221536309,
+        0.7845459029005283,
+        0.8370662540195534,
+        0.7636847897746268,
+        0.7522504553609323,
+        0.8004060722348446,
+        0.7927620109220324,
+        0.8382028909980634,
+        0.810141068478117
+      ],
+      "stroke_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 20.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#f8f4e6"
+      }
+    },
+    {
+      "type": "paint_strokes",
+      "node_ref": "node:step2",
+      "path": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          6.666666666666667,
+          0.0
+        ],
+        [
+          13.333333333333334,
+          0.0
+        ],
+        [
+          20.0,
+          0.0
+        ],
+        [
+          26.666666666666668,
+          0.0
+        ],
+        [
+          33.33333333333333,
+          0.0
+        ],
+        [
+          40.0,
+          0.0
+        ],
+        [
+          46.666666666666664,
+          0.0
+        ],
+        [
+          53.333333333333336,
+          0.0
+        ],
+        [
+          60.0,
+          0.0
+        ],
+        [
+          66.66666666666666,
+          0.0
+        ],
+        [
+          73.33333333333333,
+          0.0
+        ],
+        [
+          80.0,
+          0.0
+        ],
+        [
+          86.66666666666667,
+          0.0
+        ],
+        [
+          93.33333333333333,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ],
+        [
+          106.25185185185185,
+          0.0
+        ],
+        [
+          111.7925925925926,
+          0.0
+        ],
+        [
+          116.8,
+          0.0
+        ],
+        [
+          121.45185185185186,
+          0.0
+        ],
+        [
+          125.92592592592591,
+          0.0
+        ],
+        [
+          130.4,
+          0.0
+        ],
+        [
+          135.05185185185184,
+          0.0
+        ],
+        [
+          140.05925925925928,
+          0.0
+        ],
+        [
+          145.6,
+          0.0
+        ],
+        [
+          151.85185185185185,
+          0.0
+        ],
+        [
+          158.9925925925926,
+          0.0
+        ],
+        [
+          167.2,
+          0.0
+        ],
+        [
+          176.65185185185186,
+          0.0
+        ],
+        [
+          187.52592592592592,
+          0.0
+        ],
+        [
+          200.0,
+          0.0
+        ],
+        [
+          214.60740740740744,
+          0.0
+        ],
+        [
+          231.52592592592592,
+          0.0
+        ],
+        [
+          250.4,
+          0.0
+        ],
+        [
+          270.8740740740741,
+          0.0
+        ],
+        [
+          292.59259259259255,
+          0.0
+        ],
+        [
+          315.2,
+          0.0
+        ],
+        [
+          338.34074074074067,
+          0.0
+        ],
+        [
+          361.6592592592593,
+          0.0
+        ],
+        [
+          384.8,
+          0.0
+        ],
+        [
+          407.4074074074074,
+          0.0
+        ],
+        [
+          429.1259259259259,
+          0.0
+        ],
+        [
+          449.59999999999997,
+          0.0
+        ],
+        [
+          468.4740740740741,
+          0.0
+        ],
+        [
+          485.39259259259256,
+          0.0
+        ],
+        [
+          500.0,
+          0.0
+        ],
+        [
+          512.4740740740741,
+          0.0
+        ],
+        [
+          523.3481481481481,
+          0.0
+        ],
+        [
+          532.8,
+          0.0
+        ],
+        [
+          541.0074074074075,
+          0.0
+        ],
+        [
+          548.1481481481482,
+          0.0
+        ],
+        [
+          554.4,
+          0.0
+        ],
+        [
+          559.9407407407408,
+          0.0
+        ],
+        [
+          564.9481481481481,
+          0.0
+        ],
+        [
+          569.6,
+          0.0
+        ],
+        [
+          574.074074074074,
+          0.0
+        ],
+        [
+          578.5481481481481,
+          0.0
+        ],
+        [
+          583.2,
+          0.0
+        ],
+        [
+          588.2074074074073,
+          0.0
+        ],
+        [
+          593.7481481481481,
+          0.0
+        ],
+        [
+          600,
+          0
+        ]
+      ],
+      "pressures": [
+        0.8246278183590847,
+        0.8113822644540112,
+        0.8306990830853725,
+        0.8423084600426846,
+        0.7904490901920739,
+        0.8483504457771144,
+        0.7783788830104538,
+        0.8059941219755413,
+        0.7560897680083505,
+        0.837859640545708,
+        0.8053972164329172,
+        0.7963657754299652,
+        0.7984353835812311,
+        0.7990916991896316,
+        0.8042058103264006,
+        0.764746264308382,
+        0.8082757249606396,
+        0.8192881350088372,
+        0.7529581959275544,
+        0.7851775949042201,
+        0.7969280608677043,
+        0.8472837347725685,
+        0.8008852122416258,
+        0.7647858734538646,
+        0.8032651666264986,
+        0.8126888889543642,
+        0.8461588515643118,
+        0.7827939460282239,
+        0.8463730915490335,
+        0.7530860252218231,
+        0.7855091206387997,
+        0.7943831756675922,
+        0.8330489371705034,
+        0.7858141558990241,
+        0.7634963169570338,
+        0.7808025309671606,
+        0.8273359716109284,
+        0.760413348903946,
+        0.7700741201451434,
+        0.7839421626033997,
+        0.8320196486778644,
+        0.7846676572997956,
+        0.8271034292695817,
+        0.7997839998652003,
+        0.8233381943472414,
+        0.7868185525720977,
+        0.750554220812336,
+        0.838036881736993,
+        0.8096589848792833,
+        0.8198245281755441,
+        0.8415738535333495,
+        0.7564868765363743,
+        0.8008133666928187,
+        0.8283671571598136,
+        0.8108470432693358,
+        0.7768938502358418,
+        0.7953786546542915,
+        0.7888322514409067,
+        0.8415618903019297,
+        0.8273037862664084,
+        0.7632443225060654
+      ],
+      "stroke_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 20.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#f8f4e6"
+      }
+    },
+    {
+      "type": "paint_strokes",
+      "node_ref": "node:step2",
+      "path": [
+        [
+          0.0,
+          100.0
+        ],
+        [
+          6.666666666666667,
+          100.0
+        ],
+        [
+          13.333333333333334,
+          100.0
+        ],
+        [
+          20.0,
+          100.0
+        ],
+        [
+          26.666666666666668,
+          100.0
+        ],
+        [
+          33.33333333333333,
+          100.0
+        ],
+        [
+          40.0,
+          100.0
+        ],
+        [
+          46.666666666666664,
+          100.0
+        ],
+        [
+          53.333333333333336,
+          100.0
+        ],
+        [
+          60.0,
+          100.0
+        ],
+        [
+          66.66666666666666,
+          100.0
+        ],
+        [
+          73.33333333333333,
+          100.0
+        ],
+        [
+          80.0,
+          100.0
+        ],
+        [
+          86.66666666666667,
+          100.0
+        ],
+        [
+          93.33333333333333,
+          100.0
+        ],
+        [
+          100.0,
+          100.0
+        ],
+        [
+          106.25185185185185,
+          100.0
+        ],
+        [
+          111.7925925925926,
+          100.0
+        ],
+        [
+          116.8,
+          100.0
+        ],
+        [
+          121.45185185185186,
+          100.0
+        ],
+        [
+          125.92592592592591,
+          100.0
+        ],
+        [
+          130.4,
+          100.0
+        ],
+        [
+          135.05185185185184,
+          100.0
+        ],
+        [
+          140.05925925925928,
+          100.0
+        ],
+        [
+          145.6,
+          100.0
+        ],
+        [
+          151.85185185185185,
+          100.0
+        ],
+        [
+          158.9925925925926,
+          100.0
+        ],
+        [
+          167.2,
+          100.0
+        ],
+        [
+          176.65185185185186,
+          100.0
+        ],
+        [
+          187.52592592592592,
+          100.0
+        ],
+        [
+          200.0,
+          100.0
+        ],
+        [
+          214.60740740740744,
+          100.0
+        ],
+        [
+          231.52592592592592,
+          100.0
+        ],
+        [
+          250.4,
+          100.0
+        ],
+        [
+          270.8740740740741,
+          100.0
+        ],
+        [
+          292.59259259259255,
+          100.0
+        ],
+        [
+          315.2,
+          100.0
+        ],
+        [
+          338.34074074074067,
+          100.0
+        ],
+        [
+          361.6592592592593,
+          100.0
+        ],
+        [
+          384.8,
+          100.0
+        ],
+        [
+          407.4074074074074,
+          100.0
+        ],
+        [
+          429.1259259259259,
+          100.0
+        ],
+        [
+          449.59999999999997,
+          100.0
+        ],
+        [
+          468.4740740740741,
+          100.0
+        ],
+        [
+          485.39259259259256,
+          100.0
+        ],
+        [
+          500.0,
+          100.0
+        ],
+        [
+          512.4740740740741,
+          100.0
+        ],
+        [
+          523.3481481481481,
+          100.0
+        ],
+        [
+          532.8,
+          100.0
+        ],
+        [
+          541.0074074074075,
+          100.0
+        ],
+        [
+          548.1481481481482,
+          100.0
+        ],
+        [
+          554.4,
+          100.0
+        ],
+        [
+          559.9407407407408,
+          100.0
+        ],
+        [
+          564.9481481481481,
+          100.0
+        ],
+        [
+          569.6,
+          100.0
+        ],
+        [
+          574.074074074074,
+          100.0
+        ],
+        [
+          578.5481481481481,
+          100.0
+        ],
+        [
+          583.2,
+          100.0
+        ],
+        [
+          588.2074074074073,
+          100.0
+        ],
+        [
+          593.7481481481481,
+          100.0
+        ],
+        [
+          600,
+          100
+        ]
+      ],
+      "pressures": [
+        0.8393960657110712,
+        0.8050539545090927,
+        0.8094598097522219,
+        0.8096084032748442,
+        0.7789147928093655,
+        0.7777855234242018,
+        0.7988408841491939,
+        0.8466852425581568,
+        0.7557567163255411,
+        0.8259609863510076,
+        0.7661702658888832,
+        0.7799673158823079,
+        0.81015993238397,
+        0.8417360246548693,
+        0.8388153484275116,
+        0.7850619646727596,
+        0.8296128541275648,
+        0.7933070448456955,
+        0.7727191076429344,
+        0.8154373445669986,
+        0.8267477705583511,
+        0.764924903104959,
+        0.8034921159980499,
+        0.826040608715684,
+        0.8038468847613731,
+        0.8352621125081605,
+        0.7700224986263648,
+        0.8131278220048429,
+        0.7564335671808821,
+        0.7974730294631633,
+        0.7895213319738341,
+        0.812334827810855,
+        0.7568745529714028,
+        0.8403560087962401,
+        0.8417473315849694,
+        0.7800543475152912,
+        0.8457486572138441,
+        0.8330848743407562,
+        0.8045989037163561,
+        0.8011026852638592,
+        0.7753178173410004,
+        0.7604203246825476,
+        0.8456289492155894,
+        0.7773278222528205,
+        0.7809318352754746,
+        0.7702814237647941,
+        0.8124890795757004,
+        0.8242590630307223,
+        0.7815053867183881,
+        0.7912344874670505,
+        0.8020920825460255,
+        0.7656872149496523,
+        0.7737300508579242,
+        0.7671075950434341,
+        0.83475629524097,
+        0.7540849986354455,
+        0.8092074894808647,
+        0.8281838593016666,
+        0.8157433683045168,
+        0.8096888726878971,
+        0.8190805224711097
+      ],
+      "stroke_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 20.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#f8f4e6"
+      }
+    },
+    {
+      "type": "paint_strokes",
+      "node_ref": "node:step2",
+      "path": [
+        [
+          0.0,
+          200.0
+        ],
+        [
+          6.666666666666667,
+          200.0
+        ],
+        [
+          13.333333333333334,
+          200.0
+        ],
+        [
+          20.0,
+          200.0
+        ],
+        [
+          26.666666666666668,
+          200.0
+        ],
+        [
+          33.33333333333333,
+          200.0
+        ],
+        [
+          40.0,
+          200.0
+        ],
+        [
+          46.666666666666664,
+          200.0
+        ],
+        [
+          53.333333333333336,
+          200.0
+        ],
+        [
+          60.0,
+          200.0
+        ],
+        [
+          66.66666666666666,
+          200.0
+        ],
+        [
+          73.33333333333333,
+          200.0
+        ],
+        [
+          80.0,
+          200.0
+        ],
+        [
+          86.66666666666667,
+          200.0
+        ],
+        [
+          93.33333333333333,
+          200.0
+        ],
+        [
+          100.0,
+          200.0
+        ],
+        [
+          106.25185185185185,
+          200.0
+        ],
+        [
+          111.7925925925926,
+          200.0
+        ],
+        [
+          116.8,
+          200.0
+        ],
+        [
+          121.45185185185186,
+          200.0
+        ],
+        [
+          125.92592592592591,
+          200.0
+        ],
+        [
+          130.4,
+          200.0
+        ],
+        [
+          135.05185185185184,
+          200.0
+        ],
+        [
+          140.05925925925928,
+          200.0
+        ],
+        [
+          145.6,
+          200.0
+        ],
+        [
+          151.85185185185185,
+          200.0
+        ],
+        [
+          158.9925925925926,
+          200.0
+        ],
+        [
+          167.2,
+          200.0
+        ],
+        [
+          176.65185185185186,
+          200.0
+        ],
+        [
+          187.52592592592592,
+          200.0
+        ],
+        [
+          200.0,
+          200.0
+        ],
+        [
+          214.60740740740744,
+          200.0
+        ],
+        [
+          231.52592592592592,
+          200.0
+        ],
+        [
+          250.4,
+          200.0
+        ],
+        [
+          270.8740740740741,
+          200.0
+        ],
+        [
+          292.59259259259255,
+          200.0
+        ],
+        [
+          315.2,
+          200.0
+        ],
+        [
+          338.34074074074067,
+          200.0
+        ],
+        [
+          361.6592592592593,
+          200.0
+        ],
+        [
+          384.8,
+          200.0
+        ],
+        [
+          407.4074074074074,
+          200.0
+        ],
+        [
+          429.1259259259259,
+          200.0
+        ],
+        [
+          449.59999999999997,
+          200.0
+        ],
+        [
+          468.4740740740741,
+          200.0
+        ],
+        [
+          485.39259259259256,
+          200.0
+        ],
+        [
+          500.0,
+          200.0
+        ],
+        [
+          512.4740740740741,
+          200.0
+        ],
+        [
+          523.3481481481481,
+          200.0
+        ],
+        [
+          532.8,
+          200.0
+        ],
+        [
+          541.0074074074075,
+          200.0
+        ],
+        [
+          548.1481481481482,
+          200.0
+        ],
+        [
+          554.4,
+          200.0
+        ],
+        [
+          559.9407407407408,
+          200.0
+        ],
+        [
+          564.9481481481481,
+          200.0
+        ],
+        [
+          569.6,
+          200.0
+        ],
+        [
+          574.074074074074,
+          200.0
+        ],
+        [
+          578.5481481481481,
+          200.0
+        ],
+        [
+          583.2,
+          200.0
+        ],
+        [
+          588.2074074074073,
+          200.0
+        ],
+        [
+          593.7481481481481,
+          200.0
+        ],
+        [
+          600,
+          200
+        ]
+      ],
+      "pressures": [
+        0.8050489097722078,
+        0.772001089367875,
+        0.812972562425399,
+        0.811094228006173,
+        0.8476658310820188,
+        0.7609166494179148,
+        0.8020126576941098,
+        0.7852858986421561,
+        0.8362348268659301,
+        0.8356940698120615,
+        0.7711894709095544,
+        0.7794631101259593,
+        0.8100355201790435,
+        0.8139503255873161,
+        0.7906530185339561,
+        0.7630213816973174,
+        0.8319083211774349,
+        0.78367064997935,
+        0.816669548188941,
+        0.8175133083212773,
+        0.806821172804953,
+        0.7939734253480365,
+        0.8113062473181231,
+        0.842322536195728,
+        0.7620208813114279,
+        0.8310669726201317,
+        0.7943575031136331,
+        0.7702482265324729,
+        0.793713497232573,
+        0.8342692771730789,
+        0.8014821728746498,
+        0.8158597307892531,
+        0.8100781128693699,
+        0.7791657440184553,
+        0.7608423789382894,
+        0.8150931886326916,
+        0.8096027908822043,
+        0.8032703455075705,
+        0.7687827210200815,
+        0.8028055004377724,
+        0.7571376837402208,
+        0.8199519911158323,
+        0.8153877713611928,
+        0.7680591447488995,
+        0.8259024728131964,
+        0.7927988697979215,
+        0.7991276578213672,
+        0.7914825936579234,
+        0.8042235994536278,
+        0.8034260366865655,
+        0.7744591480026766,
+        0.828300490892953,
+        0.7752141905945948,
+        0.8085157039338666,
+        0.7529137204121636,
+        0.8117774642580876,
+        0.8217714625918013,
+        0.7826588768044423,
+        0.7995845250649578,
+        0.7504963882780283,
+        0.810444147455322
+      ],
+      "stroke_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 20.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#f8f4e6"
+      }
+    },
+    {
+      "type": "paint_strokes",
+      "node_ref": "node:step2",
+      "path": [
+        [
+          0.0,
+          300.0
+        ],
+        [
+          6.666666666666667,
+          300.0
+        ],
+        [
+          13.333333333333334,
+          300.0
+        ],
+        [
+          20.0,
+          300.0
+        ],
+        [
+          26.666666666666668,
+          300.0
+        ],
+        [
+          33.33333333333333,
+          300.0
+        ],
+        [
+          40.0,
+          300.0
+        ],
+        [
+          46.666666666666664,
+          300.0
+        ],
+        [
+          53.333333333333336,
+          300.0
+        ],
+        [
+          60.0,
+          300.0
+        ],
+        [
+          66.66666666666666,
+          300.0
+        ],
+        [
+          73.33333333333333,
+          300.0
+        ],
+        [
+          80.0,
+          300.0
+        ],
+        [
+          86.66666666666667,
+          300.0
+        ],
+        [
+          93.33333333333333,
+          300.0
+        ],
+        [
+          100.0,
+          300.0
+        ],
+        [
+          106.25185185185185,
+          300.0
+        ],
+        [
+          111.7925925925926,
+          300.0
+        ],
+        [
+          116.8,
+          300.0
+        ],
+        [
+          121.45185185185186,
+          300.0
+        ],
+        [
+          125.92592592592591,
+          300.0
+        ],
+        [
+          130.4,
+          300.0
+        ],
+        [
+          135.05185185185184,
+          300.0
+        ],
+        [
+          140.05925925925928,
+          300.0
+        ],
+        [
+          145.6,
+          300.0
+        ],
+        [
+          151.85185185185185,
+          300.0
+        ],
+        [
+          158.9925925925926,
+          300.0
+        ],
+        [
+          167.2,
+          300.0
+        ],
+        [
+          176.65185185185186,
+          300.0
+        ],
+        [
+          187.52592592592592,
+          300.0
+        ],
+        [
+          200.0,
+          300.0
+        ],
+        [
+          214.60740740740744,
+          300.0
+        ],
+        [
+          231.52592592592592,
+          300.0
+        ],
+        [
+          250.4,
+          300.0
+        ],
+        [
+          270.8740740740741,
+          300.0
+        ],
+        [
+          292.59259259259255,
+          300.0
+        ],
+        [
+          315.2,
+          300.0
+        ],
+        [
+          338.34074074074067,
+          300.0
+        ],
+        [
+          361.6592592592593,
+          300.0
+        ],
+        [
+          384.8,
+          300.0
+        ],
+        [
+          407.4074074074074,
+          300.0
+        ],
+        [
+          429.1259259259259,
+          300.0
+        ],
+        [
+          449.59999999999997,
+          300.0
+        ],
+        [
+          468.4740740740741,
+          300.0
+        ],
+        [
+          485.39259259259256,
+          300.0
+        ],
+        [
+          500.0,
+          300.0
+        ],
+        [
+          512.4740740740741,
+          300.0
+        ],
+        [
+          523.3481481481481,
+          300.0
+        ],
+        [
+          532.8,
+          300.0
+        ],
+        [
+          541.0074074074075,
+          300.0
+        ],
+        [
+          548.1481481481482,
+          300.0
+        ],
+        [
+          554.4,
+          300.0
+        ],
+        [
+          559.9407407407408,
+          300.0
+        ],
+        [
+          564.9481481481481,
+          300.0
+        ],
+        [
+          569.6,
+          300.0
+        ],
+        [
+          574.074074074074,
+          300.0
+        ],
+        [
+          578.5481481481481,
+          300.0
+        ],
+        [
+          583.2,
+          300.0
+        ],
+        [
+          588.2074074074073,
+          300.0
+        ],
+        [
+          593.7481481481481,
+          300.0
+        ],
+        [
+          600,
+          300
+        ]
+      ],
+      "pressures": [
+        0.7919952043324537,
+        0.8188830012828641,
+        0.8166153785417252,
+        0.8145266413049349,
+        0.8393449075900239,
+        0.7551043030253823,
+        0.7804013600297115,
+        0.8056116314938291,
+        0.7584486220064611,
+        0.7710186332186165,
+        0.7500919196146432,
+        0.7824009149655142,
+        0.7793459857261485,
+        0.8340965220190795,
+        0.7644537197709549,
+        0.7791018456417823,
+        0.8430430876786158,
+        0.7633258231891629,
+        0.7522897333038059,
+        0.8434099853034988,
+        0.7699587938829476,
+        0.8121838092548861,
+        0.7523699640732849,
+        0.7522870542057427,
+        0.8106350056271492,
+        0.7792904162691229,
+        0.7554440401993581,
+        0.8412486625704743,
+        0.8478098341318449,
+        0.7506938396688596,
+        0.7804304328026817,
+        0.83968598220557,
+        0.8194315881914923,
+        0.7820560541151608,
+        0.8263672432675152,
+        0.7810629364196208,
+        0.8430776515470344,
+        0.799444653188371,
+        0.798252011823794,
+        0.7601794566869633,
+        0.7536948331670297,
+        0.8001284636269168,
+        0.7936153102100809,
+        0.804332491778321,
+        0.7996683992671032,
+        0.7796617535565389,
+        0.773912086108952,
+        0.8357801599111582,
+        0.8117325250502001,
+        0.8148221329648679,
+        0.7860831014067382,
+        0.8294437370237713,
+        0.7503236814946447,
+        0.821147112584791,
+        0.7784528832835579,
+        0.8362106339698772,
+        0.8271732642918843,
+        0.7943566652219667,
+        0.8164297260194092,
+        0.7598350589304879,
+        0.8311288335484714
+      ],
+      "stroke_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 20.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#f8f4e6"
+      }
+    },
+    {
+      "type": "paint_strokes",
+      "node_ref": "node:step2",
+      "path": [
+        [
+          0.0,
+          400.0
+        ],
+        [
+          6.666666666666667,
+          400.0
+        ],
+        [
+          13.333333333333334,
+          400.0
+        ],
+        [
+          20.0,
+          400.0
+        ],
+        [
+          26.666666666666668,
+          400.0
+        ],
+        [
+          33.33333333333333,
+          400.0
+        ],
+        [
+          40.0,
+          400.0
+        ],
+        [
+          46.666666666666664,
+          400.0
+        ],
+        [
+          53.333333333333336,
+          400.0
+        ],
+        [
+          60.0,
+          400.0
+        ],
+        [
+          66.66666666666666,
+          400.0
+        ],
+        [
+          73.33333333333333,
+          400.0
+        ],
+        [
+          80.0,
+          400.0
+        ],
+        [
+          86.66666666666667,
+          400.0
+        ],
+        [
+          93.33333333333333,
+          400.0
+        ],
+        [
+          100.0,
+          400.0
+        ],
+        [
+          106.25185185185185,
+          400.0
+        ],
+        [
+          111.7925925925926,
+          400.0
+        ],
+        [
+          116.8,
+          400.0
+        ],
+        [
+          121.45185185185186,
+          400.0
+        ],
+        [
+          125.92592592592591,
+          400.0
+        ],
+        [
+          130.4,
+          400.0
+        ],
+        [
+          135.05185185185184,
+          400.0
+        ],
+        [
+          140.05925925925928,
+          400.0
+        ],
+        [
+          145.6,
+          400.0
+        ],
+        [
+          151.85185185185185,
+          400.0
+        ],
+        [
+          158.9925925925926,
+          400.0
+        ],
+        [
+          167.2,
+          400.0
+        ],
+        [
+          176.65185185185186,
+          400.0
+        ],
+        [
+          187.52592592592592,
+          400.0
+        ],
+        [
+          200.0,
+          400.0
+        ],
+        [
+          214.60740740740744,
+          400.0
+        ],
+        [
+          231.52592592592592,
+          400.0
+        ],
+        [
+          250.4,
+          400.0
+        ],
+        [
+          270.8740740740741,
+          400.0
+        ],
+        [
+          292.59259259259255,
+          400.0
+        ],
+        [
+          315.2,
+          400.0
+        ],
+        [
+          338.34074074074067,
+          400.0
+        ],
+        [
+          361.6592592592593,
+          400.0
+        ],
+        [
+          384.8,
+          400.0
+        ],
+        [
+          407.4074074074074,
+          400.0
+        ],
+        [
+          429.1259259259259,
+          400.0
+        ],
+        [
+          449.59999999999997,
+          400.0
+        ],
+        [
+          468.4740740740741,
+          400.0
+        ],
+        [
+          485.39259259259256,
+          400.0
+        ],
+        [
+          500.0,
+          400.0
+        ],
+        [
+          512.4740740740741,
+          400.0
+        ],
+        [
+          523.3481481481481,
+          400.0
+        ],
+        [
+          532.8,
+          400.0
+        ],
+        [
+          541.0074074074075,
+          400.0
+        ],
+        [
+          548.1481481481482,
+          400.0
+        ],
+        [
+          554.4,
+          400.0
+        ],
+        [
+          559.9407407407408,
+          400.0
+        ],
+        [
+          564.9481481481481,
+          400.0
+        ],
+        [
+          569.6,
+          400.0
+        ],
+        [
+          574.074074074074,
+          400.0
+        ],
+        [
+          578.5481481481481,
+          400.0
+        ],
+        [
+          583.2,
+          400.0
+        ],
+        [
+          588.2074074074073,
+          400.0
+        ],
+        [
+          593.7481481481481,
+          400.0
+        ],
+        [
+          600,
+          400
+        ]
+      ],
+      "pressures": [
+        0.830681706147171,
+        0.794454134152315,
+        0.769710966191328,
+        0.8397088312255793,
+        0.796383359918045,
+        0.8038437817705649,
+        0.7566864945676154,
+        0.7556873055187023,
+        0.7628018359521312,
+        0.8483539558161852,
+        0.7818184467074196,
+        0.8374744997693762,
+        0.8142622638920635,
+        0.7845262719070388,
+        0.7530292894547195,
+        0.7847385253444465,
+        0.7735368976653805,
+        0.8252516135465409,
+        0.8079674116039326,
+        0.8296256373857702,
+        0.8329977929316221,
+        0.7824841734657448,
+        0.7912141043532025,
+        0.7564492361223377,
+        0.8143443026032776,
+        0.7701575847252672,
+        0.7862014669267889,
+        0.8410525670326813,
+        0.7901633753572751,
+        0.8409878738851896,
+        0.81271833875204,
+        0.76947884287223,
+        0.8427570903216279,
+        0.7918894632441592,
+        0.778557063736739,
+        0.8430596060323197,
+        0.818127621701965,
+        0.7666082108706156,
+        0.8333853889332602,
+        0.7967681500173189,
+        0.7579095482178003,
+        0.8254029699102312,
+        0.7826207682008766,
+        0.8143931457782242,
+        0.7583568340471369,
+        0.8054478683959586,
+        0.8000741867218669,
+        0.8097311636150601,
+        0.8495929919441492,
+        0.7679397611950742,
+        0.7533593441854783,
+        0.824626060684208,
+        0.8487826685438752,
+        0.7841907326715746,
+        0.7909010704906494,
+        0.8397452770455619,
+        0.7817355036386653,
+        0.7535793426582713,
+        0.8454869417949752,
+        0.8391810477027096,
+        0.814137420864515
+      ],
+      "stroke_style": "ForegroundColor"
+    },
+    {
+      "type": "method_call",
+      "target_ref": "noop",
+      "method": "noop",
+      "comment": "=== Step 3: floor tiles (background) ==="
+    },
+    {
+      "type": "create_node",
+      "ref": "node:step3",
+      "doc_ref": "doc:main",
+      "name": "floor tiles",
+      "node_type": "paintlayer"
+    },
+    {
+      "type": "set_node_blending_mode",
+      "node_ref": "node:step3",
+      "mode": "normal"
+    },
+    {
+      "type": "set_node_opacity",
+      "node_ref": "node:step3",
+      "value": 255
+    },
+    {
+      "type": "set_active_node",
+      "doc_ref": "doc:main",
+      "node_ref": "node:step3"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 200.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#5d4037"
+      }
+    },
+    {
+      "type": "paint_rectangle",
+      "node_ref": "node:step3",
+      "x": 0,
+      "y": 316,
+      "w": 150,
+      "h": 53,
+      "stroke_style": "None",
+      "fill_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 2.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#f0f0f0"
+      }
+    },
+    {
+      "type": "paint_rectangle",
+      "node_ref": "node:step3",
+      "x": 0,
+      "y": 316,
+      "w": 150,
+      "h": 53,
+      "stroke_style": "ForegroundColor",
+      "fill_style": "None"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 200.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#c6c6c6"
+      }
+    },
+    {
+      "type": "paint_rectangle",
+      "node_ref": "node:step3",
+      "x": 150,
+      "y": 316,
+      "w": 150,
+      "h": 53,
+      "stroke_style": "None",
+      "fill_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 2.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#f0f0f0"
+      }
+    },
+    {
+      "type": "paint_rectangle",
+      "node_ref": "node:step3",
+      "x": 150,
+      "y": 316,
+      "w": 150,
+      "h": 53,
+      "stroke_style": "ForegroundColor",
+      "fill_style": "None"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 200.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#e8d1a9"
+      }
+    },
+    {
+      "type": "paint_rectangle",
+      "node_ref": "node:step3",
+      "x": 300,
+      "y": 316,
+      "w": 150,
+      "h": 53,
+      "stroke_style": "None",
+      "fill_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 2.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#f0f0f0"
+      }
+    },
+    {
+      "type": "paint_rectangle",
+      "node_ref": "node:step3",
+      "x": 300,
+      "y": 316,
+      "w": 150,
+      "h": 53,
+      "stroke_style": "ForegroundColor",
+      "fill_style": "None"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 200.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#5d4037"
+      }
+    },
+    {
+      "type": "paint_rectangle",
+      "node_ref": "node:step3",
+      "x": 450,
+      "y": 316,
+      "w": 150,
+      "h": 53,
+      "stroke_style": "None",
+      "fill_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 2.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#f0f0f0"
+      }
+    },
+    {
+      "type": "paint_rectangle",
+      "node_ref": "node:step3",
+      "x": 450,
+      "y": 316,
+      "w": 150,
+      "h": 53,
+      "stroke_style": "ForegroundColor",
+      "fill_style": "None"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 200.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#c6c6c6"
+      }
+    },
+    {
+      "type": "paint_rectangle",
+      "node_ref": "node:step3",
+      "x": 0,
+      "y": 369,
+      "w": 150,
+      "h": 53,
+      "stroke_style": "None",
+      "fill_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 2.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#f0f0f0"
+      }
+    },
+    {
+      "type": "paint_rectangle",
+      "node_ref": "node:step3",
+      "x": 0,
+      "y": 369,
+      "w": 150,
+      "h": 53,
+      "stroke_style": "ForegroundColor",
+      "fill_style": "None"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 200.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#e8d1a9"
+      }
+    },
+    {
+      "type": "paint_rectangle",
+      "node_ref": "node:step3",
+      "x": 150,
+      "y": 369,
+      "w": 150,
+      "h": 53,
+      "stroke_style": "None",
+      "fill_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 2.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#f0f0f0"
+      }
+    },
+    {
+      "type": "paint_rectangle",
+      "node_ref": "node:step3",
+      "x": 150,
+      "y": 369,
+      "w": 150,
+      "h": 53,
+      "stroke_style": "ForegroundColor",
+      "fill_style": "None"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 200.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#5d4037"
+      }
+    },
+    {
+      "type": "paint_rectangle",
+      "node_ref": "node:step3",
+      "x": 300,
+      "y": 369,
+      "w": 150,
+      "h": 53,
+      "stroke_style": "None",
+      "fill_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 2.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#f0f0f0"
+      }
+    },
+    {
+      "type": "paint_rectangle",
+      "node_ref": "node:step3",
+      "x": 300,
+      "y": 369,
+      "w": 150,
+      "h": 53,
+      "stroke_style": "ForegroundColor",
+      "fill_style": "None"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 200.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#c6c6c6"
+      }
+    },
+    {
+      "type": "paint_rectangle",
+      "node_ref": "node:step3",
+      "x": 450,
+      "y": 369,
+      "w": 150,
+      "h": 53,
+      "stroke_style": "None",
+      "fill_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 2.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#f0f0f0"
+      }
+    },
+    {
+      "type": "paint_rectangle",
+      "node_ref": "node:step3",
+      "x": 450,
+      "y": 369,
+      "w": 150,
+      "h": 53,
+      "stroke_style": "ForegroundColor",
+      "fill_style": "None"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 200.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#e8d1a9"
+      }
+    },
+    {
+      "type": "paint_rectangle",
+      "node_ref": "node:step3",
+      "x": 0,
+      "y": 422,
+      "w": 150,
+      "h": 53,
+      "stroke_style": "None",
+      "fill_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 2.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#f0f0f0"
+      }
+    },
+    {
+      "type": "paint_rectangle",
+      "node_ref": "node:step3",
+      "x": 0,
+      "y": 422,
+      "w": 150,
+      "h": 53,
+      "stroke_style": "ForegroundColor",
+      "fill_style": "None"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 200.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#5d4037"
+      }
+    },
+    {
+      "type": "paint_rectangle",
+      "node_ref": "node:step3",
+      "x": 150,
+      "y": 422,
+      "w": 150,
+      "h": 53,
+      "stroke_style": "None",
+      "fill_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 2.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#f0f0f0"
+      }
+    },
+    {
+      "type": "paint_rectangle",
+      "node_ref": "node:step3",
+      "x": 150,
+      "y": 422,
+      "w": 150,
+      "h": 53,
+      "stroke_style": "ForegroundColor",
+      "fill_style": "None"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 200.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#c6c6c6"
+      }
+    },
+    {
+      "type": "paint_rectangle",
+      "node_ref": "node:step3",
+      "x": 300,
+      "y": 422,
+      "w": 150,
+      "h": 53,
+      "stroke_style": "None",
+      "fill_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 2.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#f0f0f0"
+      }
+    },
+    {
+      "type": "paint_rectangle",
+      "node_ref": "node:step3",
+      "x": 300,
+      "y": 422,
+      "w": 150,
+      "h": 53,
+      "stroke_style": "ForegroundColor",
+      "fill_style": "None"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 200.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#e8d1a9"
+      }
+    },
+    {
+      "type": "paint_rectangle",
+      "node_ref": "node:step3",
+      "x": 450,
+      "y": 422,
+      "w": 150,
+      "h": 53,
+      "stroke_style": "None",
+      "fill_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 2.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#f0f0f0"
+      }
+    },
+    {
+      "type": "paint_rectangle",
+      "node_ref": "node:step3",
+      "x": 450,
+      "y": 422,
+      "w": 150,
+      "h": 53,
+      "stroke_style": "ForegroundColor",
+      "fill_style": "None"
+    },
+    {
+      "type": "method_call",
+      "target_ref": "noop",
+      "method": "noop",
+      "comment": "=== Step 4: desk (midground) ==="
+    },
+    {
+      "type": "create_node",
+      "ref": "node:step4",
+      "doc_ref": "doc:main",
+      "name": "desk",
+      "node_type": "paintlayer"
+    },
+    {
+      "type": "set_node_blending_mode",
+      "node_ref": "node:step4",
+      "mode": "normal"
+    },
+    {
+      "type": "set_node_opacity",
+      "node_ref": "node:step4",
+      "value": 255
+    },
+    {
+      "type": "set_active_node",
+      "doc_ref": "doc:main",
+      "node_ref": "node:step4"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 150.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#8a9b9c"
+      }
+    },
+    {
+      "type": "paint_rectangle",
+      "node_ref": "node:step4",
+      "x": 200,
+      "y": 316,
+      "w": 200,
+      "h": 159,
+      "stroke_style": "None",
+      "fill_style": "ForegroundColor"
+    },
+    {
+      "type": "method_call",
+      "target_ref": "noop",
+      "method": "noop",
+      "comment": "=== Step 5: gadgets (midground) ==="
+    },
+    {
+      "type": "create_node",
+      "ref": "node:step5",
+      "doc_ref": "doc:main",
+      "name": "gadgets",
+      "node_type": "paintlayer"
+    },
+    {
+      "type": "set_node_blending_mode",
+      "node_ref": "node:step5",
+      "mode": "normal"
+    },
+    {
+      "type": "set_node_opacity",
+      "node_ref": "node:step5",
+      "value": 255
+    },
+    {
+      "type": "set_active_node",
+      "doc_ref": "doc:main",
+      "node_ref": "node:step5"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 200.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#d4c69b"
+      }
+    },
+    {
+      "type": "paint_rectangle",
+      "node_ref": "node:step5",
+      "x": 0,
+      "y": 200,
+      "w": 50,
+      "h": 50,
+      "stroke_style": "None",
+      "fill_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 200.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#d4c69b"
+      }
+    },
+    {
+      "type": "paint_rectangle",
+      "node_ref": "node:step5",
+      "x": 100,
+      "y": 250,
+      "w": 50,
+      "h": 50,
+      "stroke_style": "None",
+      "fill_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 200.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#a1b3a1"
+      }
+    },
+    {
+      "type": "paint_rectangle",
+      "node_ref": "node:step5",
+      "x": 300,
+      "y": 200,
+      "w": 50,
+      "h": 50,
+      "stroke_style": "None",
+      "fill_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 200.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#e07a5f"
+      }
+    },
+    {
+      "type": "paint_rectangle",
+      "node_ref": "node:step5",
+      "x": 500,
+      "y": 200,
+      "w": 50,
+      "h": 50,
+      "stroke_style": "None",
+      "fill_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 200.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#e07a5f"
+      }
+    },
+    {
+      "type": "paint_rectangle",
+      "node_ref": "node:step5",
+      "x": 550,
+      "y": 250,
+      "w": 50,
+      "h": 50,
+      "stroke_style": "None",
+      "fill_style": "ForegroundColor"
+    },
+    {
+      "type": "method_call",
+      "target_ref": "noop",
+      "method": "noop",
+      "comment": "=== Step 6: computer (midground) ==="
+    },
+    {
+      "type": "create_node",
+      "ref": "node:step6",
+      "doc_ref": "doc:main",
+      "name": "computer",
+      "node_type": "paintlayer"
+    },
+    {
+      "type": "set_node_blending_mode",
+      "node_ref": "node:step6",
+      "mode": "normal"
+    },
+    {
+      "type": "set_node_opacity",
+      "node_ref": "node:step6",
+      "value": 255
+    },
+    {
+      "type": "set_active_node",
+      "doc_ref": "doc:main",
+      "node_ref": "node:step6"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 200.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#8c9dab"
+      }
+    },
+    {
+      "type": "paint_rectangle",
+      "node_ref": "node:step6",
+      "x": 200,
+      "y": 158,
+      "w": 200,
+      "h": 158,
+      "stroke_style": "None",
+      "fill_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 100.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 0.4
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#b0c1d3"
+      }
+    },
+    {
+      "type": "paint_rectangle",
+      "node_ref": "node:step6",
+      "x": 250,
+      "y": 187,
+      "w": 100,
+      "h": 100,
+      "stroke_style": "None",
+      "fill_style": "ForegroundColor"
+    },
+    {
+      "type": "method_call",
+      "target_ref": "noop",
+      "method": "noop",
+      "comment": "=== Step 7: chair (midground) ==="
+    },
+    {
+      "type": "create_node",
+      "ref": "node:step7",
+      "doc_ref": "doc:main",
+      "name": "chair",
+      "node_type": "paintlayer"
+    },
+    {
+      "type": "set_node_blending_mode",
+      "node_ref": "node:step7",
+      "mode": "normal"
+    },
+    {
+      "type": "set_node_opacity",
+      "node_ref": "node:step7",
+      "value": 255
+    },
+    {
+      "type": "set_active_node",
+      "doc_ref": "doc:main",
+      "node_ref": "node:step7"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 200.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#808080"
+      }
+    },
+    {
+      "type": "paint_rectangle",
+      "node_ref": "node:step7",
+      "x": 200,
+      "y": 316,
+      "w": 200,
+      "h": 34,
+      "stroke_style": "None",
+      "fill_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 200.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#808080"
+      }
+    },
+    {
+      "type": "paint_rectangle",
+      "node_ref": "node:step7",
+      "x": 200,
+      "y": 350,
+      "w": 200,
+      "h": 125,
+      "stroke_style": "None",
+      "fill_style": "ForegroundColor"
+    },
+    {
+      "type": "method_call",
+      "target_ref": "noop",
+      "method": "noop",
+      "comment": "=== Step 8: boy (foreground) ==="
+    },
+    {
+      "type": "create_node",
+      "ref": "node:step8",
+      "doc_ref": "doc:main",
+      "name": "boy",
+      "node_type": "paintlayer"
+    },
+    {
+      "type": "set_node_blending_mode",
+      "node_ref": "node:step8",
+      "mode": "normal"
+    },
+    {
+      "type": "set_node_opacity",
+      "node_ref": "node:step8",
+      "value": 255
+    },
+    {
+      "type": "set_active_node",
+      "doc_ref": "doc:main",
+      "node_ref": "node:step8"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 200.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#000000"
+      }
+    },
+    {
+      "type": "paint_rectangle",
+      "node_ref": "node:step8",
+      "x": 250,
+      "y": 198,
+      "w": 100,
+      "h": 78,
+      "stroke_style": "None",
+      "fill_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 4.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#ffffff"
+      }
+    },
+    {
+      "type": "paint_polygon",
+      "node_ref": "node:step8",
+      "points": [
+        [
+          295,
+          237
+        ],
+        [
+          305,
+          237
+        ],
+        [
+          305,
+          242
+        ],
+        [
+          300,
+          242
+        ],
+        [
+          295,
+          242
+        ],
+        [
+          295,
+          237
+        ]
+      ],
+      "stroke_style": "None",
+      "fill_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 4.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#ffffff"
+      }
+    },
+    {
+      "type": "paint_polygon",
+      "node_ref": "node:step8",
+      "points": [
+        [
+          295,
+          250
+        ],
+        [
+          305,
+          250
+        ],
+        [
+          305,
+          255
+        ],
+        [
+          300,
+          255
+        ],
+        [
+          295,
+          255
+        ],
+        [
+          295,
+          250
+        ]
+      ],
+      "stroke_style": "None",
+      "fill_style": "ForegroundColor"
+    },
+    {
+      "type": "method_call",
+      "target_ref": "noop",
+      "method": "noop",
+      "comment": "=== Step 9: glasses (foreground) ==="
+    },
+    {
+      "type": "create_node",
+      "ref": "node:step9",
+      "doc_ref": "doc:main",
+      "name": "glasses",
+      "node_type": "paintlayer"
+    },
+    {
+      "type": "set_node_blending_mode",
+      "node_ref": "node:step9",
+      "mode": "normal"
+    },
+    {
+      "type": "set_node_opacity",
+      "node_ref": "node:step9",
+      "value": 255
+    },
+    {
+      "type": "set_active_node",
+      "doc_ref": "doc:main",
+      "node_ref": "node:step9"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 3.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#ffffff"
+      }
+    },
+    {
+      "type": "paint_strokes",
+      "node_ref": "node:step9",
+      "path": [
+        [
+          270.0,
+          205.0
+        ],
+        [
+          271.0,
+          205.0
+        ],
+        [
+          272.0,
+          205.0
+        ],
+        [
+          273.0,
+          205.0
+        ],
+        [
+          274.0,
+          205.0
+        ],
+        [
+          275.0,
+          205.0
+        ],
+        [
+          276.0,
+          205.0
+        ],
+        [
+          277.0,
+          205.0
+        ],
+        [
+          278.0,
+          205.0
+        ],
+        [
+          279.0,
+          205.0
+        ],
+        [
+          280.0,
+          205.0
+        ],
+        [
+          281.0,
+          205.0
+        ],
+        [
+          282.0,
+          205.0
+        ],
+        [
+          283.0,
+          205.0
+        ],
+        [
+          284.0,
+          205.0
+        ],
+        [
+          285.0,
+          205.0
+        ],
+        [
+          286.0,
+          205.0
+        ],
+        [
+          287.0,
+          205.0
+        ],
+        [
+          288.0,
+          205.0
+        ],
+        [
+          289.0,
+          205.0
+        ],
+        [
+          290.0,
+          205.0
+        ],
+        [
+          291.0,
+          205.0
+        ],
+        [
+          292.0,
+          205.0
+        ],
+        [
+          293.0,
+          205.0
+        ],
+        [
+          294.0,
+          205.0
+        ],
+        [
+          295.0,
+          205.0
+        ],
+        [
+          296.0,
+          205.0
+        ],
+        [
+          297.0,
+          205.0
+        ],
+        [
+          298.0,
+          205.0
+        ],
+        [
+          299.0,
+          205.0
+        ],
+        [
+          300.0,
+          205.0
+        ],
+        [
+          301.0,
+          205.0
+        ],
+        [
+          302.0,
+          205.0
+        ],
+        [
+          303.0,
+          205.0
+        ],
+        [
+          304.0,
+          205.0
+        ],
+        [
+          305.0,
+          205.0
+        ],
+        [
+          306.0,
+          205.0
+        ],
+        [
+          307.0,
+          205.0
+        ],
+        [
+          308.0,
+          205.0
+        ],
+        [
+          309.0,
+          205.0
+        ],
+        [
+          310.0,
+          205.0
+        ],
+        [
+          311.0,
+          205.0
+        ],
+        [
+          312.0,
+          205.0
+        ],
+        [
+          313.0,
+          205.0
+        ],
+        [
+          314.0,
+          205.0
+        ],
+        [
+          315.0,
+          205.0
+        ],
+        [
+          316.0,
+          205.0
+        ],
+        [
+          317.0,
+          205.0
+        ],
+        [
+          318.0,
+          205.0
+        ],
+        [
+          319.0,
+          205.0
+        ],
+        [
+          320.0,
+          205.0
+        ],
+        [
+          321.0,
+          205.0
+        ],
+        [
+          322.0,
+          205.0
+        ],
+        [
+          323.0,
+          205.0
+        ],
+        [
+          324.0,
+          205.0
+        ],
+        [
+          325.0,
+          205.0
+        ],
+        [
+          326.0,
+          205.0
+        ],
+        [
+          327.0,
+          205.0
+        ],
+        [
+          328.0,
+          205.0
+        ],
+        [
+          329.0,
+          205.0
+        ],
+        [
+          330,
+          205
+        ]
+      ],
+      "pressures": [
+        0.8218224475436409,
+        0.7629778406826222,
+        0.7763884269344222,
+        0.8466074770724563,
+        0.8091706215399209,
+        0.8153435860206812,
+        0.7616197389921511,
+        0.8395423835334472,
+        0.8172465283906348,
+        0.783545732401163,
+        0.8445977832070117,
+        0.7558680550462468,
+        0.7670645231296541,
+        0.8126914167012428,
+        0.8265825634154218,
+        0.7581066756782717,
+        0.7554550138439661,
+        0.8064109662075035,
+        0.7744820552581203,
+        0.8433091358835496,
+        0.7756255007320558,
+        0.781535279487783,
+        0.8245863259398541,
+        0.7756487917001962,
+        0.812631941372136,
+        0.7937987219171075,
+        0.7559685535919286,
+        0.7659916675768027,
+        0.7940543699658925,
+        0.8278282156521383,
+        0.7884182300497384,
+        0.7827577668265226,
+        0.847890488972353,
+        0.7604501197333268,
+        0.7845127495719841,
+        0.8258231310103266,
+        0.753469904607583,
+        0.8345171469763822,
+        0.7611150151521847,
+        0.757986642909165,
+        0.7753786337531905,
+        0.8094626055351969,
+        0.7771889614111194,
+        0.7926129844199787,
+        0.7705348218128802,
+        0.750362243914161,
+        0.7673389092269934,
+        0.7876778523253356,
+        0.7754770841729324,
+        0.8352165676759017,
+        0.7529565897944382,
+        0.7543008172954622,
+        0.7881215046151747,
+        0.756480027837377,
+        0.8196135215635232,
+        0.8002093670872821,
+        0.7575686384245985,
+        0.7843047161072557,
+        0.8380472111822618,
+        0.771630616331298,
+        0.8097816528003572
+      ],
+      "stroke_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 3.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#ffffff"
+      }
+    },
+    {
+      "type": "paint_strokes",
+      "node_ref": "node:step9",
+      "path": [
+        [
+          270.0,
+          205.0
+        ],
+        [
+          269.86874074074075,
+          205.33333333333334
+        ],
+        [
+          269.741037037037,
+          205.66666666666666
+        ],
+        [
+          269.616,
+          206.0
+        ],
+        [
+          269.4927407407407,
+          206.33333333333334
+        ],
+        [
+          269.3703703703703,
+          206.66666666666666
+        ],
+        [
+          269.248,
+          207.0
+        ],
+        [
+          269.1247407407407,
+          207.33333333333334
+        ],
+        [
+          268.99970370370374,
+          207.66666666666666
+        ],
+        [
+          268.872,
+          208.0
+        ],
+        [
+          268.74074074074076,
+          208.33333333333334
+        ],
+        [
+          268.6050370370371,
+          208.66666666666666
+        ],
+        [
+          268.464,
+          209.0
+        ],
+        [
+          268.3167407407407,
+          209.33333333333334
+        ],
+        [
+          268.16237037037035,
+          209.66666666666666
+        ],
+        [
+          268.0,
+          210.0
+        ],
+        [
+          267.82696296296297,
+          210.32296296296298
+        ],
+        [
+          267.64237037037043,
+          210.62814814814814
+        ],
+        [
+          267.448,
+          210.92000000000002
+        ],
+        [
+          267.2456296296296,
+          211.20296296296297
+        ],
+        [
+          267.037037037037,
+          211.48148148148147
+        ],
+        [
+          266.824,
+          211.76
+        ],
+        [
+          266.6082962962963,
+          212.04296296296297
+        ],
+        [
+          266.39170370370374,
+          212.33481481481482
+        ],
+        [
+          266.176,
+          212.64
+        ],
+        [
+          265.96296296296293,
+          212.96296296296296
+        ],
+        [
+          265.7543703703704,
+          213.30814814814815
+        ],
+        [
+          265.552,
+          213.68
+        ],
+        [
+          265.3576296296296,
+          214.082962962963
+        ],
+        [
+          265.17303703703703,
+          214.5214814814815
+        ],
+        [
+          265.0,
+          215.0
+        ],
+        [
+          264.83970370370366,
+          215.51111111111112
+        ],
+        [
+          264.69096296296294,
+          216.04444444444445
+        ],
+        [
+          264.552,
+          216.6
+        ],
+        [
+          264.421037037037,
+          217.17777777777778
+        ],
+        [
+          264.29629629629636,
+          217.77777777777777
+        ],
+        [
+          264.176,
+          218.4
+        ],
+        [
+          264.0583703703703,
+          219.04444444444445
+        ],
+        [
+          263.94162962962963,
+          219.7111111111111
+        ],
+        [
+          263.824,
+          220.4
+        ],
+        [
+          263.7037037037037,
+          221.11111111111111
+        ],
+        [
+          263.578962962963,
+          221.84444444444443
+        ],
+        [
+          263.448,
+          222.6
+        ],
+        [
+          263.309037037037,
+          223.37777777777777
+        ],
+        [
+          263.16029629629634,
+          224.17777777777778
+        ],
+        [
+          263.0,
+          225.0
+        ],
+        [
+          262.829037037037,
+          225.8548148148148
+        ],
+        [
+          262.6500740740741,
+          226.74962962962962
+        ],
+        [
+          262.464,
+          227.67999999999998
+        ],
+        [
+          262.2717037037037,
+          228.6414814814815
+        ],
+        [
+          262.07407407407413,
+          229.62962962962962
+        ],
+        [
+          261.87199999999996,
+          230.64000000000001
+        ],
+        [
+          261.6663703703704,
+          231.66814814814816
+        ],
+        [
+          261.4580740740741,
+          232.7096296296296
+        ],
+        [
+          261.248,
+          233.76000000000002
+        ],
+        [
+          261.037037037037,
+          234.81481481481484
+        ],
+        [
+          260.8260740740741,
+          235.86962962962963
+        ],
+        [
+          260.616,
+          236.92
+        ],
+        [
+          260.40770370370365,
+          237.96148148148148
+        ],
+        [
+          260.20207407407406,
+          238.98962962962963
+        ],
+        [
+          260,
+          240
+        ]
+      ],
+      "pressures": [
+        0.8071435320047554,
+        0.7913138317727983,
+        0.8455869463779832,
+        0.803835616343222,
+        0.8291350886774836,
+        0.7663265187946751,
+        0.836151637591884,
+        0.8157896322147036,
+        0.8274617164003623,
+        0.7664450091486247,
+        0.750768260439921,
+        0.8479609492645848,
+        0.8267032158189059,
+        0.8131656592074875,
+        0.8029016422665227,
+        0.8466482874819014,
+        0.8160362213075287,
+        0.8085087298486606,
+        0.753736763640089,
+        0.8212190639169933,
+        0.7932512350267712,
+        0.7679437687091661,
+        0.8443239999720147,
+        0.8061852733786287,
+        0.7815435389836091,
+        0.7926051464696474,
+        0.8396711632215275,
+        0.7952258967216335,
+        0.7619367022871454,
+        0.827163589397225,
+        0.8288483920750951,
+        0.8041583832843748,
+        0.8336670323560879,
+        0.7655819803585886,
+        0.7778409584991091,
+        0.7944525136759506,
+        0.8317541870297549,
+        0.8000760852377228,
+        0.8158547448573624,
+        0.8379015656533647,
+        0.7967660928028779,
+        0.7513154588036618,
+        0.7826634877497642,
+        0.8360497649330334,
+        0.841717793181275,
+        0.756209166299477,
+        0.8150216960889625,
+        0.8044242058578426,
+        0.8131324402906954,
+        0.7783235323974695,
+        0.7869862203288397,
+        0.8468095443036142,
+        0.8196591947777018,
+        0.834036809886968,
+        0.8183884036985745,
+        0.7553477132742148,
+        0.8208489856841681,
+        0.8205122441632295,
+        0.8107253077817517,
+        0.8189364244743648,
+        0.837203947223723
+      ],
+      "stroke_style": "ForegroundColor"
+    },
+    {
+      "type": "set_brush_preset",
+      "view_ref": "view:active",
+      "preset_name": "b) Basic-5 Size"
+    },
+    {
+      "type": "set_brush_size",
+      "view_ref": "view:active",
+      "size": 3.0
+    },
+    {
+      "type": "set_painting_opacity",
+      "view_ref": "view:active",
+      "opacity": 1.0
+    },
+    {
+      "type": "set_foreground_color",
+      "view_ref": "view:active",
+      "color": {
+        "hex": "#ffffff"
+      }
+    },
+    {
+      "type": "paint_strokes",
+      "node_ref": "node:step9",
+      "path": [
+        [
+          330.0,
+          205.0
+        ],
+        [
+          330.13125925925925,
+          205.33333333333334
+        ],
+        [
+          330.258962962963,
+          205.66666666666666
+        ],
+        [
+          330.384,
+          206.0
+        ],
+        [
+          330.5072592592593,
+          206.33333333333334
+        ],
+        [
+          330.6296296296297,
+          206.66666666666666
+        ],
+        [
+          330.752,
+          207.0
+        ],
+        [
+          330.8752592592593,
+          207.33333333333334
+        ],
+        [
+          331.00029629629626,
+          207.66666666666666
+        ],
+        [
+          331.128,
+          208.0
+        ],
+        [
+          331.25925925925924,
+          208.33333333333334
+        ],
+        [
+          331.3949629629629,
+          208.66666666666666
+        ],
+        [
+          331.536,
+          209.0
+        ],
+        [
+          331.6832592592593,
+          209.33333333333334
+        ],
+        [
+          331.83762962962965,
+          209.66666666666666
+        ],
+        [
+          332.0,
+          210.0
+        ],
+        [
+          332.170962962963,
+          210.32296296296298
+        ],
+        [
+          332.3499259259259,
+          210.62814814814814
+        ],
+        [
+          332.536,
+          210.92000000000002
+        ],
+        [
+          332.7282962962963,
+          211.20296296296297
+        ],
+        [
+          332.92592592592587,
+          211.48148148148147
+        ],
+        [
+          333.12800000000004,
+          211.76
+        ],
+        [
+          333.3336296296296,
+          212.04296296296297
+        ],
+        [
+          333.5419259259259,
+          212.33481481481482
+        ],
+        [
+          333.752,
+          212.64
+        ],
+        [
+          333.962962962963,
+          212.96296296296296
+        ],
+        [
+          334.1739259259259,
+          213.30814814814815
+        ],
+        [
+          334.384,
+          213.68
+        ],
+        [
+          334.59229629629635,
+          214.082962962963
+        ],
+        [
+          334.79792592592594,
+          214.5214814814815
+        ],
+        [
+          335.0,
+          215.0
+        ],
+        [
+          335.20207407407406,
+          215.51111111111112
+        ],
+        [
+          335.40770370370365,
+          216.04444444444445
+        ],
+        [
+          335.616,
+          216.6
+        ],
+        [
+          335.8260740740741,
+          217.17777777777778
+        ],
+        [
+          336.037037037037,
+          217.77777777777777
+        ],
+        [
+          336.248,
+          218.4
+        ],
+        [
+          336.45807407407403,
+          219.04444444444445
+        ],
+        [
+          336.66637037037043,
+          219.7111111111111
+        ],
+        [
+          336.872,
+          220.4
+        ],
+        [
+          337.0740740740741,
+          221.11111111111111
+        ],
+        [
+          337.27170370370374,
+          221.84444444444443
+        ],
+        [
+          337.464,
+          222.6
+        ],
+        [
+          337.6500740740741,
+          223.37777777777777
+        ],
+        [
+          337.82903703703704,
+          224.17777777777778
+        ],
+        [
+          338.0,
+          225.0
+        ],
+        [
+          338.16237037037035,
+          225.8548148148148
+        ],
+        [
+          338.3167407407407,
+          226.74962962962962
+        ],
+        [
+          338.464,
+          227.67999999999998
+        ],
+        [
+          338.60503703703705,
+          228.6414814814815
+        ],
+        [
+          338.74074074074076,
+          229.62962962962962
+        ],
+        [
+          338.87199999999996,
+          230.64000000000001
+        ],
+        [
+          338.99970370370374,
+          231.66814814814816
+        ],
+        [
+          339.1247407407407,
+          232.7096296296296
+        ],
+        [
+          339.248,
+          233.76000000000002
+        ],
+        [
+          339.3703703703704,
+          234.81481481481484
+        ],
+        [
+          339.4927407407407,
+          235.86962962962963
+        ],
+        [
+          339.616,
+          236.92
+        ],
+        [
+          339.741037037037,
+          237.96148148148148
+        ],
+        [
+          339.8687407407407,
+          238.98962962962963
+        ],
+        [
+          340,
+          240
+        ]
+      ],
+      "pressures": [
+        0.7636670588024278,
+        0.7781324753731571,
+        0.766193499377495,
+        0.8353142468511606,
+        0.7518692309123891,
+        0.8451293326941343,
+        0.7515604769091765,
+        0.7692011915425562,
+        0.8128052011089106,
+        0.8147721912174942,
+        0.7511855490337087,
+        0.7638160005570059,
+        0.8198691298711863,
+        0.7594637979300866,
+        0.7903259926515585,
+        0.8131834319996029,
+        0.8392310958745175,
+        0.7979390158484149,
+        0.7528899991102455,
+        0.8439859917989292,
+        0.759954173458877,
+        0.7587146012935917,
+        0.848006187815235,
+        0.7737602778284027,
+        0.7972457693453048,
+        0.8270828672082554,
+        0.8175166717613682,
+        0.7671987250046141,
+        0.8203511307011178,
+        0.7790120383523085,
+        0.7726920934519109,
+        0.811073362440846,
+        0.7984297518936591,
+        0.8058408559536575,
+        0.8128888455643168,
+        0.8130715084903014,
+        0.8383585711649527,
+        0.8120276808496912,
+        0.8053052494375871,
+        0.7546426572203709,
+        0.8345613363139891,
+        0.7538249369339465,
+        0.8191785748710885,
+        0.8217654409521143,
+        0.8284538777167061,
+        0.7615852661856388,
+        0.819324417027879,
+        0.7856369301465914,
+        0.798272739394775,
+        0.8255430735372892,
+        0.8249382856135812,
+        0.7931160798879396,
+        0.8301129789276008,
+        0.8161296901563323,
+        0.7564326948861008,
+        0.8100221910108882,
+        0.8315287772072725,
+        0.8492696757968635,
+        0.7650323571779977,
+        0.786285486453415,
+        0.8145274735665714
+      ],
+      "stroke_style": "ForegroundColor"
+    },
+    {
+      "type": "refresh_projection",
+      "doc_ref": "doc:main"
+    },
+    {
+      "type": "wait_for_done",
+      "doc_ref": "doc:main"
+    },
+    {
+      "type": "save_as",
+      "doc_ref": "doc:main",
+      "filename": "/content/my_plan.kra"
+    },
+    {
+      "type": "export_image",
+      "doc_ref": "doc:main",
+      "filename": "/content/my_plan.png",
+      "export_config": {
+        "alpha": true,
+        "compression": 1
+      }
+    }
+  ]
+}
