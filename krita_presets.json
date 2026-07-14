@@ -297,51 +297,51 @@
   },
   {
     "name": "k) Blender Basic",
-    "description": "general purpose brush"
+    "description": "blender — basic blending brush, softens and mixes existing colours"
   },
   {
     "name": "k) Blender Blur",
-    "description": "general purpose brush"
+    "description": "blender — blurs strokes, softens edges by mixing neighbouring colour"
   },
   {
     "name": "k) Blender Knife Edge",
-    "description": "general purpose brush"
+    "description": "blender — knife-edge blend, sharp directional smearing"
   },
   {
     "name": "k) Blender Pixelize",
-    "description": "general purpose brush"
+    "description": "blender — blends with a pixelated mosaic effect"
   },
   {
     "name": "k) Blender Rake",
-    "description": "general purpose brush"
+    "description": "blender — rake-textured blending, combs strokes together"
   },
   {
     "name": "k) Blender Smear",
-    "description": "general purpose brush"
+    "description": "blender — drags and smears existing colour"
   },
   {
     "name": "k) Blender Textured Soft",
-    "description": "general purpose brush"
+    "description": "blender — soft blend with subtle texture"
   },
   {
     "name": "l) Adjust Color",
-    "description": "general purpose brush"
+    "description": "adjust — shifts hue/colour of existing paint as you stroke"
   },
   {
     "name": "l) Adjust Dodge",
-    "description": "general purpose brush"
+    "description": "adjust — dodge tool, brightens/lightens existing paint"
   },
   {
     "name": "l) Adjust Lighten",
-    "description": "general purpose brush"
+    "description": "adjust — lightens existing paint"
   },
   {
     "name": "l) Adjust Multiply",
-    "description": "general purpose brush"
+    "description": "adjust — darkens existing paint, multiply-blend effect"
   },
   {
     "name": "l) Adjust Overlay Burn",
-    "description": "general purpose brush"
+    "description": "adjust — burns/darkens with overlay-style contrast boost"
   },
   {
     "name": "m) RGBA 01 Thick-dry",
@@ -369,206 +369,206 @@
   },
   {
     "name": "t) Shapes Fill",
-    "description": "general purpose brush"
+    "description": "shape tool — solid geometric fill shape stamp"
   },
   {
     "name": "t) Shapes Mecha",
-    "description": "general purpose brush"
+    "description": "shape tool — hard-edged mechanical/angular shape stamp"
   },
   {
     "name": "t) Shapes Rounded",
-    "description": "general purpose brush"
+    "description": "shape tool — rounded geometric shape stamp"
   },
   {
     "name": "t) Shapes Spikes",
-    "description": "general purpose brush"
+    "description": "shape tool — spiky/jagged shape stamp"
   },
   {
     "name": "t) Shapes Square",
-    "description": "general purpose brush"
+    "description": "shape tool — square/rectangular shape stamp"
   },
   {
     "name": "u) Pixel Art",
-    "description": "general purpose brush"
+    "description": "pixel art — hard 1px pixel-perfect brush, no anti-aliasing"
   },
   {
     "name": "u) Pixel Art Dithering",
-    "description": "general purpose brush"
+    "description": "pixel art — hard 1px brush with dithering pattern, retro shading"
   },
   {
     "name": "u) Pixel Art Fill",
-    "description": "general purpose brush"
+    "description": "pixel art — hard-edged fill brush for flat pixel-art colour blocks"
   },
   {
     "name": "v) Clone Tool",
-    "description": "general purpose brush"
+    "description": "clone — clones/duplicates existing pixels from a source point"
   },
   {
     "name": "v) Distort Grow",
-    "description": "general purpose brush"
+    "description": "distort — pushes pixels outward, warping/growing the image"
   },
   {
     "name": "v) Distort Move",
-    "description": "general purpose brush"
+    "description": "distort — pushes and drags pixels, liquify-style warp"
   },
   {
     "name": "v) Distort Shrink",
-    "description": "general purpose brush"
+    "description": "distort — pulls pixels inward, pinching/shrinking warp"
   },
   {
     "name": "v) Experimental Webs",
-    "description": "general purpose brush"
+    "description": "texture — stringy web/thread-like texture stamp"
   },
   {
     "name": "v) Sketching-1 Chrome Thin",
-    "description": "general purpose brush"
+    "description": "sketch — thin sketchy chrome/graphite line brush"
   },
   {
     "name": "v) Sketching-2 Chrome Large",
-    "description": "general purpose brush"
+    "description": "sketch — large sketchy chrome/graphite brush"
   },
   {
     "name": "v) Sketching-3 Leaky",
-    "description": "general purpose brush"
+    "description": "sketch — loose sketchy brush with ink-bleed/leak effect"
   },
   {
     "name": "v) Texture Impressionism",
-    "description": "general purpose brush"
+    "description": "texture — dabbed impressionist brushstroke texture"
   },
   {
     "name": "v) Texture Pointillism",
-    "description": "general purpose brush"
+    "description": "texture — dotted pointillist stipple texture"
   },
   {
     "name": "w) Texture Normal Map",
-    "description": "general purpose brush"
+    "description": "texture — paints normal-map style relief texture (blue/purple)"
   },
   {
     "name": "x) Filter Blur",
-    "description": "general purpose brush"
+    "description": "filter — applies a blur filter as you paint"
   },
   {
     "name": "x) Filter Sharpen",
-    "description": "general purpose brush"
+    "description": "filter — applies a sharpen filter as you paint"
   },
   {
     "name": "y) Screentone Moire",
-    "description": "general purpose brush"
+    "description": "screentone — moire-pattern halftone texture"
   },
   {
     "name": "y) Screentone Pressure",
-    "description": "general purpose brush"
+    "description": "screentone — pressure-sensitive halftone dot pattern"
   },
   {
     "name": "y) Screentones Regular",
-    "description": "general purpose brush"
+    "description": "screentone — regular manga-style halftone dot pattern"
   },
   {
     "name": "y) Texture Big",
-    "description": "general purpose brush"
+    "description": "texture — large-scale rough surface texture stamp"
   },
   {
     "name": "y) Texture Crackles",
-    "description": "general purpose brush"
+    "description": "texture — crackled/cracked surface texture"
   },
   {
     "name": "y) Texture Hair",
-    "description": "general purpose brush"
+    "description": "texture — hair-strand texture stamp"
   },
   {
     "name": "y) Texture Large Splat",
-    "description": "general purpose brush"
+    "description": "texture — large paint splat texture"
   },
   {
     "name": "y) Texture Noise",
-    "description": "general purpose brush"
+    "description": "texture — random noise/grain texture"
   },
   {
     "name": "y) Texture Random Particles",
-    "description": "general purpose brush"
+    "description": "texture — scattered random particle texture"
   },
   {
     "name": "y) Texture Reptile",
-    "description": "general purpose brush"
+    "description": "texture — reptile-scale texture stamp"
   },
   {
     "name": "y) Texture Reptile Copy",
-    "description": "general purpose brush"
+    "description": "texture — reptile-scale texture stamp (variant)"
   },
   {
     "name": "y) Texture Snow Pile",
-    "description": "general purpose brush"
+    "description": "texture — snow/pile texture stamp"
   },
   {
     "name": "y) Texture Spines",
-    "description": "general purpose brush"
+    "description": "texture — spiny/thorn texture stamp"
   },
   {
     "name": "y) Texture Splat",
-    "description": "general purpose brush"
+    "description": "texture — paint splat texture"
   },
   {
     "name": "y) Texture Spray",
-    "description": "general purpose brush"
+    "description": "texture — spray-can speckle texture"
   },
   {
     "name": "y) Texture Starfield",
-    "description": "general purpose brush"
+    "description": "texture — scattered stars/night-sky texture"
   },
   {
     "name": "y) Texture Wood Fiber",
-    "description": "general purpose brush"
+    "description": "texture — wood-grain fiber texture"
   },
   {
     "name": "z) Stamp Bokeh",
-    "description": "general purpose brush"
+    "description": "stamp — soft blurred circular bokeh light stamp"
   },
   {
     "name": "z) Stamp Floor",
-    "description": "general purpose brush"
+    "description": "stamp — floor/ground surface texture stamp"
   },
   {
     "name": "z) Stamp Grass",
-    "description": "general purpose brush"
+    "description": "stamp — single grass tuft stamp, good for foreground/meadow detail"
   },
   {
     "name": "z) Stamp Grass Patch",
-    "description": "general purpose brush"
+    "description": "stamp — patch of grass stamp, clumped grass for meadows/foreground"
   },
   {
     "name": "z) Stamp Hearts",
-    "description": "general purpose brush"
+    "description": "stamp — heart-shaped decorative stamp"
   },
   {
     "name": "z) Stamp Herbals",
-    "description": "general purpose brush"
+    "description": "stamp — herb/small plant stamp"
   },
   {
     "name": "z) Stamp Leaves",
-    "description": "general purpose brush"
+    "description": "stamp — leaf-shaped stamp, good for foliage detail"
   },
   {
     "name": "z) Stamp Mountains Distant",
-    "description": "general purpose brush"
+    "description": "stamp — distant mountain silhouette stamp, good for backgrounds"
   },
   {
     "name": "z) Stamp Shoujo Bubbles",
-    "description": "general purpose brush"
+    "description": "stamp — decorative bubble/sparkle stamp, manga style"
   },
   {
     "name": "z) Stamp Sparkles",
-    "description": "general purpose brush"
+    "description": "stamp — sparkle/glint decorative stamp"
   },
   {
     "name": "z) Stamp Stylised Tree",
-    "description": "general purpose brush"
+    "description": "stamp — stylised whole-tree silhouette stamp, good for quick foliage"
   },
   {
     "name": "z) Stamp Vegetal",
-    "description": "general purpose brush"
+    "description": "stamp — vegetal/plant ornament stamp"
   },
   {
     "name": "z) Stamp Water",
-    "description": "general purpose brush"
+    "description": "stamp — water ripple/texture stamp"
   }
 ]
