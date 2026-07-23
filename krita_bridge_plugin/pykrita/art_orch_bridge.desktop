@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=Krita/PythonPlugin
+X-KDE-Library=art_orch_bridge
+X-Python-2-Compatible=false
+X-Krita-Manual=
+Name=Art Orch Bridge
+Comment=Local HTTP bridge that lets revised_code_action.py send generated scripts straight into this running Krita instance instead of copy-pasting into Scripter.
