@@ -1,0 +1,196 @@
+I am building an outline-generation pipeline.
+
+I have provided:
+1. `outline_generator.py` — this is the renderer/interpreter that consumes the JSON plan.
+2. An example JSON — this demonstrates the exact JSON schema, element types, coordinate conventions, step structure, and formatting expected by `outline_generator.py`.
+3. A reference image — this is the image whose geometry I want converted into a drawing plan.
+
+Your task is to analyze the reference image and generate a COMPLETE JSON drawing plan that can be directly used by `outline_generator.py`.
+
+IMPORTANT REQUIREMENTS:
+
+1. OUTPUT ONLY JSON.
+Do not generate an image.
+Do not use image generation.
+Do not give explanations before or after the JSON.
+Do not use markdown commentary outside the JSON.
+
+2. FOLLOW THE EXAMPLE JSON FORMAT EXACTLY.
+Preserve the same overall structure, including fields such as:
+- prompt
+- canvas
+- brush_type
+- brush_size
+- steps
+- step
+- name
+- layer
+- description
+- bbox
+- elements
+- role
+- type
+- placement
+- coordinates
+
+Do not invent a new schema if the existing schema can represent the object.
+
+3. MAKE THE PLAN COMPATIBLE WITH `outline_generator.py`.
+Before generating the JSON, inspect `outline_generator.py` and determine exactly which element types and coordinate formats it supports.
+Only use supported operations.
+
+For example, if the renderer supports things such as:
+- stroke
+- path_outline
+- polygon_outline
+- ellipse_outline
+use them according to how the code actually interprets them.
+
+4. GEOMETRY IS THE HIGHEST PRIORITY.
+Carefully analyze:
+- object proportions
+- relative positions
+- symmetry
+- shared edges
+- attachment points
+- intersections
+- overlaps
+- occlusion
+- contour continuity
+- component widths
+- component heights
+- curvature
+- spacing
+- perspective
+
+Coordinates must be deliberately chosen from the reference image rather than loosely approximated.
+
+5. THINK IN CONNECTED COMPONENTS.
+Break the object into logical structural parts.
+
+For example:
+main silhouette → major internal structures → attached components → smaller details.
+
+Whenever two components are physically connected in the reference, their coordinates should actually meet.
+
+Do not leave tiny accidental gaps.
+
+6. PRESERVE SHARED GEOMETRY.
+If two shapes share an edge, vertex, endpoint, or junction in the reference image, reuse exactly the same coordinates for that shared geometry.
+
+Do not independently approximate the same junction with slightly different coordinates.
+
+For example, if:
+A ends at [250,180]
+and B begins at the same junction,
+B must begin at [250,180].
+
+7. AVOID DUPLICATE GEOMETRY.
+Do not draw the same edge twice unless the reference genuinely contains two visible lines.
+
+Before adding a stroke, check whether that boundary has already been produced by another element.
+
+8. RESPECT OCCLUSION.
+Only draw lines that should actually be visible.
+
+If one object is in front of another, do not allow the rear object's contour to pass visibly through the foreground object.
+
+Split rear contours into visible sections when necessary.
+
+9. USE SYMMETRY WHEN APPROPRIATE.
+For approximately symmetrical objects, establish a center axis and derive corresponding left/right coordinates consistently.
+
+Do not make mirrored components accidentally different unless the reference itself is asymmetric.
+
+10. USE THE MINIMUM GEOMETRY NECESSARY.
+Prefer clean structural contours over many unnecessary strokes.
+
+Do not add decorative details that are not important to recognizing the reference.
+
+11. KEEP THE DRAWING AS SIMPLE BLACK OUTLINE ART.
+Unless the reference specifically requires otherwise:
+- no fill
+- no shading
+- no color
+- no texture
+- no watermark
+- no text
+
+12. PLAN THE COORDINATES GLOBALLY BEFORE WRITING THE JSON.
+Internally determine:
+- canvas dimensions
+- object bounding box
+- major anchor points
+- center axis
+- major junctions
+- attachment points
+- outer contour
+- internal contours
+
+Then construct the individual steps from those shared anchors.
+
+Do not choose each step's coordinates independently.
+
+13. CHECK THE FINAL GEOMETRY BEFORE RETURNING IT.
+Verify:
+- connected parts actually touch
+- shared edges align
+- no unintended crossings
+- no unexplained floating lines
+- no duplicate edges
+- no accidental gaps
+- no contours extending outside their intended object
+- left/right proportions are sensible
+- foreground/background relationships are correct
+- all coordinates stay within the canvas
+- the complete drawing resembles the reference structurally
+
+14. BOUNDING BOXES MUST MATCH THE ELEMENTS.
+Each step's bbox should actually contain all coordinates belonging to that step.
+
+15. DESCRIPTIONS SHOULD BE GEOMETRICALLY USEFUL.
+The `description` and `placement` fields should explain what the element represents and how it connects to surrounding components.
+
+Do not write vague descriptions such as "draw some lines."
+
+16. MOST IMPORTANT:
+Do not merely describe the reference image.
+Convert its visible geometry into a precise coordinate-based construction plan suitable for my outline generator.
+
+Return the COMPLETE final JSON only.
+
+
+================================================================
+FOLLOW-UP CORRECTION PROMPT (for subsequent iterations)
+================================================================
+
+For subsequent corrections, you can then give me the generated output image + existing JSON and say:
+
+This is the output produced by the current JSON.
+
+Compare it carefully with the reference image and diagnose the geometric errors.
+
+Modify the EXISTING JSON rather than redesigning the object unnecessarily.
+
+Preserve every part that is already correct and change only the geometry responsible for the visible errors.
+
+Pay special attention to:
+- incorrect junctions
+- disconnected components
+- unwanted intersections
+- duplicated edges
+- incorrect shared edges
+- wrong proportions
+- wrong curvature
+- occlusion errors
+- symmetry
+- lines extending beyond their intended boundaries
+
+Before changing coordinates, determine which specific JSON elements caused each visible error.
+
+Then return the COMPLETE corrected JSON, including unchanged steps.
+
+OUTPUT ONLY JSON.
+Do not generate an image.
+Do not provide explanations.
+Do not provide a patch or partial correction.
