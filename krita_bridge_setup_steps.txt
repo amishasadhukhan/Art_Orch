@@ -1,0 +1,83 @@
+ART ORCH — KRITA BRIDGE SETUP STEPS
+=====================================
+Run this whole sequence every time you want Colab to send generated
+code directly into a running Krita instance on this machine.
+
+(ngrok sign-in/authtoken is ONE-TIME-EVER, already done on this machine —
+not needed again below.)
+
+
+ONE-TIME SETUP (only needed once per machine, or after reinstalling Krita)
+----------------------------------------------
+1. Install the Art Orch Bridge Krita plugin:
+   - In Krita: Settings > Manage Resources > Open Resource Folder
+     This opens a folder like %APPDATA%\krita\
+   - Inside it, open (or create) the "pykrita" subfolder.
+   - Copy BOTH of these from this repo's krita_bridge_plugin/pykrita/ into
+     that pykrita folder:
+       art_orch_bridge.desktop
+       art_orch_bridge/            (the whole subfolder, with its .py files)
+   - Restart Krita.
+
+2. Enable the plugin:
+   - Settings > Configure Krita > Python Plugin Manager
+   - Check the box next to "Art Orch Bridge"
+   - Click OK, then restart Krita again.
+
+3. Make sure brush presets are enabled (only if you ever see
+   "no brush presets available" — otherwise skip this):
+   - Settings > Manage Resources > Manage Resource Libraries
+   - For each bundle listed (Krita_3_Default_Resources,
+     Krita_4_Default_Resources, RGBA_brushes,
+     Krita_Artists_SeExpr_examples): select it, and if the button says
+     "Activate" (not "Deactivate"), click Activate.
+   - Click Close, then restart Krita.
+   - If presets are STILL missing after that: close Krita, go to
+     Settings > Manage Resources > Open Resource Folder, delete the file
+     resourcecache.sqlite, then restart Krita to force it to rebuild.
+
+
+EVERY SESSION — do these three, in this order
+----------------------------------------------
+
+STEP 1 — Open Krita (this also starts the bridge's HTTP server on port
+8765, since the plugin auto-starts it when Krita launches):
+
+    & "C:\Program Files\Krita (x64)\bin\krita.exe"
+
+
+STEP 2 — Verify the bridge is listening
+(should print "2" — the result of 1+1 executed inside Krita):
+
+    Invoke-WebRequest -Uri http://127.0.0.1:8765 -Method POST -Body "print(1+1)" -UseBasicParsing
+
+    If this fails/times out, the plugin didn't start — check
+    %USERPROFILE%\art_orch_bridge_error.log for the error, and confirm
+    the plugin is enabled in Settings > Configure Krita > Python Plugin
+    Manager.
+
+
+STEP 3 — Start the ngrok tunnel so
+Colab (a remote machine) can reach your local port 8765:
+
+    ngrok http --domain=tipoff-thieving-greasily.ngrok-free.dev 8765
+
+    Your bridge URL for Colab is:
+        https://tipoff-thieving-greasily.ngrok-free.dev
+
+
+THEN IN COLAB
+----------------------------------------------
+Set BRIDGE_URL to the ngrok domain above and run your pipeline
+
+In colab cell after uploading the outline_generator.py and the json file:
+
+BRIDGE_URL = "https://tipoff-thieving-greasily.ngrok-free.dev"  # your running ngrok tunnel URL
+
+import outline_generator
+outline_generator.run("boy_sitting1.json", bridge_url=BRIDGE_URL)
+
+import outline_generator as og
+og.fetch_canvas_image(BRIDGE_URL, "generated.png")
+og.compare_images("generated.png", "/content/Screenshot 2026-07-22 214327.png")
+
