@@ -1,0 +1,438 @@
+{
+  "prompt": "Draw a clean black-outlined simple house with a rectangular house body viewed slightly in perspective, a large sloping gable roof with vertical roof panel seams, a rectangular chimney rising from the roof, two square four-pane windows on the front wall, and a simple narrow arched door on the left side wall.",
+  "canvas": {
+    "w": 540,
+    "h": 320
+  },
+  "brush_type": "b) Basic-5 Size",
+  "brush_size": 4,
+  "steps": [
+    {
+      "step": 1,
+      "name": "house_front_wall",
+      "layer": "foreground",
+      "description": "Draw the large front wall beneath the right roof slope.",
+      "bbox": {
+        "x": 237,
+        "y": 160,
+        "w": 233,
+        "h": 148
+      },
+      "elements": [
+        {
+          "role": "front_wall_outline",
+          "type": "stroke",
+          "placement": "Front rectangular wall shown slightly in perspective, with the roof forming its upper boundary.",
+          "coordinates": [
+            [237,184,239,307],
+            [239,307,469,279],
+            [469,279,468,161]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "name": "left_gable_wall",
+      "layer": "foreground",
+      "description": "Draw the triangular left gable and the left side wall of the house.",
+      "bbox": {
+        "x": 163,
+        "y": 78,
+        "w": 76,
+        "h": 229
+      },
+      "elements": [
+        {
+          "role": "left_wall_outer_shape",
+          "type": "stroke",
+          "placement": "Left side wall beginning beneath the triangular gable and joining the front wall at the lower-right corner.",
+          "coordinates": [
+            [190,78,166,128],
+            [166,128,164,255],
+            [164,255,239,307]
+          ]
+        },
+        {
+          "role": "gable_right_edge",
+          "type": "stroke",
+          "placement": "Diagonal edge from the roof peak to the upper-left corner of the front wall.",
+          "coordinates": [
+            [190,78,237,184]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "name": "main_roof_outline",
+      "layer": "foreground",
+      "description": "Draw the large sloping roof plane extending from the left roof ridge to the right eave.",
+      "bbox": {
+        "x": 190,
+        "y": 62,
+        "w": 293,
+        "h": 123
+      },
+      "elements": [
+        {
+          "role": "roof_top_edge",
+          "type": "stroke",
+          "placement": "Long slightly rising roof ridge from the left gable peak toward the upper-right corner.",
+          "coordinates": [
+            [190,78,432,63]
+          ]
+        },
+        {
+          "role": "roof_right_slope",
+          "type": "stroke",
+          "placement": "Outer right edge of the roof descending from the upper-right roof corner to the eave.",
+          "coordinates": [
+            [432,63,476,158]
+          ]
+        },
+        {
+          "role": "roof_bottom_eave",
+          "type": "stroke",
+          "placement": "Long lower roof edge running from the front-left roof corner to the far-right eave.",
+          "coordinates": [
+            [237,184,482,160]
+          ]
+        },
+        {
+          "role": "roof_left_slope",
+          "type": "stroke",
+          "placement": "Left boundary of the main roof plane.",
+          "coordinates": [
+            [190,78,237,184]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "name": "left_roof_overhang",
+      "layer": "foreground",
+      "description": "Draw the narrow roof overhang visible along the left gable side.",
+      "bbox": {
+        "x": 149,
+        "y": 77,
+        "w": 43,
+        "h": 76
+      },
+      "elements": [
+        {
+          "role": "left_overhang_outer_edge",
+          "type": "stroke",
+          "placement": "Outer diagonal roof edge running from the gable peak downward-left.",
+          "coordinates": [
+            [190,78,150,150]
+          ]
+        },
+        {
+          "role": "left_overhang_bottom_edge",
+          "type": "stroke",
+          "placement": "Short lower edge giving the roof overhang visible thickness.",
+          "coordinates": [
+            [150,150,164,151]
+          ]
+        },
+        {
+          "role": "left_overhang_inner_edge",
+          "type": "stroke",
+          "placement": "Inner diagonal edge returning toward the gable peak.",
+          "coordinates": [
+            [164,151,190,91]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "name": "roof_panel_seams",
+      "layer": "foreground",
+      "description": "Divide the main roof plane into long panels using evenly spaced diagonal seam lines running from the ridge toward the lower eave.",
+      "bbox": {
+        "x": 221,
+        "y": 67,
+        "w": 236,
+        "h": 111
+      },
+      "elements": [
+        {
+          "role": "roof_seams",
+          "type": "stroke",
+          "placement": "Five approximately parallel diagonal seams following the perspective of the roof.",
+          "coordinates": [
+            [221,76,267,181],
+            [260,74,302,177],
+            [298,72,339,173],
+            [336,69,377,169],
+            [374,67,415,165],
+            [405,65,447,162]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "name": "roof_eave_emphasis",
+      "layer": "foreground",
+      "description": "Add the slightly extended front eave visible beyond the front wall.",
+      "bbox": {
+        "x": 235,
+        "y": 156,
+        "w": 250,
+        "h": 30
+      },
+      "elements": [
+        {
+          "role": "front_eave",
+          "type": "stroke",
+          "placement": "Strong continuous lower roof line extending slightly beyond both ends.",
+          "coordinates": [
+            [235,184,482,159]
+          ]
+        },
+        {
+          "role": "right_eave_tip",
+          "type": "stroke",
+          "placement": "Very short terminal stroke at the far-right roof edge.",
+          "coordinates": [
+            [476,158,483,160]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "name": "chimney_body",
+      "layer": "foreground",
+      "description": "Draw the rectangular chimney rising vertically from the upper-left portion of the main roof.",
+      "bbox": {
+        "x": 237,
+        "y": 15,
+        "w": 52,
+        "h": 62
+      },
+      "elements": [
+        {
+          "role": "chimney_front",
+          "type": "polygon_outline",
+          "placement": "Tall narrow front face of the chimney rising above the roof.",
+          "coordinates": [
+            [239,18],
+            [258,26],
+            [258,74],
+            [239,75],
+            [239,18]
+          ]
+        },
+        {
+          "role": "chimney_right_face",
+          "type": "polygon_outline",
+          "placement": "Narrow right face providing simple perspective depth.",
+          "coordinates": [
+            [258,26],
+            [288,22],
+            [287,72],
+            [258,74],
+            [258,26]
+          ]
+        },
+        {
+          "role": "chimney_top",
+          "type": "polygon_outline",
+          "placement": "Small quadrilateral top surface of the chimney.",
+          "coordinates": [
+            [239,18],
+            [270,15],
+            [288,22],
+            [258,26],
+            [239,18]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "name": "left_side_door",
+      "layer": "foreground",
+      "description": "Draw the narrow arched doorway on the left side wall.",
+      "bbox": {
+        "x": 181,
+        "y": 193,
+        "w": 21,
+        "h": 79
+      },
+      "elements": [
+        {
+          "role": "arched_door",
+          "type": "path_outline",
+          "placement": "Tall narrow doorway with a rounded arch at the top. Its bottom ends at the lower edge of the side wall.",
+          "coordinates": [
+            [182,268],
+            [182,247],
+            [182,226],
+            [183,209],
+            [186,198],
+            [190,194],
+            [194,196],
+            [197,205],
+            [199,219],
+            [199,238],
+            [199,280]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 9,
+      "name": "left_gable_window",
+      "layer": "foreground",
+      "description": "Draw the small narrow window in the triangular left gable wall.",
+      "bbox": {
+        "x": 182,
+        "y": 121,
+        "w": 20,
+        "h": 51
+      },
+      "elements": [
+        {
+          "role": "gable_window",
+          "type": "polygon_outline",
+          "placement": "Small vertical window following the perspective of the left wall.",
+          "coordinates": [
+            [188,122],
+            [198,130],
+            [201,171],
+            [184,166],
+            [188,122]
+          ]
+        },
+        {
+          "role": "gable_window_center_line",
+          "type": "stroke",
+          "placement": "Single vertical divider through the small gable window.",
+          "coordinates": [
+            [193,126,193,169]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 10,
+      "name": "front_left_window",
+      "layer": "foreground",
+      "description": "Draw the square four-pane window on the left half of the front wall.",
+      "bbox": {
+        "x": 264,
+        "y": 197,
+        "w": 50,
+        "h": 50
+      },
+      "elements": [
+        {
+          "role": "front_left_window_outline",
+          "type": "polygon_outline",
+          "placement": "Nearly square window aligned with the front wall perspective.",
+          "coordinates": [
+            [265,199],
+            [310,197],
+            [312,244],
+            [266,247],
+            [265,199]
+          ]
+        },
+        {
+          "role": "front_left_window_vertical_divider",
+          "type": "stroke",
+          "placement": "Vertical divider splitting the window into left and right panes.",
+          "coordinates": [
+            [287,198,289,246]
+          ]
+        },
+        {
+          "role": "front_left_window_horizontal_divider",
+          "type": "stroke",
+          "placement": "Horizontal divider splitting the window into upper and lower panes.",
+          "coordinates": [
+            [265,222,311,220]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 11,
+      "name": "front_right_window",
+      "layer": "foreground",
+      "description": "Draw the second square four-pane window on the right half of the front wall.",
+      "bbox": {
+        "x": 391,
+        "y": 187,
+        "w": 50,
+        "h": 51
+      },
+      "elements": [
+        {
+          "role": "front_right_window_outline",
+          "type": "polygon_outline",
+          "placement": "Square window matching the left front window and following the slight wall perspective.",
+          "coordinates": [
+            [392,189],
+            [436,187],
+            [439,234],
+            [393,237],
+            [392,189]
+          ]
+        },
+        {
+          "role": "front_right_window_vertical_divider",
+          "type": "stroke",
+          "placement": "Vertical center divider.",
+          "coordinates": [
+            [414,188,416,236]
+          ]
+        },
+        {
+          "role": "front_right_window_horizontal_divider",
+          "type": "stroke",
+          "placement": "Horizontal center divider.",
+          "coordinates": [
+            [392,213,438,210]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 12,
+      "name": "house_bottom_edges",
+      "layer": "foreground",
+      "description": "Emphasize the connected lower edges of the house so the side and front walls meet cleanly.",
+      "bbox": {
+        "x": 163,
+        "y": 254,
+        "w": 308,
+        "h": 55
+      },
+      "elements": [
+        {
+          "role": "left_bottom_edge",
+          "type": "stroke",
+          "placement": "Diagonal lower edge of the left side wall.",
+          "coordinates": [
+            [164,255,239,307]
+          ]
+        },
+        {
+          "role": "front_bottom_edge",
+          "type": "stroke",
+          "placement": "Long slightly rising bottom edge of the front wall.",
+          "coordinates": [
+            [239,307,469,279]
+          ]
+        }
+      ]
+    }
+  ]
+}

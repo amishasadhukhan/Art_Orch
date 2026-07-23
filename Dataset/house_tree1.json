@@ -1,0 +1,926 @@
+{
+  "prompt": "Draw a clean black-outlined two-story cottage with a steep asymmetric gable roof, a chimney on the upper-right roof, a tiny attic window, one large arched upper window, two rectangular four-pane lower windows, a centered front door, a small curved tiled awning, entrance steps, rounded bushes and grass around the base.",
+  "canvas": {
+    "w": 468,
+    "h": 432
+  },
+  "brush_type": "b) Basic-5 Size",
+  "brush_size": 3,
+  "steps": [
+    {
+      "step": 1,
+      "name": "main_house_body",
+      "layer": "foreground",
+      "description": "Draw the tall main front wall beneath the steep triangular gable.",
+      "bbox": {
+        "x": 103,
+        "y": 166,
+        "w": 157,
+        "h": 180
+      },
+      "elements": [
+        {
+          "role": "main_front_wall",
+          "type": "stroke",
+          "placement": "Tall front wall extending from the roof to the ground.",
+          "coordinates": [
+            [103,166,103,341],
+            [103,341,260,341],
+            [260,341,260,198]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "name": "right_house_extension",
+      "layer": "foreground",
+      "description": "Draw the right rectangular wall beneath the descending roof.",
+      "bbox": {
+        "x": 260,
+        "y": 198,
+        "w": 88,
+        "h": 143
+      },
+      "elements": [
+        {
+          "role": "right_wall",
+          "type": "stroke",
+          "placement": "Right wall attached directly to the main house.",
+          "coordinates": [
+            [260,198,348,204],
+            [348,204,348,339],
+            [348,339,260,341]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "name": "main_roof_geometry",
+      "layer": "foreground",
+      "description": "Construct the steep front gable and the large right roof plane. These edges define the strict boundaries inside which all roof-tile curves must remain.",
+      "bbox": {
+        "x": 77,
+        "y": 49,
+        "w": 291,
+        "h": 155
+      },
+      "elements": [
+        {
+          "role": "left_outer_roof_edge",
+          "type": "stroke",
+          "placement": "Outer left slope from roof peak to left eave.",
+          "coordinates": [
+            [169,50,77,168]
+          ]
+        },
+        {
+          "role": "left_roof_thickness",
+          "type": "stroke",
+          "placement": "Lower parallel edge of the left roof.",
+          "coordinates": [
+            [77,168,84,178],
+            [84,178,169,61]
+          ]
+        },
+        {
+          "role": "right_outer_roof_edge",
+          "type": "stroke",
+          "placement": "Upper outer boundary of the large right roof plane.",
+          "coordinates": [
+            [169,50,368,189]
+          ]
+        },
+        {
+          "role": "right_roof_eave",
+          "type": "stroke",
+          "placement": "Bottom-right roof boundary.",
+          "coordinates": [
+            [368,189,367,203],
+            [367,203,260,197]
+          ]
+        },
+        {
+          "role": "inner_gable_edge",
+          "type": "stroke",
+          "placement": "Diagonal boundary separating the front triangular gable from the visible right roof plane.",
+          "coordinates": [
+            [169,61,260,197]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "name": "contained_roof_tile_rows",
+      "layer": "foreground",
+      "description": "Draw seven gently wavy roof-tile rows. Each row is clipped geometrically between the inner gable edge on the left and the outer roof edge on the right. The rows become progressively longer toward the bottom. No endpoint extends beyond either roof boundary.",
+      "bbox": {
+        "x": 184,
+        "y": 68,
+        "w": 165,
+        "h": 119
+      },
+      "elements": [
+        {
+          "role": "tile_row_1",
+          "type": "path_outline",
+          "placement": "Highest and shortest tile row, entirely inside the roof.",
+          "coordinates": [
+            [184,72],
+            [193,75],
+            [199,79],
+            [205,78],
+            [213,83],
+            [220,82],
+            [228,87],
+            [235,86],
+            [243,91]
+          ]
+        },
+        {
+          "role": "tile_row_2",
+          "type": "path_outline",
+          "placement": "Second tile row, starting slightly farther down the inner gable slope.",
+          "coordinates": [
+            [191,85],
+            [200,89],
+            [207,93],
+            [214,92],
+            [222,97],
+            [230,96],
+            [239,102],
+            [247,101],
+            [256,106],
+            [264,105],
+            [272,110]
+          ]
+        },
+        {
+          "role": "tile_row_3",
+          "type": "path_outline",
+          "placement": "Third contained tile row.",
+          "coordinates": [
+            [199,99],
+            [208,103],
+            [216,108],
+            [224,107],
+            [233,112],
+            [241,111],
+            [250,117],
+            [259,116],
+            [268,122],
+            [277,121],
+            [286,127],
+            [294,126]
+          ]
+        },
+        {
+          "role": "tile_row_4",
+          "type": "path_outline",
+          "placement": "Middle tile row ending safely before the outer roof edge.",
+          "coordinates": [
+            [208,113],
+            [217,118],
+            [225,122],
+            [234,121],
+            [243,127],
+            [252,126],
+            [261,132],
+            [270,131],
+            [279,137],
+            [289,136],
+            [298,142],
+            [307,141],
+            [315,146]
+          ]
+        },
+        {
+          "role": "tile_row_5",
+          "type": "path_outline",
+          "placement": "Lower-middle tile row contained within the widening roof plane.",
+          "coordinates": [
+            [218,128],
+            [227,133],
+            [236,137],
+            [245,136],
+            [254,142],
+            [263,141],
+            [273,147],
+            [282,146],
+            [292,152],
+            [301,151],
+            [311,157],
+            [320,156],
+            [329,161]
+          ]
+        },
+        {
+          "role": "tile_row_6",
+          "type": "path_outline",
+          "placement": "Lower tile row following the perspective of the roof while staying inside its outline.",
+          "coordinates": [
+            [228,144],
+            [237,149],
+            [246,153],
+            [255,152],
+            [265,158],
+            [274,157],
+            [284,163],
+            [294,162],
+            [304,168],
+            [314,167],
+            [324,173],
+            [334,172],
+            [343,177]
+          ]
+        },
+        {
+          "role": "tile_row_7",
+          "type": "path_outline",
+          "placement": "Lowest and longest tile row, ending before the lower-right roof corner.",
+          "coordinates": [
+            [238,160],
+            [247,165],
+            [257,169],
+            [266,168],
+            [276,174],
+            [286,173],
+            [296,179],
+            [306,178],
+            [316,184],
+            [326,183],
+            [336,188],
+            [346,187],
+            [355,191]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "name": "chimney",
+      "layer": "foreground",
+      "description": "Draw a rectangular chimney emerging cleanly from the upper-right roof.",
+      "bbox": {
+        "x": 251,
+        "y": 56,
+        "w": 42,
+        "h": 58
+      },
+      "elements": [
+        {
+          "role": "chimney_body",
+          "type": "polygon_outline",
+          "placement": "Vertical chimney body attached to the roof.",
+          "coordinates": [
+            [258,70],
+            [287,72],
+            [287,113],
+            [261,101],
+            [258,70]
+          ]
+        },
+        {
+          "role": "chimney_cap",
+          "type": "polygon_outline",
+          "placement": "Wide chimney cap.",
+          "coordinates": [
+            [252,61],
+            [285,63],
+            [293,67],
+            [292,75],
+            [257,72],
+            [252,69],
+            [252,61]
+          ]
+        },
+        {
+          "role": "chimney_top",
+          "type": "polygon_outline",
+          "placement": "Visible top face of the chimney cap.",
+          "coordinates": [
+            [260,56],
+            [285,58],
+            [293,63],
+            [252,61],
+            [260,56]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "name": "attic_window",
+      "layer": "foreground",
+      "description": "Draw the small attic window near the top of the front gable.",
+      "bbox": {
+        "x": 161,
+        "y": 78,
+        "w": 21,
+        "h": 22
+      },
+      "elements": [
+        {
+          "role": "attic_window_outline",
+          "type": "polygon_outline",
+          "placement": "Small slightly perspective-shaped window below the roof peak.",
+          "coordinates": [
+            [164,79],
+            [178,82],
+            [181,97],
+            [162,99],
+            [164,79]
+          ]
+        },
+        {
+          "role": "attic_window_horizontal",
+          "type": "stroke",
+          "placement": "Horizontal divider inside the attic window.",
+          "coordinates": [
+            [163,89,179,88]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "name": "upper_arched_window",
+      "layer": "foreground",
+      "description": "Draw the large arched window on the upper floor.",
+      "bbox": {
+        "x": 141,
+        "y": 132,
+        "w": 55,
+        "h": 64
+      },
+      "elements": [
+        {
+          "role": "arched_window_outer",
+          "type": "path_outline",
+          "placement": "Tall arched window centered on the upper front wall.",
+          "coordinates": [
+            [149,185],
+            [149,151],
+            [150,143],
+            [155,137],
+            [161,133],
+            [169,132],
+            [177,134],
+            [184,139],
+            [188,146],
+            [189,154],
+            [189,185],
+            [149,185]
+          ]
+        },
+        {
+          "role": "arched_window_vertical",
+          "type": "stroke",
+          "placement": "Vertical center divider.",
+          "coordinates": [
+            [169,134,169,184]
+          ]
+        },
+        {
+          "role": "arched_window_horizontal",
+          "type": "stroke",
+          "placement": "Horizontal center divider.",
+          "coordinates": [
+            [150,164,188,164]
+          ]
+        },
+        {
+          "role": "arched_window_sill",
+          "type": "polygon_outline",
+          "placement": "Projecting sill beneath the arched window.",
+          "coordinates": [
+            [142,187],
+            [196,187],
+            [196,195],
+            [141,195],
+            [142,187]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "name": "door_awning",
+      "layer": "foreground",
+      "description": "Draw the curved tiled awning centered above the front door.",
+      "bbox": {
+        "x": 171,
+        "y": 205,
+        "w": 74,
+        "h": 30
+      },
+      "elements": [
+        {
+          "role": "awning_outer",
+          "type": "path_outline",
+          "placement": "Small domed canopy over the door.",
+          "coordinates": [
+            [172,233],
+            [177,220],
+            [186,213],
+            [197,208],
+            [208,206],
+            [219,209],
+            [229,215],
+            [238,224],
+            [244,234],
+            [172,233]
+          ]
+        },
+        {
+          "role": "awning_lower_edge",
+          "type": "stroke",
+          "placement": "Straight lower canopy edge.",
+          "coordinates": [
+            [172,234,244,234]
+          ]
+        },
+        {
+          "role": "awning_seams",
+          "type": "stroke",
+          "placement": "Radial divisions across the awning.",
+          "coordinates": [
+            [181,230,190,214],
+            [194,232,199,208],
+            [208,233,208,206],
+            [221,233,217,209],
+            [234,233,226,214]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 9,
+      "name": "front_door",
+      "layer": "foreground",
+      "description": "Draw the tall centered front door.",
+      "bbox": {
+        "x": 190,
+        "y": 234,
+        "w": 38,
+        "h": 105
+      },
+      "elements": [
+        {
+          "role": "door_outer",
+          "type": "polygon_outline",
+          "placement": "Tall rectangular front door.",
+          "coordinates": [
+            [191,235],
+            [226,235],
+            [226,338],
+            [191,338],
+            [191,235]
+          ]
+        },
+        {
+          "role": "door_upper_panel",
+          "type": "polygon_outline",
+          "placement": "Upper rectangular inset panel.",
+          "coordinates": [
+            [199,248],
+            [218,248],
+            [218,273],
+            [199,273],
+            [199,248]
+          ]
+        },
+        {
+          "role": "door_lower_panel",
+          "type": "polygon_outline",
+          "placement": "Lower inset panel.",
+          "coordinates": [
+            [199,280],
+            [218,280],
+            [218,302],
+            [199,302],
+            [199,280]
+          ]
+        },
+        {
+          "role": "door_knob",
+          "type": "ellipse_outline",
+          "placement": "Small round doorknob.",
+          "coordinates": {
+            "x": 219,
+            "y": 277,
+            "w": 4,
+            "h": 4
+          }
+        }
+      ]
+    },
+    {
+      "step": 10,
+      "name": "lower_left_window",
+      "layer": "foreground",
+      "description": "Draw the lower-left four-pane window.",
+      "bbox": {
+        "x": 125,
+        "y": 241,
+        "w": 46,
+        "h": 55
+      },
+      "elements": [
+        {
+          "role": "left_window_outline",
+          "type": "polygon_outline",
+          "placement": "Rectangular window left of the door.",
+          "coordinates": [
+            [132,242],
+            [163,242],
+            [164,286],
+            [131,286],
+            [132,242]
+          ]
+        },
+        {
+          "role": "left_window_vertical",
+          "type": "stroke",
+          "placement": "Vertical divider.",
+          "coordinates": [
+            [147,243,147,285]
+          ]
+        },
+        {
+          "role": "left_window_horizontal",
+          "type": "stroke",
+          "placement": "Horizontal divider.",
+          "coordinates": [
+            [132,264,163,264]
+          ]
+        },
+        {
+          "role": "left_window_sill",
+          "type": "polygon_outline",
+          "placement": "Projecting sill.",
+          "coordinates": [
+            [125,287],
+            [170,287],
+            [170,295],
+            [125,295],
+            [125,287]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 11,
+      "name": "lower_right_window",
+      "layer": "foreground",
+      "description": "Draw the matching four-pane window on the right wall.",
+      "bbox": {
+        "x": 292,
+        "y": 242,
+        "w": 42,
+        "h": 53
+      },
+      "elements": [
+        {
+          "role": "right_window_outline",
+          "type": "polygon_outline",
+          "placement": "Rectangular lower-right window.",
+          "coordinates": [
+            [299,243],
+            [328,244],
+            [328,285],
+            [298,284],
+            [299,243]
+          ]
+        },
+        {
+          "role": "right_window_vertical",
+          "type": "stroke",
+          "placement": "Vertical divider.",
+          "coordinates": [
+            [313,244,313,285]
+          ]
+        },
+        {
+          "role": "right_window_horizontal",
+          "type": "stroke",
+          "placement": "Horizontal divider.",
+          "coordinates": [
+            [299,264,328,265]
+          ]
+        },
+        {
+          "role": "right_window_sill",
+          "type": "polygon_outline",
+          "placement": "Projecting sill.",
+          "coordinates": [
+            [293,286],
+            [333,287],
+            [333,294],
+            [292,293],
+            [293,286]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 12,
+      "name": "front_steps",
+      "layer": "foreground",
+      "description": "Draw three centered entrance steps.",
+      "bbox": {
+        "x": 148,
+        "y": 337,
+        "w": 95,
+        "h": 23
+      },
+      "elements": [
+        {
+          "role": "top_step",
+          "type": "polygon_outline",
+          "placement": "Small upper step.",
+          "coordinates": [
+            [177,337],
+            [229,337],
+            [235,343],
+            [169,343],
+            [177,337]
+          ]
+        },
+        {
+          "role": "middle_step",
+          "type": "polygon_outline",
+          "placement": "Wider middle step.",
+          "coordinates": [
+            [164,343],
+            [237,343],
+            [242,351],
+            [157,351],
+            [164,343]
+          ]
+        },
+        {
+          "role": "bottom_step",
+          "type": "polygon_outline",
+          "placement": "Widest lower step.",
+          "coordinates": [
+            [155,351],
+            [242,351],
+            [241,359],
+            [148,359],
+            [155,351]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 13,
+      "name": "left_tree",
+      "layer": "background",
+      "description": "Draw a rounded bushy tree behind the left side of the house.",
+      "bbox": {
+        "x": 37,
+        "y": 232,
+        "w": 67,
+        "h": 113
+      },
+      "elements": [
+        {
+          "role": "left_tree_crown",
+          "type": "path_outline",
+          "placement": "Cloud-like foliage visible beside the house.",
+          "coordinates": [
+            [102,250],
+            [96,242],
+            [88,241],
+            [84,234],
+            [75,233],
+            [68,239],
+            [59,239],
+            [54,246],
+            [47,249],
+            [45,257],
+            [39,263],
+            [41,272],
+            [36,280],
+            [40,289],
+            [47,294],
+            [48,304],
+            [57,308],
+            [63,316],
+            [75,314],
+            [83,319],
+            [94,314],
+            [101,316]
+          ]
+        },
+        {
+          "role": "left_tree_trunk",
+          "type": "stroke",
+          "placement": "Simple tree trunk.",
+          "coordinates": [
+            [72,301,69,344],
+            [83,302,86,344]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 14,
+      "name": "right_tree",
+      "layer": "background",
+      "description": "Draw the rounded tree behind the right side of the cottage.",
+      "bbox": {
+        "x": 347,
+        "y": 231,
+        "w": 65,
+        "h": 115
+      },
+      "elements": [
+        {
+          "role": "right_tree_crown",
+          "type": "path_outline",
+          "placement": "Cloud-like foliage beside the right wall.",
+          "coordinates": [
+            [348,240],
+            [355,234],
+            [362,236],
+            [368,243],
+            [377,241],
+            [383,247],
+            [392,247],
+            [397,254],
+            [404,258],
+            [405,267],
+            [411,273],
+            [409,283],
+            [412,291],
+            [407,300],
+            [401,305],
+            [400,315],
+            [391,319],
+            [385,327],
+            [375,325],
+            [367,330],
+            [358,326],
+            [349,329]
+          ]
+        },
+        {
+          "role": "right_tree_trunk",
+          "type": "stroke",
+          "placement": "Simple right tree trunk.",
+          "coordinates": [
+            [369,304,367,346],
+            [379,304,382,345]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 15,
+      "name": "base_bushes",
+      "layer": "foreground",
+      "description": "Draw small rounded bushes around the entrance and foundation.",
+      "bbox": {
+        "x": 110,
+        "y": 321,
+        "w": 190,
+        "h": 30
+      },
+      "elements": [
+        {
+          "role": "left_bush",
+          "type": "path_outline",
+          "placement": "Small bush left of the steps.",
+          "coordinates": [
+            [111,348],
+            [112,337],
+            [119,333],
+            [123,324],
+            [132,322],
+            [138,328],
+            [146,327],
+            [152,334],
+            [151,345]
+          ]
+        },
+        {
+          "role": "right_bush",
+          "type": "path_outline",
+          "placement": "Small bush right of the steps.",
+          "coordinates": [
+            [236,349],
+            [240,339],
+            [247,336],
+            [252,328],
+            [261,329],
+            [267,335],
+            [274,334],
+            [280,341],
+            [280,349]
+          ]
+        },
+        {
+          "role": "far_right_bush",
+          "type": "path_outline",
+          "placement": "Additional low bush.",
+          "coordinates": [
+            [276,349],
+            [280,340],
+            [287,337],
+            [293,340],
+            [297,348]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 16,
+      "name": "garden_grass",
+      "layer": "foreground",
+      "description": "Add simple grass tufts around the house base.",
+      "bbox": {
+        "x": 90,
+        "y": 328,
+        "w": 272,
+        "h": 25
+      },
+      "elements": [
+        {
+          "role": "grass_tufts",
+          "type": "stroke",
+          "placement": "Short pointed grass blades.",
+          "coordinates": [
+            [91,352,94,333],
+            [94,352,99,338],
+            [101,352,105,329],
+            [108,352,111,340],
+            [158,351,161,334],
+            [163,351,167,339],
+            [249,352,252,331],
+            [254,352,258,337],
+            [261,352,266,328],
+            [270,352,273,338],
+            [282,352,287,332],
+            [291,352,295,339],
+            [338,352,342,330],
+            [345,352,349,337],
+            [355,352,360,333]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 17,
+      "name": "ground_lines",
+      "layer": "foreground",
+      "description": "Draw two simple ground lines beneath the cottage.",
+      "bbox": {
+        "x": 40,
+        "y": 351,
+        "w": 374,
+        "h": 14
+      },
+      "elements": [
+        {
+          "role": "main_ground",
+          "type": "path_outline",
+          "placement": "Main slightly irregular ground line.",
+          "coordinates": [
+            [40,354],
+            [79,356],
+            [118,355],
+            [156,358],
+            [196,359],
+            [235,358],
+            [274,357],
+            [314,356],
+            [353,354],
+            [389,351],
+            [414,353]
+          ]
+        },
+        {
+          "role": "lower_ground",
+          "type": "path_outline",
+          "placement": "Second shorter ground accent.",
+          "coordinates": [
+            [55,362],
+            [91,363],
+            [126,361],
+            [162,364],
+            [200,365],
+            [238,363],
+            [278,364],
+            [316,361],
+            [351,360],
+            [391,358]
+          ]
+        }
+      ]
+    }
+  ]
+}

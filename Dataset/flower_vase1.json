@@ -1,0 +1,630 @@
+{
+  "prompt": "Draw a clean black-outlined flower arrangement with a rounded decorative flower pot at the bottom containing three tulip flowers. Add several long curved pointed leaves spreading outward from the center of the pot.",
+  "canvas": {
+    "w": 590,
+    "h": 435
+  },
+  "brush_type": "b) Basic-5 Size",
+  "brush_size": 2,
+  "steps": [
+    {
+      "step": 1,
+      "name": "flower_pot_rim",
+      "layer": "foreground",
+      "description": "Draw the wide oval rim at the top of the flower pot.",
+      "bbox": {
+        "x": 217,
+        "y": 235,
+        "w": 134,
+        "h": 42
+      },
+      "elements": [
+        {
+          "role": "pot_rim",
+          "type": "path_outline",
+          "placement": "Wide shallow oval-like pot opening centered beneath the flowers.",
+          "coordinates": [
+            [217,253],
+            [221,245],
+            [232,240],
+            [248,237],
+            [267,235],
+            [287,235],
+            [307,237],
+            [326,240],
+            [341,245],
+            [350,252],
+            [346,260],
+            [335,265],
+            [319,269],
+            [301,272],
+            [282,273],
+            [263,272],
+            [245,269],
+            [230,264],
+            [220,258],
+            [217,253]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "name": "flower_pot_body",
+      "layer": "foreground",
+      "description": "Draw the rounded decorative body of the pot beneath the rim. The upper body narrows slightly below the rim, expands into rounded shoulders, then tapers toward a flat narrow base.",
+      "bbox": {
+        "x": 217,
+        "y": 257,
+        "w": 134,
+        "h": 151
+      },
+      "elements": [
+        {
+          "role": "pot_body",
+          "type": "path_outline",
+          "placement": "Symmetrical rounded vase-like flower pot connected beneath the rim.",
+          "coordinates": [
+            [229,260],
+            [230,270],
+            [237,279],
+            [231,286],
+            [224,294],
+            [219,304],
+            [218,315],
+            [222,327],
+            [229,339],
+            [236,351],
+            [242,363],
+            [248,375],
+            [252,387],
+            [255,405],
+            [311,405],
+            [315,389],
+            [320,376],
+            [326,364],
+            [333,352],
+            [340,340],
+            [346,327],
+            [350,315],
+            [349,304],
+            [344,294],
+            [337,286],
+            [330,279],
+            [337,270],
+            [338,261]
+          ]
+        },
+        {
+          "role": "pot_bottom_edge",
+          "type": "stroke",
+          "placement": "Flat bottom edge closing the pot.",
+          "coordinates": [
+            [255,405,311,405]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "name": "center_tulip_stem",
+      "layer": "foreground",
+      "description": "Draw the tall narrow stem of the center tulip rising almost vertically from the pot.",
+      "bbox": {
+        "x": 273,
+        "y": 100,
+        "w": 20,
+        "h": 169
+      },
+      "elements": [
+        {
+          "role": "center_stem_left",
+          "type": "path_outline",
+          "placement": "Left edge of the center tulip stem.",
+          "coordinates": [
+            [275,267],
+            [276,239],
+            [277,210],
+            [278,181],
+            [278,152],
+            [278,125],
+            [278,103]
+          ]
+        },
+        {
+          "role": "center_stem_right",
+          "type": "path_outline",
+          "placement": "Right edge of the center tulip stem, keeping the stem thin and nearly vertical.",
+          "coordinates": [
+            [286,268],
+            [286,239],
+            [286,210],
+            [286,181],
+            [286,152],
+            [286,125],
+            [286,103]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "name": "center_tulip_bloom",
+      "layer": "foreground",
+      "description": "Draw the largest and tallest tulip bloom at the upper center with three prominent pointed petals.",
+      "bbox": {
+        "x": 230,
+        "y": 7,
+        "w": 105,
+        "h": 103
+      },
+      "elements": [
+        {
+          "role": "center_tulip_outer_shape",
+          "type": "path_outline",
+          "placement": "Large upright tulip centered over the vertical stem. The central petal reaches highest, with pointed side petals on both sides.",
+          "coordinates": [
+            [282,108],
+            [270,106],
+            [259,100],
+            [250,91],
+            [244,78],
+            [240,63],
+            [237,47],
+            [232,17],
+            [249,24],
+            [262,34],
+            [270,20],
+            [282,7],
+            [293,21],
+            [302,35],
+            [314,24],
+            [334,16],
+            [331,39],
+            [328,58],
+            [324,75],
+            [317,90],
+            [307,101],
+            [295,107],
+            [282,108]
+          ]
+        },
+        {
+          "role": "center_left_petal_seam",
+          "type": "path_outline",
+          "placement": "Interior curved seam defining the left central petal.",
+          "coordinates": [
+            [262,34],
+            [260,48],
+            [261,64],
+            [265,79],
+            [272,94],
+            [282,107]
+          ]
+        },
+        {
+          "role": "center_right_petal_seam",
+          "type": "path_outline",
+          "placement": "Interior curved seam defining the right central petal.",
+          "coordinates": [
+            [302,35],
+            [304,50],
+            [303,66],
+            [299,82],
+            [293,96],
+            [282,107]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "name": "left_tulip_stem",
+      "layer": "foreground",
+      "description": "Draw the long stem connecting the upper-left tulip to the center of the pot.",
+      "bbox": {
+        "x": 203,
+        "y": 109,
+        "w": 72,
+        "h": 160
+      },
+      "elements": [
+        {
+          "role": "left_stem_left_edge",
+          "type": "path_outline",
+          "placement": "Left edge of the stem curving gently downward-right from the left flower.",
+          "coordinates": [
+            [207,110],
+            [219,135],
+            [230,159],
+            [241,184],
+            [251,211],
+            [260,239],
+            [268,267]
+          ]
+        },
+        {
+          "role": "left_stem_right_edge",
+          "type": "path_outline",
+          "placement": "Right edge of the same stem, maintaining a narrow consistent width.",
+          "coordinates": [
+            [216,108],
+            [228,133],
+            [239,158],
+            [250,182],
+            [260,209],
+            [269,237],
+            [276,267]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "name": "left_tulip_bloom",
+      "layer": "foreground",
+      "description": "Draw the upper-left tulip bloom with a rounded lower bowl and three pointed upper petals.",
+      "bbox": {
+        "x": 137,
+        "y": 22,
+        "w": 102,
+        "h": 101
+      },
+      "elements": [
+        {
+          "role": "left_tulip_outer_shape",
+          "type": "path_outline",
+          "placement": "Tulip tilted slightly toward the left, with a pointed left petal, tall central petal, and pointed right petal.",
+          "coordinates": [
+            [208,121],
+            [194,120],
+            [181,114],
+            [171,105],
+            [163,94],
+            [157,81],
+            [151,68],
+            [144,53],
+            [137,41],
+            [151,42],
+            [166,47],
+            [177,54],
+            [178,41],
+            [185,23],
+            [198,31],
+            [210,42],
+            [219,53],
+            [226,66],
+            [234,81],
+            [237,94],
+            [232,106],
+            [222,115],
+            [208,121]
+          ]
+        },
+        {
+          "role": "left_tulip_inner_petal",
+          "type": "path_outline",
+          "placement": "Curved interior petal line descending from the tall central petal.",
+          "coordinates": [
+            [185,23],
+            [190,41],
+            [195,58],
+            [201,75],
+            [205,92],
+            [208,108],
+            [208,121]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "name": "right_tulip_stem",
+      "layer": "foreground",
+      "description": "Draw the stem connecting the upper-right tulip to the pot, curving diagonally downward-left.",
+      "bbox": {
+        "x": 289,
+        "y": 116,
+        "w": 89,
+        "h": 153
+      },
+      "elements": [
+        {
+          "role": "right_stem_left_edge",
+          "type": "path_outline",
+          "placement": "Left edge of the right tulip stem.",
+          "coordinates": [
+            [361,116],
+            [348,138],
+            [336,160],
+            [325,183],
+            [314,207],
+            [304,234],
+            [295,267]
+          ]
+        },
+        {
+          "role": "right_stem_right_edge",
+          "type": "path_outline",
+          "placement": "Right edge of the right tulip stem, maintaining a narrow tapered stem.",
+          "coordinates": [
+            [370,119],
+            [357,141],
+            [345,163],
+            [334,186],
+            [323,211],
+            [313,238],
+            [304,268]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "name": "right_tulip_bloom",
+      "layer": "foreground",
+      "description": "Draw the upper-right tulip bloom, tilted slightly toward the right.",
+      "bbox": {
+        "x": 344,
+        "y": 29,
+        "w": 98,
+        "h": 99
+      },
+      "elements": [
+        {
+          "role": "right_tulip_outer_shape",
+          "type": "path_outline",
+          "placement": "Rounded tulip bloom with a tall left-central petal and pointed right petal.",
+          "coordinates": [
+            [368,126],
+            [357,122],
+            [349,113],
+            [345,102],
+            [344,89],
+            [347,75],
+            [352,63],
+            [361,51],
+            [372,40],
+            [393,29],
+            [398,46],
+            [400,62],
+            [412,56],
+            [426,52],
+            [441,50],
+            [436,64],
+            [430,79],
+            [424,92],
+            [417,105],
+            [407,115],
+            [395,122],
+            [382,126],
+            [368,126]
+          ]
+        },
+        {
+          "role": "right_tulip_inner_petal",
+          "type": "path_outline",
+          "placement": "Interior curved seam separating the main tall petal from the right petal.",
+          "coordinates": [
+            [393,29],
+            [395,47],
+            [396,65],
+            [393,83],
+            [388,100],
+            [380,115],
+            [368,126]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 9,
+      "name": "far_left_leaf",
+      "layer": "foreground",
+      "description": "Draw the longest leaf sweeping from the pot toward the far upper-left.",
+      "bbox": {
+        "x": 137,
+        "y": 127,
+        "w": 133,
+        "h": 143
+      },
+      "elements": [
+        {
+          "role": "far_left_leaf_shape",
+          "type": "path_outline",
+          "placement": "Long pointed leaf beginning inside the pot and sweeping broadly upward-left.",
+          "coordinates": [
+            [270,269],
+            [255,246],
+            [238,223],
+            [220,202],
+            [201,183],
+            [182,166],
+            [164,151],
+            [149,140],
+            [137,128],
+            [153,133],
+            [171,143],
+            [190,157],
+            [208,175],
+            [225,195],
+            [240,218],
+            [254,243],
+            [270,269]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 10,
+      "name": "inner_left_leaf",
+      "layer": "foreground",
+      "description": "Draw a narrower pointed leaf rising between the left flower stem and center stem.",
+      "bbox": {
+        "x": 247,
+        "y": 139,
+        "w": 34,
+        "h": 130
+      },
+      "elements": [
+        {
+          "role": "inner_left_leaf_shape",
+          "type": "path_outline",
+          "placement": "Narrow upright leaf emerging from the pot and tapering to a sharp point.",
+          "coordinates": [
+            [278,269],
+            [270,245],
+            [264,220],
+            [258,194],
+            [253,168],
+            [251,145],
+            [247,139],
+            [249,163],
+            [252,188],
+            [257,215],
+            [265,242],
+            [278,269]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 11,
+      "name": "tall_right_leaf",
+      "layer": "foreground",
+      "description": "Draw a tall pointed leaf rising sharply to the right of the center flower.",
+      "bbox": {
+        "x": 287,
+        "y": 91,
+        "w": 51,
+        "h": 179
+      },
+      "elements": [
+        {
+          "role": "tall_right_leaf_shape",
+          "type": "path_outline",
+          "placement": "Tall narrow leaf starting inside the pot and sweeping upward-right to a sharp point.",
+          "coordinates": [
+            [287,269],
+            [292,242],
+            [299,213],
+            [307,183],
+            [316,154],
+            [326,126],
+            [337,96],
+            [338,91],
+            [330,119],
+            [323,148],
+            [316,178],
+            [309,207],
+            [301,238],
+            [294,269],
+            [287,269]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 12,
+      "name": "outer_right_leaf",
+      "layer": "foreground",
+      "description": "Draw the broad leaf sweeping outward toward the upper-right from the flower pot.",
+      "bbox": {
+        "x": 298,
+        "y": 155,
+        "w": 119,
+        "h": 115
+      },
+      "elements": [
+        {
+          "role": "outer_right_leaf_shape",
+          "type": "path_outline",
+          "placement": "Long curved pointed leaf sweeping outward-right from the center of the pot.",
+          "coordinates": [
+            [298,269],
+            [311,247],
+            [326,226],
+            [343,207],
+            [361,190],
+            [380,176],
+            [399,164],
+            [416,156],
+            [405,166],
+            [391,179],
+            [376,194],
+            [359,211],
+            [343,230],
+            [328,250],
+            [316,269],
+            [298,269]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 13,
+      "name": "inner_right_leaf",
+      "layer": "foreground",
+      "description": "Draw a shorter curved pointed leaf between the center and outer-right leaves.",
+      "bbox": {
+        "x": 292,
+        "y": 186,
+        "w": 70,
+        "h": 84
+      },
+      "elements": [
+        {
+          "role": "inner_right_leaf_shape",
+          "type": "path_outline",
+          "placement": "Medium-length pointed leaf curving upward-right from the pot.",
+          "coordinates": [
+            [292,269],
+            [302,249],
+            [314,231],
+            [327,214],
+            [341,199],
+            [355,188],
+            [361,186],
+            [354,196],
+            [344,210],
+            [333,226],
+            [321,244],
+            [309,263],
+            [305,269],
+            [292,269]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 14,
+      "name": "pot_front_rim_emphasis",
+      "layer": "foreground",
+      "description": "Redraw only the visible front edge of the pot rim so the stems and leaves appear to emerge naturally from inside the pot.",
+      "bbox": {
+        "x": 218,
+        "y": 251,
+        "w": 132,
+        "h": 23
+      },
+      "elements": [
+        {
+          "role": "front_rim_edge",
+          "type": "path_outline",
+          "placement": "Smooth front arc of the pot opening drawn over the lower ends of the stems and leaves.",
+          "coordinates": [
+            [218,253],
+            [228,260],
+            [244,266],
+            [263,270],
+            [283,272],
+            [303,270],
+            [322,267],
+            [338,261],
+            [349,253]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,707 @@
+{
+  "prompt": "Draw a clean black-outlined cartoon boy as a front-facing child with a large rounded head, side-swept layered hair, two small dot eyes, a simple curved nose, a smiling mouth, small ears, a short neck, a loose long-sleeve shirt, simple arms with small hands and fingers, straight pants divided into two legs, and rounded shoes.",
+  "canvas": {
+    "w": 400,
+    "h": 430
+  },
+  "brush_type": "b) Basic-5 Size",
+  "brush_size": 3,
+  "steps": [
+    {
+      "step": 1,
+      "name": "head_outline",
+      "layer": "foreground",
+      "description": "Draw the large rounded head shape with slightly flatter upper sides and a rounded chin.",
+      "bbox": {
+        "x": 111,
+        "y": 54,
+        "w": 168,
+        "h": 108
+      },
+      "elements": [
+        {
+          "role": "head",
+          "type": "path_outline",
+          "placement": "Large rounded face centered near the top of the character.",
+          "coordinates": [
+            [116,75],
+            [112,84],
+            [112,99],
+            [115,115],
+            [122,130],
+            [133,141],
+            [147,150],
+            [163,156],
+            [181,159],
+            [198,160],
+            [216,158],
+            [233,153],
+            [247,145],
+            [259,134],
+            [268,121],
+            [274,106],
+            [277,91],
+            [275,77],
+            [269,69],
+            [259,65],
+            [247,64],
+            [234,65],
+            [219,68],
+            [201,71],
+            [183,72],
+            [165,70],
+            [148,66],
+            [134,64],
+            [123,67],
+            [116,75]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "name": "left_ear",
+      "layer": "foreground",
+      "description": "Draw the small ear attached to the left side of the head.",
+      "bbox": {
+        "x": 107,
+        "y": 76,
+        "w": 11,
+        "h": 25
+      },
+      "elements": [
+        {
+          "role": "left_ear_outline",
+          "type": "path_outline",
+          "placement": "Small curved ear connected directly to the left head boundary.",
+          "coordinates": [
+            [115,77],
+            [110,78],
+            [108,83],
+            [109,91],
+            [112,98],
+            [116,101]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "name": "right_ear",
+      "layer": "foreground",
+      "description": "Draw the matching small ear on the right side.",
+      "bbox": {
+        "x": 273,
+        "y": 76,
+        "w": 11,
+        "h": 25
+      },
+      "elements": [
+        {
+          "role": "right_ear_outline",
+          "type": "path_outline",
+          "placement": "Small curved ear attached directly to the right head boundary.",
+          "coordinates": [
+            [275,77],
+            [280,79],
+            [282,84],
+            [281,92],
+            [278,98],
+            [274,101]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "name": "hair_outer_shape",
+      "layer": "foreground",
+      "description": "Draw the large side-swept hairstyle following the top of the head.",
+      "bbox": {
+        "x": 115,
+        "y": 9,
+        "w": 162,
+        "h": 73
+      },
+      "elements": [
+        {
+          "role": "hair_outer",
+          "type": "path_outline",
+          "placement": "Smooth layered hair sweeping from the upper-right crown toward the left side of the forehead.",
+          "coordinates": [
+            [117,53],
+            [127,50],
+            [138,43],
+            [149,34],
+            [162,24],
+            [177,17],
+            [191,12],
+            [205,10],
+            [219,11],
+            [231,15],
+            [239,20],
+            [250,22],
+            [259,29],
+            [266,39],
+            [271,51],
+            [275,64],
+            [276,78]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "name": "hair_main_sweep",
+      "layer": "foreground",
+      "description": "Draw the dominant curved lock sweeping across the forehead.",
+      "bbox": {
+        "x": 116,
+        "y": 19,
+        "w": 122,
+        "h": 59
+      },
+      "elements": [
+        {
+          "role": "main_hair_lock",
+          "type": "path_outline",
+          "placement": "Broad curved lock beginning near the crown and sweeping down toward the left temple.",
+          "coordinates": [
+            [237,20],
+            [224,28],
+            [210,37],
+            [196,46],
+            [181,55],
+            [166,63],
+            [151,69],
+            [138,73],
+            [127,74],
+            [119,70],
+            [116,63],
+            [117,53]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "name": "hair_inner_layer",
+      "layer": "foreground",
+      "description": "Add a second curved strand inside the main swept hairstyle.",
+      "bbox": {
+        "x": 127,
+        "y": 21,
+        "w": 109,
+        "h": 43
+      },
+      "elements": [
+        {
+          "role": "inner_hair_curve",
+          "type": "path_outline",
+          "placement": "Long inner curve approximately parallel to the main hair sweep.",
+          "coordinates": [
+            [128,58],
+            [142,51],
+            [157,44],
+            [173,37],
+            [190,30],
+            [207,25],
+            [222,22],
+            [235,21]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "name": "right_hair_section",
+      "layer": "foreground",
+      "description": "Draw the narrow hair section descending along the right side of the forehead.",
+      "bbox": {
+        "x": 218,
+        "y": 21,
+        "w": 57,
+        "h": 62
+      },
+      "elements": [
+        {
+          "role": "right_hair_lock",
+          "type": "path_outline",
+          "placement": "Curved strand from the crown toward the right temple.",
+          "coordinates": [
+            [237,21],
+            [245,27],
+            [253,35],
+            [259,45],
+            [264,56],
+            [268,67],
+            [274,78]
+          ]
+        },
+        {
+          "role": "right_inner_hair_curve",
+          "type": "path_outline",
+          "placement": "Inner curved seam within the right-side hair section.",
+          "coordinates": [
+            [226,28],
+            [235,34],
+            [244,42],
+            [252,52],
+            [259,63],
+            [266,73]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "name": "eyes",
+      "layer": "foreground",
+      "description": "Draw two small circular dot eyes evenly spaced across the face.",
+      "bbox": {
+        "x": 172,
+        "y": 84,
+        "w": 45,
+        "h": 9
+      },
+      "elements": [
+        {
+          "role": "left_eye",
+          "type": "ellipse_outline",
+          "placement": "Small dot eye on the left side of the face.",
+          "coordinates": {
+            "x": 173,
+            "y": 85,
+            "w": 5,
+            "h": 5
+          }
+        },
+        {
+          "role": "right_eye",
+          "type": "ellipse_outline",
+          "placement": "Small dot eye on the right side of the face.",
+          "coordinates": {
+            "x": 211,
+            "y": 85,
+            "w": 5,
+            "h": 5
+          }
+        }
+      ]
+    },
+    {
+      "step": 9,
+      "name": "nose",
+      "layer": "foreground",
+      "description": "Draw the small simple curved nose between the eyes and mouth.",
+      "bbox": {
+        "x": 185,
+        "y": 99,
+        "w": 20,
+        "h": 12
+      },
+      "elements": [
+        {
+          "role": "nose_curve",
+          "type": "path_outline",
+          "placement": "Small upside-down curved nose centered on the face.",
+          "coordinates": [
+            [186,107],
+            [188,102],
+            [192,100],
+            [197,100],
+            [201,102],
+            [204,107]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 10,
+      "name": "smile",
+      "layer": "foreground",
+      "description": "Draw the broad friendly curved smile with tiny upward corner marks.",
+      "bbox": {
+        "x": 159,
+        "y": 116,
+        "w": 72,
+        "h": 24
+      },
+      "elements": [
+        {
+          "role": "main_smile",
+          "type": "path_outline",
+          "placement": "Wide U-shaped smile centered below the nose.",
+          "coordinates": [
+            [166,120],
+            [168,128],
+            [175,134],
+            [184,137],
+            [195,138],
+            [206,136],
+            [215,131],
+            [220,123]
+          ]
+        },
+        {
+          "role": "left_smile_corner",
+          "type": "stroke",
+          "placement": "Short upward curve at the left smile corner.",
+          "coordinates": [
+            [166,122,160,120]
+          ]
+        },
+        {
+          "role": "right_smile_corner",
+          "type": "stroke",
+          "placement": "Short outward mark at the right smile corner.",
+          "coordinates": [
+            [220,122,229,123]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 11,
+      "name": "neck",
+      "layer": "foreground",
+      "description": "Draw the short neck directly beneath the head.",
+      "bbox": {
+        "x": 165,
+        "y": 157,
+        "w": 61,
+        "h": 17
+      },
+      "elements": [
+        {
+          "role": "neck_outline",
+          "type": "path_outline",
+          "placement": "Short neck tapering slightly inward before meeting the shirt.",
+          "coordinates": [
+            [166,157],
+            [168,166],
+            [177,171],
+            [194,173],
+            [211,171],
+            [221,166],
+            [224,157]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 12,
+      "name": "shirt_body",
+      "layer": "foreground",
+      "description": "Draw the loose long shirt body widening gently toward the bottom.",
+      "bbox": {
+        "x": 133,
+        "y": 160,
+        "w": 123,
+        "h": 137
+      },
+      "elements": [
+        {
+          "role": "shirt_outline",
+          "type": "path_outline",
+          "placement": "Simple long shirt beginning at the shoulders and widening toward the hips.",
+          "coordinates": [
+            [166,162],
+            [157,171],
+            [151,190],
+            [145,214],
+            [140,239],
+            [136,263],
+            [133,285],
+            [145,290],
+            [161,293],
+            [178,295],
+            [195,296],
+            [213,295],
+            [231,292],
+            [249,287],
+            [245,264],
+            [241,241],
+            [236,217],
+            [230,193],
+            [224,171],
+            [221,162]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 13,
+      "name": "left_arm",
+      "layer": "foreground",
+      "description": "Draw the left arm descending naturally along the side of the shirt.",
+      "bbox": {
+        "x": 114,
+        "y": 166,
+        "w": 48,
+        "h": 103
+      },
+      "elements": [
+        {
+          "role": "left_arm_outline",
+          "type": "stroke",
+          "placement": "Two slightly tapered lines forming the left sleeve.",
+          "coordinates": [
+            [160,168,145,198],
+            [145,198,132,242],
+            [132,242,124,259],
+            [153,171,139,198],
+            [139,198,126,241],
+            [126,241,119,257]
+          ]
+        },
+        {
+          "role": "left_cuff",
+          "type": "stroke",
+          "placement": "Short curved cuff line near the wrist.",
+          "coordinates": [
+            [126,242,132,242]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 14,
+      "name": "left_hand",
+      "layer": "foreground",
+      "description": "Draw the small left hand with three simple rounded finger bumps.",
+      "bbox": {
+        "x": 113,
+        "y": 252,
+        "w": 23,
+        "h": 29
+      },
+      "elements": [
+        {
+          "role": "left_hand_outline",
+          "type": "path_outline",
+          "placement": "Small hand attached directly to the sleeve cuff.",
+          "coordinates": [
+            [119,255],
+            [115,262],
+            [114,267],
+            [117,270],
+            [121,269],
+            [120,274],
+            [123,277],
+            [127,274],
+            [128,279],
+            [132,280],
+            [135,276],
+            [133,267],
+            [132,243]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 15,
+      "name": "right_arm",
+      "layer": "foreground",
+      "description": "Draw the right arm as a mirrored counterpart of the left arm.",
+      "bbox": {
+        "x": 228,
+        "y": 166,
+        "w": 48,
+        "h": 103
+      },
+      "elements": [
+        {
+          "role": "right_arm_outline",
+          "type": "stroke",
+          "placement": "Two tapered lines forming the right sleeve.",
+          "coordinates": [
+            [224,168,239,198],
+            [239,198,252,242],
+            [252,242,260,259],
+            [231,171,245,198],
+            [245,198,258,241],
+            [258,241,265,257]
+          ]
+        },
+        {
+          "role": "right_cuff",
+          "type": "stroke",
+          "placement": "Short cuff line.",
+          "coordinates": [
+            [252,242,258,242]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 16,
+      "name": "right_hand",
+      "layer": "foreground",
+      "description": "Draw the small right hand with simple rounded fingers.",
+      "bbox": {
+        "x": 253,
+        "y": 252,
+        "w": 23,
+        "h": 29
+      },
+      "elements": [
+        {
+          "role": "right_hand_outline",
+          "type": "path_outline",
+          "placement": "Small hand connected directly to the right sleeve.",
+          "coordinates": [
+            [265,255],
+            [270,262],
+            [273,267],
+            [271,271],
+            [267,269],
+            [268,274],
+            [265,277],
+            [261,274],
+            [260,279],
+            [256,280],
+            [253,276],
+            [255,267],
+            [258,243]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 17,
+      "name": "pants_outer_shape",
+      "layer": "foreground",
+      "description": "Draw the straight pants beneath the shirt with two clearly separated legs.",
+      "bbox": {
+        "x": 133,
+        "y": 286,
+        "w": 120,
+        "h": 72
+      },
+      "elements": [
+        {
+          "role": "pants_outline",
+          "type": "stroke",
+          "placement": "Straight pants beginning beneath the shirt hem.",
+          "coordinates": [
+            [138,287,135,344],
+            [135,344,160,354],
+            [160,354,194,356],
+            [194,356,229,353],
+            [229,353,252,344],
+            [252,344,249,287]
+          ]
+        },
+        {
+          "role": "leg_separator",
+          "type": "stroke",
+          "placement": "Single vertical seam separating the two pant legs.",
+          "coordinates": [
+            [194,296,194,356]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 18,
+      "name": "left_shoe",
+      "layer": "foreground",
+      "description": "Draw the rounded left shoe beneath the left pant leg.",
+      "bbox": {
+        "x": 119,
+        "y": 344,
+        "w": 76,
+        "h": 52
+      },
+      "elements": [
+        {
+          "role": "left_shoe_outline",
+          "type": "path_outline",
+          "placement": "Rounded shoe projecting outward toward the left.",
+          "coordinates": [
+            [135,344],
+            [127,349],
+            [122,357],
+            [120,367],
+            [121,377],
+            [126,384],
+            [139,387],
+            [153,387],
+            [168,384],
+            [181,379],
+            [191,373],
+            [194,362],
+            [188,356],
+            [174,354],
+            [160,354],
+            [135,344]
+          ]
+        },
+        {
+          "role": "left_shoe_sole",
+          "type": "path_outline",
+          "placement": "Curved sole line following the bottom of the shoe.",
+          "coordinates": [
+            [121,378],
+            [134,381],
+            [149,381],
+            [164,379],
+            [179,375],
+            [191,370]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 19,
+      "name": "right_shoe",
+      "layer": "foreground",
+      "description": "Draw the rounded right shoe as the mirrored counterpart of the left shoe.",
+      "bbox": {
+        "x": 193,
+        "y": 344,
+        "w": 76,
+        "h": 52
+      },
+      "elements": [
+        {
+          "role": "right_shoe_outline",
+          "type": "path_outline",
+          "placement": "Rounded shoe projecting outward toward the right.",
+          "coordinates": [
+            [252,344],
+            [260,349],
+            [265,357],
+            [267,367],
+            [266,377],
+            [261,384],
+            [248,387],
+            [234,387],
+            [219,384],
+            [206,379],
+            [196,373],
+            [193,362],
+            [199,356],
+            [213,354],
+            [229,353],
+            [252,344]
+          ]
+        },
+        {
+          "role": "right_shoe_sole",
+          "type": "path_outline",
+          "placement": "Curved sole line following the bottom of the right shoe.",
+          "coordinates": [
+            [266,378],
+            [253,381],
+            [238,381],
+            [223,379],
+            [208,375],
+            [196,370]
+          ]
+        }
+      ]
+    }
+  ]
+}

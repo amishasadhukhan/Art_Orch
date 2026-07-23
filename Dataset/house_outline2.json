@@ -1,0 +1,698 @@
+{
+  "prompt": "Draw a clean black-outlined front-facing cottage, a short chimney behind the left roof slope, a centered front door, two four-pane windows, a small diamond-shaped four-pane attic window in the gable, one rounded tree on each side, grass tufts along the ground and a few simple curved cloud lines in the background.",
+  "canvas": {
+    "w": 375,
+    "h": 347
+  },
+  "brush_type": "b) Basic-5 Size",
+  "brush_size": 3,
+  "steps": [
+    {
+      "step": 1,
+      "name": "house_main_body",
+      "layer": "foreground",
+      "description": "Draw the rectangular front wall of the cottage beneath the triangular gable.",
+      "bbox": {
+        "x": 107,
+        "y": 174,
+        "w": 166,
+        "h": 91
+      },
+      "elements": [
+        {
+          "role": "front_wall",
+          "type": "stroke",
+          "placement": "Front-facing rectangular house wall centered on the canvas.",
+          "coordinates": [
+            [108,174,108,264],
+            [108,264,272,264],
+            [272,264,272,174]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "name": "main_roof",
+      "layer": "foreground",
+      "description": "Draw the large symmetrical triangular gable roof with a narrow visible trim underneath.",
+      "bbox": {
+        "x": 97,
+        "y": 101,
+        "w": 186,
+        "h": 84
+      },
+      "elements": [
+        {
+          "role": "roof_outer_outline",
+          "type": "stroke",
+          "placement": "Main roof outline with the peak centered above the house.",
+          "coordinates": [
+            [98,176,190,102],
+            [190,102,282,176],
+            [282,176,275,183],
+            [275,183,190,113],
+            [190,113,105,183],
+            [105,183,98,176]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "name": "roof_inner_trim",
+      "layer": "foreground",
+      "description": "Add inner roof trim lines parallel to the two roof slopes.",
+      "bbox": {
+        "x": 108,
+        "y": 112,
+        "w": 164,
+        "h": 66
+      },
+      "elements": [
+        {
+          "role": "left_roof_trim",
+          "type": "stroke",
+          "placement": "Thin line parallel to the left roof slope.",
+          "coordinates": [
+            [109,176,190,111]
+          ]
+        },
+        {
+          "role": "right_roof_trim",
+          "type": "stroke",
+          "placement": "Thin line parallel to the right roof slope.",
+          "coordinates": [
+            [190,111,272,177]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "name": "chimney",
+      "layer": "foreground",
+      "description": "Draw the short rectangular chimney rising behind the left side of the roof.",
+      "bbox": {
+        "x": 130,
+        "y": 103,
+        "w": 31,
+        "h": 43
+      },
+      "elements": [
+        {
+          "role": "chimney_body",
+          "type": "polygon_outline",
+          "placement": "Small vertical chimney positioned behind the left roof slope.",
+          "coordinates": [
+            [134,111],
+            [158,111],
+            [158,137],
+            [134,143],
+            [134,111]
+          ]
+        },
+        {
+          "role": "chimney_cap",
+          "type": "polygon_outline",
+          "placement": "Thin rectangular cap across the chimney top.",
+          "coordinates": [
+            [131,104],
+            [159,104],
+            [160,113],
+            [131,113],
+            [131,104]
+          ]
+        },
+        {
+          "role": "chimney_detail",
+          "type": "stroke",
+          "placement": "Two short horizontal brick-like lines.",
+          "coordinates": [
+            [135,120,157,120],
+            [135,129,157,129]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "name": "gable_horizontal_siding",
+      "layer": "foreground",
+      "description": "Draw simple horizontal siding lines across the triangular gable without crossing the attic window.",
+      "bbox": {
+        "x": 123,
+        "y": 127,
+        "w": 136,
+        "h": 47
+      },
+      "elements": [
+        {
+          "role": "gable_siding",
+          "type": "stroke",
+          "placement": "Horizontal lines clipped visually to the triangular gable.",
+          "coordinates": [
+            [158,136,177,136],
+            [203,136,222,136],
+            [145,148,174,148],
+            [206,148,236,148],
+            [132,160,177,160],
+            [203,160,249,160],
+            [120,172,260,172]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "name": "attic_diamond_window",
+      "layer": "foreground",
+      "description": "Draw the small diamond-shaped four-pane window centered in the front gable.",
+      "bbox": {
+        "x": 176,
+        "y": 136,
+        "w": 29,
+        "h": 27
+      },
+      "elements": [
+        {
+          "role": "attic_window_outline",
+          "type": "polygon_outline",
+          "placement": "Small diamond centered below the roof peak.",
+          "coordinates": [
+            [190,136],
+            [204,149],
+            [190,162],
+            [176,149],
+            [190,136]
+          ]
+        },
+        {
+          "role": "attic_window_vertical_divider",
+          "type": "stroke",
+          "placement": "Diagonal divider from the upper vertex toward the lower vertex through the center.",
+          "coordinates": [
+            [183,143,197,156]
+          ]
+        },
+        {
+          "role": "attic_window_horizontal_divider",
+          "type": "stroke",
+          "placement": "Opposite diagonal divider creating four diamond panes.",
+          "coordinates": [
+            [197,143,183,156]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "name": "front_left_window",
+      "layer": "foreground",
+      "description": "Draw the square four-pane window on the left side of the front wall.",
+      "bbox": {
+        "x": 122,
+        "y": 197,
+        "w": 43,
+        "h": 42
+      },
+      "elements": [
+        {
+          "role": "left_window_outline",
+          "type": "polygon_outline",
+          "placement": "Square front window positioned left of the door.",
+          "coordinates": [
+            [123,198],
+            [163,198],
+            [163,237],
+            [123,237],
+            [123,198]
+          ]
+        },
+        {
+          "role": "left_window_vertical",
+          "type": "stroke",
+          "placement": "Vertical center divider.",
+          "coordinates": [
+            [143,198,143,237]
+          ]
+        },
+        {
+          "role": "left_window_horizontal",
+          "type": "stroke",
+          "placement": "Horizontal center divider.",
+          "coordinates": [
+            [123,217,163,217]
+          ]
+        },
+        {
+          "role": "left_window_sill",
+          "type": "stroke",
+          "placement": "Small sill extending beyond the bottom corners.",
+          "coordinates": [
+            [120,239,166,239]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "name": "front_right_window",
+      "layer": "foreground",
+      "description": "Draw the matching four-pane window on the right side of the front wall.",
+      "bbox": {
+        "x": 216,
+        "y": 197,
+        "w": 43,
+        "h": 42
+      },
+      "elements": [
+        {
+          "role": "right_window_outline",
+          "type": "polygon_outline",
+          "placement": "Square window positioned symmetrically opposite the left window.",
+          "coordinates": [
+            [217,198],
+            [257,198],
+            [257,237],
+            [217,237],
+            [217,198]
+          ]
+        },
+        {
+          "role": "right_window_vertical",
+          "type": "stroke",
+          "placement": "Vertical center divider.",
+          "coordinates": [
+            [237,198,237,237]
+          ]
+        },
+        {
+          "role": "right_window_horizontal",
+          "type": "stroke",
+          "placement": "Horizontal center divider.",
+          "coordinates": [
+            [217,217,257,217]
+          ]
+        },
+        {
+          "role": "right_window_sill",
+          "type": "stroke",
+          "placement": "Small sill extending beyond the bottom corners.",
+          "coordinates": [
+            [214,239,260,239]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 9,
+      "name": "front_door",
+      "layer": "foreground",
+      "description": "Draw the centered rectangular front door with a small upper trim and round doorknob.",
+      "bbox": {
+        "x": 166,
+        "y": 193,
+        "w": 47,
+        "h": 72
+      },
+      "elements": [
+        {
+          "role": "door_outline",
+          "type": "polygon_outline",
+          "placement": "Tall centered front door extending to the ground line.",
+          "coordinates": [
+            [171,201],
+            [208,201],
+            [208,264],
+            [171,264],
+            [171,201]
+          ]
+        },
+        {
+          "role": "door_top_trim",
+          "type": "polygon_outline",
+          "placement": "Narrow projecting trim immediately above the door.",
+          "coordinates": [
+            [168,194],
+            [208,194],
+            [213,201],
+            [166,201],
+            [168,194]
+          ]
+        },
+        {
+          "role": "door_knob",
+          "type": "ellipse_outline",
+          "placement": "Small circular knob on the right half of the door.",
+          "coordinates": {
+            "x": 198,
+            "y": 230,
+            "w": 5,
+            "h": 5
+          }
+        }
+      ]
+    },
+    {
+      "step": 10,
+      "name": "left_tree_trunk",
+      "layer": "foreground",
+      "description": "Draw the narrow trunk of the small ornamental tree to the left of the cottage.",
+      "bbox": {
+        "x": 75,
+        "y": 225,
+        "w": 13,
+        "h": 40
+      },
+      "elements": [
+        {
+          "role": "left_tree_trunk",
+          "type": "stroke",
+          "placement": "Small trunk descending from the foliage toward the ground.",
+          "coordinates": [
+            [79,226,78,263],
+            [85,226,86,263]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 11,
+      "name": "left_tree_crown",
+      "layer": "foreground",
+      "description": "Draw the rounded cloud-like foliage of the left tree.",
+      "bbox": {
+        "x": 61,
+        "y": 201,
+        "w": 40,
+        "h": 36
+      },
+      "elements": [
+        {
+          "role": "left_tree_foliage",
+          "type": "path_outline",
+          "placement": "Compact rounded tree crown made from connected lobes.",
+          "coordinates": [
+            [80,234],
+            [72,236],
+            [66,232],
+            [66,227],
+            [61,224],
+            [62,217],
+            [67,214],
+            [66,209],
+            [72,205],
+            [77,206],
+            [80,201],
+            [86,203],
+            [89,208],
+            [95,208],
+            [99,214],
+            [98,219],
+            [102,223],
+            [99,229],
+            [94,232],
+            [88,231],
+            [84,235],
+            [80,234]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 12,
+      "name": "right_tree_trunk",
+      "layer": "foreground",
+      "description": "Draw the narrow trunk of the ornamental tree on the right.",
+      "bbox": {
+        "x": 293,
+        "y": 225,
+        "w": 13,
+        "h": 40
+      },
+      "elements": [
+        {
+          "role": "right_tree_trunk",
+          "type": "stroke",
+          "placement": "Small vertical trunk connecting the right tree crown to the ground.",
+          "coordinates": [
+            [296,226,295,263],
+            [303,226,304,263]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 13,
+      "name": "right_tree_crown",
+      "layer": "foreground",
+      "description": "Draw the matching rounded foliage of the right tree.",
+      "bbox": {
+        "x": 279,
+        "y": 201,
+        "w": 40,
+        "h": 36
+      },
+      "elements": [
+        {
+          "role": "right_tree_foliage",
+          "type": "path_outline",
+          "placement": "Rounded cloud-like crown similar in size to the left tree.",
+          "coordinates": [
+            [299,234],
+            [292,236],
+            [286,232],
+            [286,228],
+            [280,225],
+            [280,219],
+            [284,215],
+            [283,210],
+            [288,206],
+            [293,207],
+            [297,202],
+            [303,203],
+            [306,208],
+            [312,208],
+            [316,213],
+            [315,218],
+            [319,222],
+            [317,228],
+            [312,232],
+            [306,231],
+            [303,235],
+            [299,234]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 14,
+      "name": "left_grass_tufts",
+      "layer": "foreground",
+      "description": "Add several pointed grass tufts around the left tree and left side of the house.",
+      "bbox": {
+        "x": 49,
+        "y": 244,
+        "w": 111,
+        "h": 22
+      },
+      "elements": [
+        {
+          "role": "left_grass",
+          "type": "stroke",
+          "placement": "Short angular grass blades rising from the ground.",
+          "coordinates": [
+            [57,264,53,251],
+            [57,264,61,247],
+            [64,264,69,254],
+            [72,264,76,244],
+            [76,264,82,251],
+            [89,264,93,249],
+            [93,264,98,255],
+            [105,264,109,248],
+            [109,264,114,257],
+            [121,264,125,252],
+            [125,264,131,257],
+            [149,264,153,254],
+            [153,264,160,251]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 15,
+      "name": "right_grass_tufts",
+      "layer": "foreground",
+      "description": "Add pointed grass tufts beneath the right side of the cottage and around the right tree.",
+      "bbox": {
+        "x": 207,
+        "y": 245,
+        "w": 120,
+        "h": 21
+      },
+      "elements": [
+        {
+          "role": "right_grass",
+          "type": "stroke",
+          "placement": "Short grass blades distributed along the right ground area.",
+          "coordinates": [
+            [211,264,215,252],
+            [215,264,220,257],
+            [224,264,228,248],
+            [228,264,234,255],
+            [239,264,244,250],
+            [244,264,250,257],
+            [255,264,259,248],
+            [259,264,265,255],
+            [274,264,278,250],
+            [278,264,283,257],
+            [310,264,314,249],
+            [314,264,320,254]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 16,
+      "name": "main_ground_line",
+      "layer": "foreground",
+      "description": "Draw the long straight ground line underneath the entire cottage scene.",
+      "bbox": {
+        "x": 47,
+        "y": 263,
+        "w": 285,
+        "h": 7
+      },
+      "elements": [
+        {
+          "role": "ground_line",
+          "type": "stroke",
+          "placement": "Long horizontal baseline running beneath the trees and cottage.",
+          "coordinates": [
+            [47,265,332,265]
+          ]
+        },
+        {
+          "role": "ground_lower_accent",
+          "type": "stroke",
+          "placement": "Shorter subtle second ground line underneath the central scene.",
+          "coordinates": [
+            [61,270,317,270]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 17,
+      "name": "left_background_clouds",
+      "layer": "background",
+      "description": "Draw a few thin simple curved cloud and atmospheric lines behind the upper-left side of the cottage.",
+      "bbox": {
+        "x": 48,
+        "y": 73,
+        "w": 104,
+        "h": 111
+      },
+      "elements": [
+        {
+          "role": "left_cloud_lines",
+          "type": "path_outline",
+          "placement": "Sparse curved background lines that do not touch the house.",
+          "coordinates": [
+            [54,100],
+            [67,100],
+            [73,91],
+            [82,86],
+            [92,85],
+            [100,89]
+          ]
+        },
+        {
+          "role": "left_cloud_lower_line",
+          "type": "stroke",
+          "placement": "Short horizontal cloud accents.",
+          "coordinates": [
+            [48,106,101,106],
+            [58,112,109,112]
+          ]
+        },
+        {
+          "role": "left_background_arc",
+          "type": "path_outline",
+          "placement": "Large faint-style arc behind the left side of the roof.",
+          "coordinates": [
+            [65,182],
+            [68,164],
+            [76,148],
+            [88,136],
+            [102,130]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 18,
+      "name": "right_background_clouds",
+      "layer": "background",
+      "description": "Draw matching simple cloud and atmospheric curves behind the upper-right side.",
+      "bbox": {
+        "x": 207,
+        "y": 60,
+        "w": 112,
+        "h": 124
+      },
+      "elements": [
+        {
+          "role": "large_upper_cloud_arc",
+          "type": "path_outline",
+          "placement": "Large rounded cloud arc behind and above the right roof slope.",
+          "coordinates": [
+            [207,92],
+            [210,78],
+            [220,67],
+            [233,62],
+            [247,62],
+            [260,68],
+            [268,79],
+            [270,92]
+          ]
+        },
+        {
+          "role": "right_small_cloud",
+          "type": "path_outline",
+          "placement": "Smaller cloud arc toward the upper-right.",
+          "coordinates": [
+            [270,98],
+            [276,90],
+            [286,86],
+            [296,87],
+            [304,92],
+            [308,100]
+          ]
+        },
+        {
+          "role": "right_cloud_accents",
+          "type": "stroke",
+          "placement": "Short horizontal cloud lines beneath the small right cloud.",
+          "coordinates": [
+            [274,104,320,104],
+            [282,110,310,110]
+          ]
+        },
+        {
+          "role": "right_background_arc",
+          "type": "path_outline",
+          "placement": "Large atmospheric arc behind the right side of the house.",
+          "coordinates": [
+            [280,130],
+            [294,139],
+            [305,151],
+            [312,165],
+            [316,181]
+          ]
+        }
+      ]
+    }
+  ]
+}

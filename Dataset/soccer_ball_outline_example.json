@@ -1,0 +1,278 @@
+{
+  "prompt": "Draw a simple black-outlined soccer ball. Use a central pentagon surrounded by hexagonal panels.",
+  "canvas": {
+    "w": 580,
+    "h": 430
+  },
+  "brush_type": "b) Basic-5 Size",
+  "brush_size": 6,
+  "steps": [
+    {
+      "step": 1,
+      "name": "ball_outer_circle",
+      "layer": "background",
+      "description": "Draw the circular outer boundary of the football.",
+      "bbox": {
+        "x": 91,
+        "y": 25,
+        "w": 386,
+        "h": 386
+      },
+      "elements": [
+        {
+          "role": "ball_rim",
+          "type": "ellipse_outline",
+          "placement": "Large circular outline centered near (284,218).",
+          "coordinates": {
+            "x": 91,
+            "y": 25,
+            "w": 386,
+            "h": 386
+          }
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "name": "center_pentagon",
+      "layer": "foreground",
+      "description": "Draw the central pentagonal panel.",
+      "bbox": {
+        "x": 216,
+        "y": 159,
+        "w": 134,
+        "h": 121
+      },
+      "elements": [
+        {
+          "role": "center_pentagon",
+          "type": "polygon_outline",
+          "placement": "Central pentagon with one vertex pointing upward.",
+          "coordinates": [
+            [282,159],
+            [350,207],
+            [326,280],
+            [241,279],
+            [216,207],
+            [282,159]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "name": "upper_shared_edge",
+      "layer": "foreground",
+      "description": "Draw the single common edge shared by the upper-left and upper-right hexagons.",
+      "bbox": {
+        "x": 279,
+        "y": 88,
+        "w": 6,
+        "h": 71
+      },
+      "elements": [
+        {
+          "role": "shared_hexagon_edge",
+          "type": "stroke",
+          "placement": "Single edge rising from the top vertex of the central pentagon. The upper-left hexagon lies on its left and the upper-right hexagon lies on its right.",
+          "coordinates": [
+            [282,159,282,88]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "name": "upper_left_hexagon",
+      "layer": "foreground",
+      "description": "Construct the upper-left hexagon. Its rightmost edge is the shared central edge.",
+      "bbox": {
+        "x": 126,
+        "y": 55,
+        "w": 156,
+        "h": 152
+      },
+      "elements": [
+        {
+          "role": "upper_left_hexagon_seams",
+          "type": "stroke",
+          "placement": "Upper-left hexagon attached to the upper-left edge of the central pentagon and terminating at the shared central edge.",
+          "coordinates": [
+            [282,159,216,207],
+            [216,207,160,184],
+            [160,184,126,113],
+            [126,113,205,55],
+            [205,55,282,88]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "name": "upper_right_hexagon",
+      "layer": "foreground",
+      "description": "Construct the upper-right hexagon. Its leftmost edge is the same shared central edge.",
+      "bbox": {
+        "x": 282,
+        "y": 55,
+        "w": 159,
+        "h": 152
+      },
+      "elements": [
+        {
+          "role": "upper_right_hexagon_seams",
+          "type": "stroke",
+          "placement": "Upper-right hexagon attached to the upper-right edge of the central pentagon and terminating at the shared central edge.",
+          "coordinates": [
+            [282,159,350,207],
+            [350,207,409,180],
+            [409,180,441,112],
+            [441,112,363,55],
+            [363,55,282,88]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "name": "top_panel",
+      "layer": "foreground",
+      "description": "Construct the top panel above the two upper hexagons without introducing a square between them.",
+      "bbox": {
+        "x": 205,
+        "y": 25,
+        "w": 158,
+        "h": 63
+      },
+      "elements": [
+        {
+          "role": "top_panel_seams",
+          "type": "stroke",
+          "placement": "Connect the upper-left and upper-right hexagons across the top region.",
+          "coordinates": [
+            [205,55,235,31],
+            [235,31,282,25],
+            [282,25,333,31],
+            [333,31,363,55],
+            [205,55,282,88],
+            [282,88,363,55]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "name": "left_hexagon",
+      "layer": "foreground",
+      "description": "Construct the left-side hexagonal panel.",
+      "bbox": {
+        "x": 99,
+        "y": 184,
+        "w": 142,
+        "h": 142
+      },
+      "elements": [
+        {
+          "role": "left_hexagon_seams",
+          "type": "stroke",
+          "placement": "Hexagonal panel attached to the left edge of the central pentagon.",
+          "coordinates": [
+            [216,207,160,184],
+            [160,184,99,230],
+            [99,230,130,320],
+            [130,320,198,325],
+            [198,325,241,279]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "name": "right_hexagon",
+      "layer": "foreground",
+      "description": "Construct the right-side hexagonal panel.",
+      "bbox": {
+        "x": 326,
+        "y": 180,
+        "w": 143,
+        "h": 146
+      },
+      "elements": [
+        {
+          "role": "right_hexagon_seams",
+          "type": "stroke",
+          "placement": "Hexagonal panel attached to the right edge of the central pentagon.",
+          "coordinates": [
+            [350,207,409,180],
+            [409,180,469,229],
+            [469,229,438,321],
+            [438,321,370,326],
+            [370,326,326,280]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 9,
+      "name": "bottom_hexagon",
+      "layer": "foreground",
+      "description": "Construct the bottom hexagonal panel.",
+      "bbox": {
+        "x": 198,
+        "y": 279,
+        "w": 172,
+        "h": 132
+      },
+      "elements": [
+        {
+          "role": "bottom_hexagon_seams",
+          "type": "stroke",
+          "placement": "Bottom hexagonal panel attached to the bottom edge of the central pentagon.",
+          "coordinates": [
+            [241,279,198,325],
+            [198,325,228,411],
+            [228,411,338,411],
+            [338,411,370,326],
+            [370,326,326,280]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 10,
+      "name": "outer_connections",
+      "layer": "foreground",
+      "description": "Connect the surrounding panels naturally to the circular rim.",
+      "bbox": {
+        "x": 91,
+        "y": 92,
+        "w": 386,
+        "h": 319
+      },
+      "elements": [
+        {
+          "role": "left_outer_connections",
+          "type": "stroke",
+          "placement": "Left-side panel connections to the rim.",
+          "coordinates": [
+            [126,113,108,92],
+            [99,230,91,228],
+            [130,320,112,345],
+            [198,325,228,411]
+          ]
+        },
+        {
+          "role": "right_outer_connections",
+          "type": "stroke",
+          "placement": "Right-side panel connections to the rim.",
+          "coordinates": [
+            [441,112,459,91],
+            [469,229,477,228],
+            [438,321,455,345],
+            [370,326,338,411]
+          ]
+        }
+      ]
+    }
+  ]
+}

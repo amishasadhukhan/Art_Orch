@@ -1,0 +1,401 @@
+{
+  "prompt": "Draw a clean black-outlined pumpkin with a curling vine growing directly from the stem, and a pointed leaf.",
+  "canvas": {
+    "w": 293,
+    "h": 303
+  },
+  "brush_type": "b) Basic-5 Size",
+  "brush_size": 4,
+  "steps": [
+    {
+      "step": 1,
+      "name": "pumpkin_outer_contour",
+      "layer": "background",
+      "description": "Draw the complete wide rounded outer silhouette of the pumpkin.",
+      "bbox": {
+        "x": 9,
+        "y": 99,
+        "w": 275,
+        "h": 178
+      },
+      "elements": [
+        {
+          "role": "pumpkin_outer_shape",
+          "type": "path_outline",
+          "placement": "Wide squat pumpkin silhouette with rounded left and right sides and a gently flattened lower edge.",
+          "coordinates": [
+            [104,108],
+            [88,103],
+            [70,102],
+            [53,108],
+            [37,119],
+            [24,135],
+            [15,154],
+            [10,174],
+            [10,194],
+            [15,215],
+            [25,233],
+            [39,247],
+            [55,257],
+            [75,262],
+            [93,270],
+            [112,272],
+            [129,274],
+            [146,277],
+            [164,274],
+            [182,270],
+            [201,265],
+            [221,265],
+            [240,259],
+            [256,247],
+            [269,230],
+            [278,210],
+            [283,190],
+            [282,170],
+            [277,150],
+            [267,132],
+            [253,118],
+            [237,108],
+            [219,102],
+            [201,101],
+            [184,105],
+            [171,110],
+            [159,104],
+            [146,100],
+            [132,99],
+            [118,101],
+            [104,108]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "name": "center_lobe",
+      "layer": "foreground",
+      "description": "Draw the large central pumpkin lobe using two smooth curved boundaries.",
+      "bbox": {
+        "x": 84,
+        "y": 99,
+        "w": 124,
+        "h": 178
+      },
+      "elements": [
+        {
+          "role": "center_lobe_left_boundary",
+          "type": "path_outline",
+          "placement": "Smooth curved boundary from the upper center-left of the pumpkin down toward the lower center.",
+          "coordinates": [
+            [118,101],
+            [104,108],
+            [95,121],
+            [89,139],
+            [86,159],
+            [85,181],
+            [87,204],
+            [92,226],
+            [101,247],
+            [112,263],
+            [126,273],
+            [145,277]
+          ]
+        },
+        {
+          "role": "center_lobe_right_boundary",
+          "type": "path_outline",
+          "placement": "Right boundary of the large central pumpkin lobe.",
+          "coordinates": [
+            [159,104],
+            [174,111],
+            [186,124],
+            [194,142],
+            [200,162],
+            [205,183],
+            [207,204],
+            [204,225],
+            [197,245],
+            [188,261],
+            [176,271],
+            [161,275],
+            [145,277]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "name": "left_inner_lobe",
+      "layer": "foreground",
+      "description": "Draw the curved boundary separating the center-left lobe from the outer-left lobe.",
+      "bbox": {
+        "x": 37,
+        "y": 103,
+        "w": 89,
+        "h": 169
+      },
+      "elements": [
+        {
+          "role": "left_inner_lobe_boundary",
+          "type": "path_outline",
+          "placement": "Long smooth curved boundary on the left side.",
+          "coordinates": [
+            [104,108],
+            [88,109],
+            [73,117],
+            [61,130],
+            [51,147],
+            [44,166],
+            [39,186],
+            [39,205],
+            [44,224],
+            [52,241],
+            [64,255],
+            [78,265],
+            [94,270],
+            [112,272]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "name": "right_inner_lobe",
+      "layer": "foreground",
+      "description": "Draw the curved boundary separating the center-right lobe from the outer-right lobe.",
+      "bbox": {
+        "x": 171,
+        "y": 101,
+        "w": 87,
+        "h": 165
+      },
+      "elements": [
+        {
+          "role": "right_inner_lobe_boundary",
+          "type": "path_outline",
+          "placement": "Long smooth curved boundary on the right side.",
+          "coordinates": [
+            [184,105],
+            [201,107],
+            [217,114],
+            [231,126],
+            [242,142],
+            [250,160],
+            [255,180],
+            [255,199],
+            [251,218],
+            [243,235],
+            [232,249],
+            [218,259],
+            [201,265],
+            [182,270]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "name": "stem",
+      "layer": "foreground",
+      "description": "Draw the short thick stem rising from the top center of the pumpkin. The vine begins directly from the upper-right side of this stem.",
+      "bbox": {
+        "x": 126,
+        "y": 49,
+        "w": 25,
+        "h": 53
+      },
+      "elements": [
+        {
+          "role": "stem_outline",
+          "type": "path_outline",
+          "placement": "Short slightly tilted organic stem emerging from the pumpkin.",
+          "coordinates": [
+            [134,99],
+            [133,91],
+            [132,80],
+            [131,69],
+            [127,55],
+            [130,51],
+            [139,50],
+            [143,53],
+            [145,65],
+            [145,78],
+            [146,91],
+            [151,99]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "name": "top_pumpkin_ridge",
+      "layer": "foreground",
+      "description": "Draw the shallow curved pumpkin ridge visible behind the stem.",
+      "bbox": {
+        "x": 98,
+        "y": 90,
+        "w": 92,
+        "h": 20
+      },
+      "elements": [
+        {
+          "role": "top_ridge",
+          "type": "path_outline",
+          "placement": "Shallow curved line extending behind the stem across the upper pumpkin.",
+          "coordinates": [
+            [98,104],
+            [109,97],
+            [121,94],
+            [132,93],
+            [145,93],
+            [157,95],
+            [169,99],
+            [181,105],
+            [189,109]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "name": "curling_vine",
+      "layer": "foreground",
+      "description": "Draw one continuous curling vine beginning directly at the upper-right side of the stem, curving upward, forming a loop, and continuing toward the leaf attachment.",
+      "bbox": {
+        "x": 141,
+        "y": 7,
+        "w": 36,
+        "h": 61
+      },
+      "elements": [
+        {
+          "role": "continuous_vine",
+          "type": "path_outline",
+          "placement": "Continuous vine physically attached to the stem with no gap.",
+          "coordinates": [
+            [143,54],
+            [148,58],
+            [153,59],
+            [158,56],
+            [164,51],
+            [168,45],
+            [170,39],
+            [170,34],
+            [168,30],
+            [164,27],
+            [159,28],
+            [155,31],
+            [154,35],
+            [156,39],
+            [160,41],
+            [165,40],
+            [169,36],
+            [172,30],
+            [174,23],
+            [174,17],
+            [172,11],
+            [170,8]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "name": "leaf_branch",
+      "layer": "foreground",
+      "description": "Draw a short branch growing directly from the vine into the base of the leaf so the leaf is visibly attached.",
+      "bbox": {
+        "x": 163,
+        "y": 39,
+        "w": 20,
+        "h": 17
+      },
+      "elements": [
+        {
+          "role": "leaf_attachment_branch",
+          "type": "path_outline",
+          "placement": "Short curved branch starting on the main vine and ending exactly at the base of the leaf.",
+          "coordinates": [
+            [166,48],
+            [170,46],
+            [174,44],
+            [178,43]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 9,
+      "name": "leaf_outline",
+      "layer": "foreground",
+      "description": "Draw the pointed leaf extending toward the upper-right. The leftmost base of the leaf begins exactly at the end of the leaf branch.",
+      "bbox": {
+        "x": 178,
+        "y": 38,
+        "w": 40,
+        "h": 48
+      },
+      "elements": [
+        {
+          "role": "leaf_outer_shape",
+          "type": "path_outline",
+          "placement": "Angular pointed leaf physically connected to the vine through the leaf branch.",
+          "coordinates": [
+            [178,43],
+            [185,40],
+            [194,39],
+            [204,40],
+            [201,47],
+            [207,51],
+            [213,58],
+            [217,68],
+            [207,66],
+            [199,70],
+            [190,78],
+            [182,85],
+            [178,75],
+            [174,64],
+            [176,53],
+            [178,43]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 10,
+      "name": "leaf_veins",
+      "layer": "foreground",
+      "description": "Draw the main vein from the exact leaf attachment point and add simple secondary veins.",
+      "bbox": {
+        "x": 178,
+        "y": 43,
+        "w": 35,
+        "h": 36
+      },
+      "elements": [
+        {
+          "role": "leaf_main_vein",
+          "type": "path_outline",
+          "placement": "Main vein begins at the same point where the branch enters the leaf and extends diagonally toward the right side.",
+          "coordinates": [
+            [178,43],
+            [185,49],
+            [193,55],
+            [201,61],
+            [210,66]
+          ]
+        },
+        {
+          "role": "leaf_secondary_veins",
+          "type": "stroke",
+          "placement": "Short veins branching naturally from the main leaf vein.",
+          "coordinates": [
+            [185,49,191,41],
+            [193,55,201,47],
+            [193,55,188,70],
+            [201,61,195,76]
+          ]
+        }
+      ]
+    }
+  ]
+}

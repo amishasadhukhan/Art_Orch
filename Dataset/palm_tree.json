@@ -1,0 +1,694 @@
+{
+  "prompt": "Draw a simple black-outlined tropical scene with one large palm tree on the upper-right, one smaller palm tree on the lower-left, both with smoothly curved trunks and long pointed palm leaves radiating from their crowns. Add three gentle curved ground or island lines beneath the trees.",
+  "canvas": {
+    "w": 335,
+    "h": 333
+  },
+  "brush_type": "b) Basic-5 Size",
+  "brush_size": 2,
+  "steps": [
+    {
+      "step": 1,
+      "name": "large_palm_trunk",
+      "layer": "foreground",
+      "description": "Draw the tall curved trunk of the large right palm. The trunk begins near the ground and bends gradually to the right as it rises toward the crown.",
+      "bbox": {
+        "x": 151,
+        "y": 66,
+        "w": 65,
+        "h": 183
+      },
+      "elements": [
+        {
+          "role": "large_trunk_left_edge",
+          "type": "path_outline",
+          "placement": "Left contour of the large palm trunk, beginning near the ground and curving upward toward the crown.",
+          "coordinates": [
+            [151,247],
+            [164,229],
+            [175,208],
+            [184,185],
+            [192,160],
+            [198,134],
+            [202,109],
+            [204,87],
+            [204,68]
+          ]
+        },
+        {
+          "role": "large_trunk_right_edge",
+          "type": "path_outline",
+          "placement": "Right contour of the trunk. Keep the trunk wider near the bottom and progressively narrower toward the crown.",
+          "coordinates": [
+            [170,248],
+            [181,229],
+            [191,207],
+            [199,184],
+            [205,160],
+            [210,135],
+            [213,111],
+            [215,88],
+            [214,69]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "name": "large_palm_crown_center",
+      "layer": "foreground",
+      "description": "Establish the crown junction of the large palm where all leaves radiate outward.",
+      "bbox": {
+        "x": 200,
+        "y": 59,
+        "w": 17,
+        "h": 15
+      },
+      "elements": [
+        {
+          "role": "large_crown_junction",
+          "type": "stroke",
+          "placement": "Short central strokes around the crown point near (207,65), connecting the leaves naturally to the top of the trunk.",
+          "coordinates": [
+            [204,68,207,64],
+            [207,64,211,68]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "name": "large_palm_upper_left_leaf",
+      "layer": "foreground",
+      "description": "Draw the long upper-left palm leaf from the large crown.",
+      "bbox": {
+        "x": 126,
+        "y": 39,
+        "w": 82,
+        "h": 29
+      },
+      "elements": [
+        {
+          "role": "upper_left_leaf",
+          "type": "path_outline",
+          "placement": "Long pointed leaf extending nearly horizontally toward the upper-left.",
+          "coordinates": [
+            [207,64],
+            [192,55],
+            [175,48],
+            [158,43],
+            [143,43],
+            [132,47],
+            [126,53],
+            [142,51],
+            [158,52],
+            [174,55],
+            [190,60],
+            [207,64]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "name": "large_palm_top_left_leaf",
+      "layer": "foreground",
+      "description": "Draw the narrow upward-left leaf from the large palm crown.",
+      "bbox": {
+        "x": 174,
+        "y": 17,
+        "w": 38,
+        "h": 46
+      },
+      "elements": [
+        {
+          "role": "top_left_leaf",
+          "type": "path_outline",
+          "placement": "Narrow pointed leaf rising diagonally upward-left from the crown.",
+          "coordinates": [
+            [207,63],
+            [200,50],
+            [192,38],
+            [183,27],
+            [174,18],
+            [184,20],
+            [194,26],
+            [202,36],
+            [208,48],
+            [207,63]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "name": "large_palm_top_right_leaf",
+      "layer": "foreground",
+      "description": "Draw the narrow leaf rising toward the upper-right.",
+      "bbox": {
+        "x": 208,
+        "y": 27,
+        "w": 51,
+        "h": 38
+      },
+      "elements": [
+        {
+          "role": "top_right_leaf",
+          "type": "path_outline",
+          "placement": "Pointed leaf extending upward-right from the crown.",
+          "coordinates": [
+            [208,63],
+            [216,50],
+            [226,40],
+            [237,33],
+            [247,29],
+            [258,28],
+            [249,34],
+            [239,40],
+            [229,47],
+            [219,55],
+            [208,63]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "name": "large_palm_right_upper_leaf",
+      "layer": "foreground",
+      "description": "Draw the broad upper-right leaf.",
+      "bbox": {
+        "x": 211,
+        "y": 44,
+        "w": 84,
+        "h": 22
+      },
+      "elements": [
+        {
+          "role": "right_upper_leaf",
+          "type": "path_outline",
+          "placement": "Broad pointed leaf extending almost horizontally toward the upper-right.",
+          "coordinates": [
+            [211,64],
+            [227,55],
+            [244,49],
+            [261,46],
+            [276,48],
+            [287,54],
+            [295,62],
+            [280,59],
+            [264,58],
+            [248,58],
+            [230,61],
+            [211,64]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "name": "large_palm_far_left_leaf",
+      "layer": "foreground",
+      "description": "Draw the large downward-curving leaf extending far to the left.",
+      "bbox": {
+        "x": 114,
+        "y": 62,
+        "w": 94,
+        "h": 54
+      },
+      "elements": [
+        {
+          "role": "far_left_leaf",
+          "type": "path_outline",
+          "placement": "Long leaf sweeping downward-left from the large crown.",
+          "coordinates": [
+            [207,65],
+            [189,67],
+            [171,73],
+            [154,82],
+            [139,92],
+            [126,103],
+            [115,115],
+            [119,102],
+            [126,89],
+            [137,78],
+            [151,70],
+            [168,65],
+            [187,63],
+            [207,65]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "name": "large_palm_left_down_leaf",
+      "layer": "foreground",
+      "description": "Draw the narrow downward-left leaf beneath the crown.",
+      "bbox": {
+        "x": 170,
+        "y": 65,
+        "w": 39,
+        "h": 60
+      },
+      "elements": [
+        {
+          "role": "left_down_leaf",
+          "type": "path_outline",
+          "placement": "Narrow leaf curving downward-left from the crown.",
+          "coordinates": [
+            [207,66],
+            [196,75],
+            [186,86],
+            [178,99],
+            [172,112],
+            [170,124],
+            [178,114],
+            [185,104],
+            [191,94],
+            [198,81],
+            [207,66]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 9,
+      "name": "large_palm_right_down_leaf",
+      "layer": "foreground",
+      "description": "Draw the long leaf sweeping downward-right from the large palm crown.",
+      "bbox": {
+        "x": 210,
+        "y": 63,
+        "w": 89,
+        "h": 64
+      },
+      "elements": [
+        {
+          "role": "right_down_leaf",
+          "type": "path_outline",
+          "placement": "Long broad leaf extending diagonally downward-right.",
+          "coordinates": [
+            [210,65],
+            [228,69],
+            [246,76],
+            [262,85],
+            [276,97],
+            [288,111],
+            [298,126],
+            [295,111],
+            [289,96],
+            [279,83],
+            [266,73],
+            [250,66],
+            [231,63],
+            [210,65]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 10,
+      "name": "large_palm_center_down_leaf",
+      "layer": "foreground",
+      "description": "Draw the central downward-pointing leaf beside the large trunk.",
+      "bbox": {
+        "x": 211,
+        "y": 65,
+        "w": 36,
+        "h": 62
+      },
+      "elements": [
+        {
+          "role": "center_down_leaf",
+          "type": "path_outline",
+          "placement": "Narrow pointed leaf descending from the crown toward the lower-right.",
+          "coordinates": [
+            [211,66],
+            [221,75],
+            [231,86],
+            [239,99],
+            [244,112],
+            [246,126],
+            [238,116],
+            [230,105],
+            [223,94],
+            [217,81],
+            [211,66]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 11,
+      "name": "small_palm_trunk",
+      "layer": "foreground",
+      "description": "Draw the shorter curved trunk of the left palm. It begins near the same ground area and curves leftward toward its crown.",
+      "bbox": {
+        "x": 94,
+        "y": 158,
+        "w": 55,
+        "h": 91
+      },
+      "elements": [
+        {
+          "role": "small_trunk_left_edge",
+          "type": "path_outline",
+          "placement": "Left contour of the smaller curved trunk.",
+          "coordinates": [
+            [133,247],
+            [122,237],
+            [113,225],
+            [106,211],
+            [101,196],
+            [98,181],
+            [97,165]
+          ]
+        },
+        {
+          "role": "small_trunk_right_edge",
+          "type": "path_outline",
+          "placement": "Right contour of the small trunk, tapering toward the crown.",
+          "coordinates": [
+            [149,246],
+            [137,234],
+            [127,221],
+            [119,207],
+            [113,192],
+            [108,177],
+            [105,163]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 12,
+      "name": "small_palm_upper_left_leaf",
+      "layer": "foreground",
+      "description": "Draw the upper-left leaf of the smaller palm.",
+      "bbox": {
+        "x": 63,
+        "y": 142,
+        "w": 39,
+        "h": 20
+      },
+      "elements": [
+        {
+          "role": "small_upper_left_leaf",
+          "type": "path_outline",
+          "placement": "Short narrow leaf extending upper-left from the small crown.",
+          "coordinates": [
+            [101,160],
+            [92,153],
+            [82,148],
+            [72,145],
+            [63,146],
+            [72,142],
+            [82,143],
+            [92,148],
+            [101,160]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 13,
+      "name": "small_palm_top_leaf",
+      "layer": "foreground",
+      "description": "Draw the upward-pointing leaf from the small palm crown.",
+      "bbox": {
+        "x": 94,
+        "y": 127,
+        "w": 17,
+        "h": 35
+      },
+      "elements": [
+        {
+          "role": "small_top_leaf",
+          "type": "path_outline",
+          "placement": "Narrow pointed leaf rising from the small crown.",
+          "coordinates": [
+            [101,160],
+            [97,149],
+            [97,139],
+            [102,130],
+            [108,127],
+            [105,137],
+            [104,148],
+            [101,160]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 14,
+      "name": "small_palm_upper_right_leaf",
+      "layer": "foreground",
+      "description": "Draw the upper-right leaf of the smaller palm.",
+      "bbox": {
+        "x": 101,
+        "y": 137,
+        "w": 45,
+        "h": 25
+      },
+      "elements": [
+        {
+          "role": "small_upper_right_leaf",
+          "type": "path_outline",
+          "placement": "Pointed leaf extending diagonally upward-right.",
+          "coordinates": [
+            [102,160],
+            [111,151],
+            [121,144],
+            [132,140],
+            [144,141],
+            [135,137],
+            [124,137],
+            [113,143],
+            [102,160]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 15,
+      "name": "small_palm_left_leaf",
+      "layer": "foreground",
+      "description": "Draw the broad leaf extending left from the small crown.",
+      "bbox": {
+        "x": 47,
+        "y": 151,
+        "w": 56,
+        "h": 23
+      },
+      "elements": [
+        {
+          "role": "small_left_leaf",
+          "type": "path_outline",
+          "placement": "Broad pointed leaf sweeping left and slightly downward.",
+          "coordinates": [
+            [102,161],
+            [90,156],
+            [78,154],
+            [66,156],
+            [56,162],
+            [48,171],
+            [60,166],
+            [72,164],
+            [84,164],
+            [102,161]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 16,
+      "name": "small_palm_right_leaf",
+      "layer": "foreground",
+      "description": "Draw the long leaf extending right from the small crown.",
+      "bbox": {
+        "x": 102,
+        "y": 154,
+        "w": 59,
+        "h": 25
+      },
+      "elements": [
+        {
+          "role": "small_right_leaf",
+          "type": "path_outline",
+          "placement": "Long pointed leaf extending horizontally toward the right.",
+          "coordinates": [
+            [102,161],
+            [114,156],
+            [126,154],
+            [138,157],
+            [149,164],
+            [160,175],
+            [148,170],
+            [136,167],
+            [124,166],
+            [113,165],
+            [102,161]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 17,
+      "name": "small_palm_lower_left_leaf",
+      "layer": "foreground",
+      "description": "Draw the long downward-left leaf of the small palm.",
+      "bbox": {
+        "x": 53,
+        "y": 161,
+        "w": 49,
+        "h": 49
+      },
+      "elements": [
+        {
+          "role": "small_lower_left_leaf",
+          "type": "path_outline",
+          "placement": "Long narrow leaf sweeping downward-left.",
+          "coordinates": [
+            [101,162],
+            [88,166],
+            [77,173],
+            [67,183],
+            [59,196],
+            [54,209],
+            [54,196],
+            [58,184],
+            [66,174],
+            [77,167],
+            [89,163],
+            [101,162]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 18,
+      "name": "small_palm_lower_center_leaf",
+      "layer": "foreground",
+      "description": "Draw the narrow downward leaf beneath the small palm crown.",
+      "bbox": {
+        "x": 84,
+        "y": 162,
+        "w": 19,
+        "h": 43
+      },
+      "elements": [
+        {
+          "role": "small_lower_center_leaf",
+          "type": "path_outline",
+          "placement": "Narrow leaf descending from the crown.",
+          "coordinates": [
+            [101,163],
+            [96,174],
+            [92,185],
+            [89,197],
+            [88,205],
+            [84,196],
+            [85,184],
+            [90,173],
+            [101,163]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 19,
+      "name": "ground_upper_curve",
+      "layer": "foreground",
+      "description": "Draw the upper curved island or ground line beneath both palm trees.",
+      "bbox": {
+        "x": 67,
+        "y": 244,
+        "w": 195,
+        "h": 34
+      },
+      "elements": [
+        {
+          "role": "upper_ground_line",
+          "type": "path_outline",
+          "placement": "Smooth shallow hill-like curve passing beneath both trunks.",
+          "coordinates": [
+            [67,276],
+            [88,266],
+            [110,257],
+            [132,251],
+            [153,247],
+            [174,247],
+            [195,251],
+            [215,258],
+            [233,266],
+            [249,273],
+            [261,276]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 20,
+      "name": "ground_middle_curve",
+      "layer": "foreground",
+      "description": "Draw the second curved line beneath the first ground line.",
+      "bbox": {
+        "x": 78,
+        "y": 264,
+        "w": 174,
+        "h": 30
+      },
+      "elements": [
+        {
+          "role": "middle_ground_line",
+          "type": "path_outline",
+          "placement": "Second smooth wave-like line following the upper ground contour.",
+          "coordinates": [
+            [78,286],
+            [98,277],
+            [119,270],
+            [140,266],
+            [161,265],
+            [182,268],
+            [202,274],
+            [221,281],
+            [238,287],
+            [252,289]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 21,
+      "name": "ground_lower_curve",
+      "layer": "foreground",
+      "description": "Draw the lowest curved ground line, completing the simple tropical island base.",
+      "bbox": {
+        "x": 83,
+        "y": 282,
+        "w": 168,
+        "h": 26
+      },
+      "elements": [
+        {
+          "role": "lower_ground_line",
+          "type": "path_outline",
+          "placement": "Lowest gentle curved line, slightly shorter than the two lines above it.",
+          "coordinates": [
+            [83,291],
+            [104,286],
+            [125,284],
+            [146,285],
+            [167,289],
+            [188,295],
+            [208,301],
+            [226,305],
+            [240,304],
+            [250,299]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,345 @@
+{
+  "prompt": "Draw a clean black-outlined perspective table as a rectangular tabletop viewed from above.",
+  "canvas": {
+    "w": 626,
+    "h": 407
+  },
+  "brush_type": "b) Basic-5 Size",
+  "brush_size": 4,
+  "steps": [
+    {
+      "step": 1,
+      "name": "tabletop_top_surface",
+      "layer": "foreground",
+      "description": "Draw the main top surface of the table as a perspective quadrilateral with slightly softened corners.",
+      "bbox": {
+        "x": 151,
+        "y": 63,
+        "w": 383,
+        "h": 88
+      },
+      "elements": [
+        {
+          "role": "tabletop_surface",
+          "type": "path_outline",
+          "placement": "Large tabletop seen from above. The back edge rises gently toward the center-left, while the front edge runs lower and slightly curved across the image.",
+          "coordinates": [
+            [152,116],
+            [181,108],
+            [222,98],
+            [267,88],
+            [313,79],
+            [357,70],
+            [402,64],
+            [437,68],
+            [470,75],
+            [501,83],
+            [532,92],
+            [533,100],
+            [512,109],
+            [478,118],
+            [437,128],
+            [394,137],
+            [350,144],
+            [311,149],
+            [286,151],
+            [253,147],
+            [218,141],
+            [186,135],
+            [160,130],
+            [152,126],
+            [152,116]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "name": "tabletop_front_thickness",
+      "layer": "foreground",
+      "description": "Draw the visible thickness underneath the front and side edges of the tabletop.",
+      "bbox": {
+        "x": 152,
+        "y": 100,
+        "w": 381,
+        "h": 63
+      },
+      "elements": [
+        {
+          "role": "front_thickness_edge",
+          "type": "path_outline",
+          "placement": "Lower edge following the front perimeter of the tabletop to create a thin solid tabletop.",
+          "coordinates": [
+            [152,126],
+            [153,131],
+            [177,141],
+            [211,148],
+            [249,155],
+            [285,162],
+            [320,158],
+            [359,152],
+            [400,144],
+            [441,136],
+            [479,127],
+            [511,117],
+            [533,106],
+            [533,100]
+          ]
+        },
+        {
+          "role": "left_tabletop_thickness",
+          "type": "stroke",
+          "placement": "Short left edge closing the tabletop thickness.",
+          "coordinates": [
+            [152,116,152,126]
+          ]
+        },
+        {
+          "role": "right_tabletop_thickness",
+          "type": "stroke",
+          "placement": "Short right edge closing the tabletop thickness.",
+          "coordinates": [
+            [533,100,533,106]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "name": "front_apron",
+      "layer": "foreground",
+      "description": "Draw the long support apron beneath the front edge of the tabletop.",
+      "bbox": {
+        "x": 178,
+        "y": 137,
+        "w": 313,
+        "h": 55
+      },
+      "elements": [
+        {
+          "role": "front_apron_lower_edge",
+          "type": "path_outline",
+          "placement": "Long diagonal support line beneath the front tabletop edge, running from the left-front area toward the right-front area.",
+          "coordinates": [
+            [179,143],
+            [215,154],
+            [257,166],
+            [298,177],
+            [339,177],
+            [379,165],
+            [419,154],
+            [457,145],
+            [490,137]
+          ]
+        },
+        {
+          "role": "left_apron_end",
+          "type": "stroke",
+          "placement": "Short support edge below the left side of the tabletop.",
+          "coordinates": [
+            [177,138,179,143]
+          ]
+        },
+        {
+          "role": "right_apron_end",
+          "type": "stroke",
+          "placement": "Short support edge beneath the right side.",
+          "coordinates": [
+            [490,137,495,116]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "name": "front_left_leg",
+      "layer": "foreground",
+      "description": "Draw the long front-left table leg descending from beneath the tabletop.",
+      "bbox": {
+        "x": 176,
+        "y": 151,
+        "w": 29,
+        "h": 146
+      },
+      "elements": [
+        {
+          "role": "front_left_leg_outline",
+          "type": "path_outline",
+          "placement": "Slender leg angled slightly toward the left as it descends.",
+          "coordinates": [
+            [181,151],
+            [204,158],
+            [200,185],
+            [197,214],
+            [194,244],
+            [191,273],
+            [189,293],
+            [185,296],
+            [178,295],
+            [176,292],
+            [177,264],
+            [178,235],
+            [179,205],
+            [180,178],
+            [181,151]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "name": "front_right_leg",
+      "layer": "foreground",
+      "description": "Draw the long front-right table leg descending from the right underside of the tabletop.",
+      "bbox": {
+        "x": 481,
+        "y": 133,
+        "w": 32,
+        "h": 153
+      },
+      "elements": [
+        {
+          "role": "front_right_leg_outline",
+          "type": "path_outline",
+          "placement": "Slender right leg angled slightly outward toward the right as it descends.",
+          "coordinates": [
+            [484,137],
+            [501,133],
+            [504,158],
+            [506,184],
+            [508,210],
+            [510,236],
+            [512,263],
+            [512,281],
+            [508,285],
+            [501,284],
+            [498,281],
+            [495,256],
+            [492,229],
+            [489,201],
+            [486,172],
+            [484,137]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "name": "rear_left_leg",
+      "layer": "foreground",
+      "description": "Draw the visible inner/rear-left leg descending near the front-center-left portion of the table.",
+      "bbox": {
+        "x": 273,
+        "y": 157,
+        "w": 28,
+        "h": 190
+      },
+      "elements": [
+        {
+          "role": "rear_left_leg_outline",
+          "type": "path_outline",
+          "placement": "Long nearly vertical leg beginning beneath the tabletop near x=278 and extending toward the bottom.",
+          "coordinates": [
+            [276,157],
+            [299,161],
+            [298,190],
+            [297,220],
+            [296,251],
+            [295,283],
+            [294,315],
+            [294,341],
+            [291,345],
+            [283,345],
+            [280,342],
+            [280,314],
+            [279,284],
+            [278,252],
+            [278,221],
+            [277,189],
+            [276,157]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "name": "rear_right_leg",
+      "layer": "foreground",
+      "description": "Draw the shorter visible rear-right leg beneath the middle-right portion of the tabletop.",
+      "bbox": {
+        "x": 389,
+        "y": 157,
+        "w": 24,
+        "h": 83
+      },
+      "elements": [
+        {
+          "role": "rear_right_leg_outline",
+          "type": "path_outline",
+          "placement": "Narrow rear leg descending almost vertically from the underside of the tabletop.",
+          "coordinates": [
+            [391,162],
+            [410,157],
+            [408,178],
+            [407,198],
+            [406,219],
+            [406,235],
+            [403,239],
+            [397,239],
+            [394,236],
+            [393,217],
+            [392,197],
+            [391,178],
+            [391,162]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "name": "left_side_support",
+      "layer": "foreground",
+      "description": "Draw the visible support line beneath the left side of the tabletop.",
+      "bbox": {
+        "x": 177,
+        "y": 137,
+        "w": 101,
+        "h": 56
+      },
+      "elements": [
+        {
+          "role": "left_support",
+          "type": "stroke",
+          "placement": "Diagonal support/apron line running from the left tabletop underside toward the inner left leg.",
+          "coordinates": [
+            [178,140,204,157],
+            [204,157,276,191]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 9,
+      "name": "right_side_support",
+      "layer": "foreground",
+      "description": "Draw the visible support beneath the right side of the tabletop.",
+      "bbox": {
+        "x": 410,
+        "y": 137,
+        "w": 86,
+        "h": 28
+      },
+      "elements": [
+        {
+          "role": "right_support",
+          "type": "stroke",
+          "placement": "Diagonal underside support connecting the central underside region toward the right leg.",
+          "coordinates": [
+            [410,157,451,147],
+            [451,147,490,138]
+          ]
+        }
+      ]
+    }
+  ]
+}

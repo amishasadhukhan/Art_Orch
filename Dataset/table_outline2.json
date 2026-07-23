@@ -1,0 +1,333 @@
+{
+  "prompt": "Draw a clean black-outlined front-perspective table with a broad rectangular tabletop viewed slightly from above, with a trapezoidal top surface, a thin rectangular front fascia beneath it, four straight rectangular legs, and two lower side support rails visible behind the front legs. Keep the table symmetric, geometric, unfilled, and use clean connected outlines.",
+  "canvas": {
+    "w": 458,
+    "h": 306
+  },
+  "brush_type": "b) Basic-5 Size",
+  "brush_size": 3,
+  "steps": [
+    {
+      "step": 1,
+      "name": "tabletop_top_surface",
+      "layer": "foreground",
+      "description": "Draw the trapezoidal top surface of the table viewed slightly from above.",
+      "bbox": {
+        "x": 76,
+        "y": 64,
+        "w": 307,
+        "h": 30
+      },
+      "elements": [
+        {
+          "role": "tabletop_surface",
+          "type": "polygon_outline",
+          "placement": "Wide shallow trapezoid. The back edge is shorter and higher, while the front edge is longer and lower.",
+          "coordinates": [
+            [76,93],
+            [132,65],
+            [326,65],
+            [382,93],
+            [76,93]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "name": "tabletop_front_fascia",
+      "layer": "foreground",
+      "description": "Draw the thin rectangular thickness directly beneath the front edge of the tabletop.",
+      "bbox": {
+        "x": 76,
+        "y": 93,
+        "w": 307,
+        "h": 20
+      },
+      "elements": [
+        {
+          "role": "front_fascia",
+          "type": "polygon_outline",
+          "placement": "Long thin rectangular band spanning the full front width of the tabletop.",
+          "coordinates": [
+            [76,93],
+            [382,93],
+            [382,112],
+            [76,112],
+            [76,93]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "name": "front_left_leg",
+      "layer": "foreground",
+      "description": "Draw the front-left rectangular leg attached directly beneath the tabletop fascia.",
+      "bbox": {
+        "x": 77,
+        "y": 112,
+        "w": 28,
+        "h": 129
+      },
+      "elements": [
+        {
+          "role": "front_left_leg_outline",
+          "type": "polygon_outline",
+          "placement": "Straight rectangular front-left leg extending downward from the fascia, with a small angled inner edge at the bottom.",
+          "coordinates": [
+            [78,112],
+            [104,112],
+            [104,231],
+            [95,240],
+            [78,240],
+            [78,112]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "name": "front_right_leg",
+      "layer": "foreground",
+      "description": "Draw the front-right rectangular leg symmetrically beneath the tabletop fascia.",
+      "bbox": {
+        "x": 354,
+        "y": 112,
+        "w": 28,
+        "h": 129
+      },
+      "elements": [
+        {
+          "role": "front_right_leg_outline",
+          "type": "polygon_outline",
+          "placement": "Straight rectangular front-right leg extending downward from the fascia.",
+          "coordinates": [
+            [354,112],
+            [381,112],
+            [381,240],
+            [364,240],
+            [355,231],
+            [354,112]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "name": "rear_left_leg",
+      "layer": "foreground",
+      "description": "Draw the partially visible rear-left leg behind the front-left leg.",
+      "bbox": {
+        "x": 130,
+        "y": 112,
+        "w": 24,
+        "h": 74
+      },
+      "elements": [
+        {
+          "role": "rear_left_leg_outline",
+          "type": "polygon_outline",
+          "placement": "Narrow rear leg beginning beneath the tabletop and visible behind the left-side support rail.",
+          "coordinates": [
+            [131,112],
+            [153,112],
+            [153,177],
+            [145,185],
+            [137,182],
+            [137,153],
+            [131,153],
+            [131,112]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "name": "rear_right_leg",
+      "layer": "foreground",
+      "description": "Draw the partially visible rear-right leg behind the front-right leg.",
+      "bbox": {
+        "x": 305,
+        "y": 112,
+        "w": 24,
+        "h": 74
+      },
+      "elements": [
+        {
+          "role": "rear_right_leg_outline",
+          "type": "polygon_outline",
+          "placement": "Narrow rear leg mirroring the rear-left leg.",
+          "coordinates": [
+            [305,112],
+            [328,112],
+            [328,153],
+            [322,153],
+            [322,182],
+            [314,185],
+            [306,177],
+            [305,112]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "name": "left_lower_support",
+      "layer": "foreground",
+      "description": "Draw the left side support rail connecting the front-left and rear-left leg regions.",
+      "bbox": {
+        "x": 104,
+        "y": 151,
+        "w": 40,
+        "h": 48
+      },
+      "elements": [
+        {
+          "role": "left_support_outer_shape",
+          "type": "polygon_outline",
+          "placement": "Diagonal rectangular rail receding backward from the inner side of the front-left leg toward the rear-left leg.",
+          "coordinates": [
+            [104,174],
+            [137,152],
+            [144,157],
+            [144,170],
+            [104,198],
+            [104,174]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "name": "left_support_inner_edge",
+      "layer": "foreground",
+      "description": "Add the inner line that gives the left support rail visible thickness.",
+      "bbox": {
+        "x": 104,
+        "y": 160,
+        "w": 34,
+        "h": 25
+      },
+      "elements": [
+        {
+          "role": "left_support_detail",
+          "type": "stroke",
+          "placement": "Parallel diagonal line inside the left support rail.",
+          "coordinates": [
+            [104,184,137,160]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 9,
+      "name": "right_lower_support",
+      "layer": "foreground",
+      "description": "Draw the matching right side support rail connecting the front-right and rear-right leg regions.",
+      "bbox": {
+        "x": 314,
+        "y": 151,
+        "w": 40,
+        "h": 48
+      },
+      "elements": [
+        {
+          "role": "right_support_outer_shape",
+          "type": "polygon_outline",
+          "placement": "Diagonal rectangular rail receding backward from the inner side of the front-right leg toward the rear-right leg.",
+          "coordinates": [
+            [314,157],
+            [321,152],
+            [354,174],
+            [354,198],
+            [314,170],
+            [314,157]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 10,
+      "name": "right_support_inner_edge",
+      "layer": "foreground",
+      "description": "Add the inner line that gives the right support rail visible thickness.",
+      "bbox": {
+        "x": 321,
+        "y": 160,
+        "w": 33,
+        "h": 25
+      },
+      "elements": [
+        {
+          "role": "right_support_detail",
+          "type": "stroke",
+          "placement": "Parallel diagonal line inside the right support rail.",
+          "coordinates": [
+            [321,160,354,184]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 11,
+      "name": "left_leg_inner_edges",
+      "layer": "foreground",
+      "description": "Add the vertical inner edges that make the left legs read clearly as separate rectangular supports.",
+      "bbox": {
+        "x": 94,
+        "y": 112,
+        "w": 44,
+        "h": 127
+      },
+      "elements": [
+        {
+          "role": "front_left_inner_edge",
+          "type": "stroke",
+          "placement": "Vertical inner line of the front-left leg.",
+          "coordinates": [
+            [94,112,94,239]
+          ]
+        },
+        {
+          "role": "rear_left_inner_edge",
+          "type": "stroke",
+          "placement": "Visible vertical edge of the rear-left leg.",
+          "coordinates": [
+            [137,112,137,182]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 12,
+      "name": "right_leg_inner_edges",
+      "layer": "foreground",
+      "description": "Add the matching vertical inner edges on the right legs.",
+      "bbox": {
+        "x": 321,
+        "y": 112,
+        "w": 44,
+        "h": 127
+      },
+      "elements": [
+        {
+          "role": "front_right_inner_edge",
+          "type": "stroke",
+          "placement": "Vertical inner line of the front-right leg.",
+          "coordinates": [
+            [365,112,365,239]
+          ]
+        },
+        {
+          "role": "rear_right_inner_edge",
+          "type": "stroke",
+          "placement": "Visible vertical edge of the rear-right leg.",
+          "coordinates": [
+            [321,112,321,182]
+          ]
+        }
+      ]
+    }
+  ]
+}

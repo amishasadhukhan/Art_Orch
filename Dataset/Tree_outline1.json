@@ -1,0 +1,548 @@
+{
+  "prompt": "Draw a simple black-outlined tree. A large rounded cloud-like leafy canopy, a natural Y-shaped trunk, and spreading roots at the bottom. ",
+  "canvas": {
+    "w": 600,
+    "h": 450
+  },
+  "brush_type": "b) Basic-5 Size",
+  "brush_size": 3,
+  "steps": [
+    {
+      "step": 1,
+      "name": "leaf_canopy_outer_outline",
+      "layer": "foreground",
+      "description": "Draw the large cloud-like outer silhouette of the leafy canopy using smooth rounded lobes.",
+      "bbox": {
+        "x": 74,
+        "y": 16,
+        "w": 357,
+        "h": 260
+      },
+      "elements": [
+        {
+          "role": "canopy_outer_shape",
+          "type": "path_outline",
+          "placement": "Large rounded canopy centered above the trunk, made from irregular but smooth cloud-like lobes.",
+          "coordinates": [
+            [105,211],
+            [91,207],
+            [80,197],
+            [75,185],
+            [77,174],
+            [85,160],
+            [89,151],
+            [85,139],
+            [88,127],
+            [98,116],
+            [108,111],
+            [111,99],
+            [112,83],
+            [118,70],
+            [128,64],
+            [143,62],
+            [156,62],
+            [168,55],
+            [177,44],
+            [188,34],
+            [199,30],
+            [211,32],
+            [220,36],
+            [229,28],
+            [239,21],
+            [248,17],
+            [258,17],
+            [268,20],
+            [276,27],
+            [280,36],
+            [292,31],
+            [304,30],
+            [316,32],
+            [327,37],
+            [337,46],
+            [346,56],
+            [359,55],
+            [372,55],
+            [385,58],
+            [396,65],
+            [402,74],
+            [403,88],
+            [401,100],
+            [407,106],
+            [416,115],
+            [421,126],
+            [422,139],
+            [419,151],
+            [425,162],
+            [430,176],
+            [429,190],
+            [424,201],
+            [416,211],
+            [407,218],
+            [401,230],
+            [392,239],
+            [380,244],
+            [366,245],
+            [354,242],
+            [345,250],
+            [334,257],
+            [320,259],
+            [306,257],
+            [294,263],
+            [282,269],
+            [270,269],
+            [260,265],
+            [251,258],
+            [241,266],
+            [230,273],
+            [218,276],
+            [207,273],
+            [197,264],
+            [187,264],
+            [174,265],
+            [162,262],
+            [153,256],
+            [145,259],
+            [133,260],
+            [121,257],
+            [112,250],
+            [106,241],
+            [104,231],
+            [105,220],
+            [105,211]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "name": "canopy_inner_folds",
+      "layer": "foreground",
+      "description": "Add simple curved internal lines representing divisions between the leafy masses.",
+      "bbox": {
+        "x": 154,
+        "y": 84,
+        "w": 251,
+        "h": 154
+      },
+      "elements": [
+        {
+          "role": "upper_left_fold",
+          "type": "path_outline",
+          "placement": "Short curved line in the upper-left interior.",
+          "coordinates": [
+            [169,94],
+            [181,96],
+            [192,101],
+            [202,108],
+            [212,114],
+            [222,116],
+            [231,111],
+            [241,102],
+            [251,92],
+            [263,85]
+          ]
+        },
+        {
+          "role": "upper_center_fold",
+          "type": "path_outline",
+          "placement": "Rounded leafy division below the upper-left fold.",
+          "coordinates": [
+            [184,137],
+            [192,148],
+            [203,158],
+            [215,165],
+            [227,168],
+            [238,168],
+            [249,164],
+            [258,158],
+            [263,150],
+            [265,143]
+          ]
+        },
+        {
+          "role": "upper_middle_right_fold",
+          "type": "path_outline",
+          "placement": "Small curved division near the center-right.",
+          "coordinates": [
+            [262,143],
+            [273,146],
+            [284,146],
+            [294,142],
+            [300,134],
+            [304,123],
+            [309,113]
+          ]
+        },
+        {
+          "role": "upper_right_fold",
+          "type": "path_outline",
+          "placement": "Broad curved division in the upper-right canopy.",
+          "coordinates": [
+            [334,110],
+            [340,119],
+            [350,126],
+            [361,131],
+            [372,133],
+            [382,132],
+            [391,127],
+            [398,119]
+          ]
+        },
+        {
+          "role": "middle_left_fold",
+          "type": "path_outline",
+          "placement": "Curved leafy boundary in the lower-left canopy.",
+          "coordinates": [
+            [106,211],
+            [111,199],
+            [119,190],
+            [129,183],
+            [140,178],
+            [151,176],
+            [162,173]
+          ]
+        },
+        {
+          "role": "middle_center_fold",
+          "type": "path_outline",
+          "placement": "Large curved leafy division immediately above the branch area.",
+          "coordinates": [
+            [188,184],
+            [193,196],
+            [201,205],
+            [211,211],
+            [221,212],
+            [231,207],
+            [241,204],
+            [250,204],
+            [260,210],
+            [270,217]
+          ]
+        },
+        {
+          "role": "middle_right_fold",
+          "type": "path_outline",
+          "placement": "Broad curved division over the right branch.",
+          "coordinates": [
+            [272,216],
+            [286,220],
+            [299,218],
+            [310,211],
+            [320,202],
+            [330,196],
+            [341,196]
+          ]
+        },
+        {
+          "role": "lower_right_fold",
+          "type": "path_outline",
+          "placement": "Curved lower-right canopy division.",
+          "coordinates": [
+            [342,207],
+            [351,219],
+            [361,228],
+            [372,233],
+            [382,234],
+            [392,230],
+            [400,222]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "name": "left_tapered_main_branch",
+      "layer": "foreground",
+      "description": "Draw the left main branch with natural taper. It is broad where it grows from the trunk and becomes progressively narrower toward its upper-left tip.",
+      "bbox": {
+        "x": 157,
+        "y": 207,
+        "w": 89,
+        "h": 88
+      },
+      "elements": [
+        {
+          "role": "left_branch_upper_edge",
+          "type": "path_outline",
+          "placement": "Upper edge of the left branch. Start close to the trunk center at the broad branch base, then curve outward toward the upper-left branch tip.",
+          "coordinates": [
+            [244,290],
+            [237,278],
+            [228,267],
+            [217,257],
+            [205,248],
+            [193,241],
+            [182,233],
+            [174,222],
+            [169,210]
+          ]
+        },
+        {
+          "role": "left_branch_lower_edge",
+          "type": "path_outline",
+          "placement": "Lower edge of the left branch. The distance from the upper edge is large near the trunk but progressively decreases toward the branch tip, creating a clear taper.",
+          "coordinates": [
+            [157,210],
+            [160,220],
+            [166,229],
+            [176,238],
+            [188,247],
+            [201,256],
+            [214,267],
+            [226,279],
+            [236,292]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "name": "right_tapered_main_branch",
+      "layer": "foreground",
+      "description": "Draw the right main branch as a mirror-like tapered structure. It is broad where attached to the trunk and gradually narrows toward its upper-right tip.",
+      "bbox": {
+        "x": 260,
+        "y": 207,
+        "w": 85,
+        "h": 88
+      },
+      "elements": [
+        {
+          "role": "right_branch_upper_edge",
+          "type": "path_outline",
+          "placement": "Upper edge of the right branch starting from the broad trunk junction and sweeping upward-right.",
+          "coordinates": [
+            [260,290],
+            [268,278],
+            [278,268],
+            [289,258],
+            [301,250],
+            [313,242],
+            [324,233],
+            [333,222],
+            [339,209]
+          ]
+        },
+        {
+          "role": "right_branch_lower_edge",
+          "type": "path_outline",
+          "placement": "Lower edge of the right branch. Keep a wide separation from the upper edge near the trunk, then steadily reduce the separation toward the outer tip.",
+          "coordinates": [
+            [344,210],
+            [341,221],
+            [335,231],
+            [326,240],
+            [315,249],
+            [303,257],
+            [291,267],
+            [279,279],
+            [268,292]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "name": "broad_y_branch_junction",
+      "layer": "foreground",
+      "description": "Join both tapered branches smoothly into the main trunk. The bases of both branches are deliberately broad, creating a strong natural Y junction. There must be no diamond, pointed center branch, loop, or crossing lines.",
+      "bbox": {
+        "x": 235,
+        "y": 278,
+        "w": 34,
+        "h": 37
+      },
+      "elements": [
+        {
+          "role": "left_branch_to_trunk",
+          "type": "path_outline",
+          "placement": "Smoothly continue the broad lower-left branch base into the left side of the trunk.",
+          "coordinates": [
+            [236,292],
+            [240,297],
+            [242,303],
+            [243,311]
+          ]
+        },
+        {
+          "role": "right_branch_to_trunk",
+          "type": "path_outline",
+          "placement": "Smoothly continue the broad lower-right branch base into the right side of the trunk.",
+          "coordinates": [
+            [268,292],
+            [264,297],
+            [262,303],
+            [261,311]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "name": "main_trunk",
+      "layer": "foreground",
+      "description": "Draw the main trunk directly beneath the broad Y-shaped branch junction. The trunk sides continue smoothly from the branch bases and gradually widen toward the roots.",
+      "bbox": {
+        "x": 220,
+        "y": 303,
+        "w": 72,
+        "h": 105
+      },
+      "elements": [
+        {
+          "role": "trunk_left_edge",
+          "type": "path_outline",
+          "placement": "Left contour of the trunk continuing smoothly from the left branch.",
+          "coordinates": [
+            [243,303],
+            [244,320],
+            [243,340],
+            [242,359],
+            [240,377],
+            [237,390],
+            [232,398],
+            [223,404]
+          ]
+        },
+        {
+          "role": "trunk_right_edge",
+          "type": "path_outline",
+          "placement": "Right contour of the trunk continuing smoothly from the right branch.",
+          "coordinates": [
+            [261,303],
+            [260,320],
+            [262,340],
+            [264,359],
+            [267,377],
+            [271,390],
+            [278,399],
+            [288,404]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "name": "trunk_inner_lines",
+      "layer": "foreground",
+      "description": "Add two simple vertical curved lines inside the trunk. Do not add dots, stippling, speckles, or texture.",
+      "bbox": {
+        "x": 246,
+        "y": 313,
+        "w": 17,
+        "h": 70
+      },
+      "elements": [
+        {
+          "role": "inner_trunk_left",
+          "type": "path_outline",
+          "placement": "Simple interior line following the left trunk contour.",
+          "coordinates": [
+            [249,313],
+            [248,331],
+            [248,350],
+            [247,368],
+            [246,381]
+          ]
+        },
+        {
+          "role": "inner_trunk_right",
+          "type": "path_outline",
+          "placement": "Simple interior line following the right trunk contour.",
+          "coordinates": [
+            [256,313],
+            [257,331],
+            [257,350],
+            [259,368],
+            [262,382]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "name": "root_system",
+      "layer": "foreground",
+      "description": "Draw the spreading root system as a connected continuation of the widening trunk base.",
+      "bbox": {
+        "x": 198,
+        "y": 394,
+        "w": 121,
+        "h": 43
+      },
+      "elements": [
+        {
+          "role": "left_outer_root",
+          "type": "path_outline",
+          "placement": "Long root spreading toward the lower-left.",
+          "coordinates": [
+            [232,398],
+            [220,402],
+            [210,408],
+            [202,415],
+            [199,423],
+            [210,420],
+            [219,418],
+            [226,421],
+            [232,427]
+          ]
+        },
+        {
+          "role": "left_center_root",
+          "type": "path_outline",
+          "placement": "Short root spreading down-left.",
+          "coordinates": [
+            [240,403],
+            [235,414],
+            [235,425],
+            [230,433],
+            [240,430],
+            [247,424]
+          ]
+        },
+        {
+          "role": "center_root",
+          "type": "path_outline",
+          "placement": "Small central root extending downward.",
+          "coordinates": [
+            [247,424],
+            [250,433],
+            [257,436],
+            [263,432],
+            [264,422]
+          ]
+        },
+        {
+          "role": "right_center_root",
+          "type": "path_outline",
+          "placement": "Root spreading down-right.",
+          "coordinates": [
+            [264,403],
+            [271,411],
+            [275,421],
+            [283,428],
+            [290,431],
+            [286,421],
+            [289,415]
+          ]
+        },
+        {
+          "role": "right_outer_root",
+          "type": "path_outline",
+          "placement": "Long root spreading toward the lower-right.",
+          "coordinates": [
+            [278,399],
+            [287,402],
+            [296,408],
+            [305,413],
+            [313,420],
+            [317,428],
+            [307,425],
+            [298,421],
+            [290,422]
+          ]
+        }
+      ]
+    }
+  ]
+}

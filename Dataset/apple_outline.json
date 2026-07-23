@@ -1,0 +1,265 @@
+{
+  "prompt": "Draw a clean black-outlined apple with a large rounded apple body with a shallow indentation at the top, a small indentation at the bottom, a short curved stem rising upward, and one elongated leaf extending toward the upper-right. Include a few simple curved contour lines inside the apple and leaf.",
+  "canvas": {
+    "w": 312,
+    "h": 327
+  },
+  "brush_type": "b) Basic-5 Size",
+  "brush_size": 4,
+  "steps": [
+    {
+      "step": 1,
+      "name": "apple_body",
+      "layer": "background",
+      "description": "Draw the main outer contour of the apple as one smooth closed curved shape.",
+      "bbox": {
+        "x": 35,
+        "y": 91,
+        "w": 220,
+        "h": 187
+      },
+      "elements": [
+        {
+          "role": "apple_outer_contour",
+          "type": "path_outline",
+          "placement": "Large rounded apple body. The top has two rounded shoulders separated by a shallow stem indentation. The sides bulge outward and taper toward a slightly lobed bottom.",
+          "coordinates": [
+            [144, 108],
+            [125, 101],
+            [105, 92],
+            [83, 94],
+            [59, 100],
+            [43, 118],
+            [36, 139],
+            [36, 165],
+            [41, 191],
+            [52, 216],
+            [68, 239],
+            [87, 259],
+            [103, 272],
+            [116, 276],
+            [130, 274],
+            [143, 272],
+            [157, 273],
+            [171, 276],
+            [184, 274],
+            [198, 265],
+            [213, 251],
+            [226, 233],
+            [238, 212],
+            [247, 189],
+            [253, 164],
+            [253, 143],
+            [248, 124],
+            [237, 109],
+            [221, 100],
+            [203, 96],
+            [184, 97],
+            [167, 102],
+            [153, 108],
+            [144, 108]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "name": "stem",
+      "layer": "foreground",
+      "description": "Draw the short curved stem emerging from the top indentation of the apple.",
+      "bbox": {
+        "x": 129,
+        "y": 57,
+        "w": 18,
+        "h": 55
+      },
+      "elements": [
+        {
+          "role": "stem_left_edge",
+          "type": "path_outline",
+          "placement": "Left edge of the narrow stem, beginning at the apple and curving slightly toward the upper-left.",
+          "coordinates": [
+            [143, 110],
+            [143, 97],
+            [141, 84],
+            [137, 71],
+            [130, 60]
+          ]
+        },
+        {
+          "role": "stem_right_edge",
+          "type": "path_outline",
+          "placement": "Right edge of the stem returning from the upper tip toward the apple.",
+          "coordinates": [
+            [130, 60],
+            [137, 57],
+            [141, 66],
+            [145, 79],
+            [146, 94],
+            [145, 110]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "name": "leaf_outer_shape",
+      "layer": "foreground",
+      "description": "Draw the elongated leaf extending from the stem toward the upper-right.",
+      "bbox": {
+        "x": 145,
+        "y": 37,
+        "w": 133,
+        "h": 54
+      },
+      "elements": [
+        {
+          "role": "leaf_outline",
+          "type": "path_outline",
+          "placement": "Long pointed leaf attached near the stem. The leaf curves upward initially and tapers to a sharp point on the right.",
+          "coordinates": [
+            [147, 72],
+            [157, 57],
+            [171, 47],
+            [187, 40],
+            [205, 38],
+            [223, 41],
+            [241, 47],
+            [258, 53],
+            [276, 56],
+            [267, 65],
+            [255, 75],
+            [240, 83],
+            [224, 88],
+            [207, 90],
+            [190, 87],
+            [174, 81],
+            [160, 75],
+            [147, 72]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "name": "leaf_center_vein",
+      "layer": "foreground",
+      "description": "Draw the main curved vein through the center of the leaf.",
+      "bbox": {
+        "x": 151,
+        "y": 54,
+        "w": 116,
+        "h": 20
+      },
+      "elements": [
+        {
+          "role": "leaf_main_vein",
+          "type": "path_outline",
+          "placement": "Main vein beginning at the leaf base and curving gently toward the pointed tip.",
+          "coordinates": [
+            [151, 72],
+            [171, 66],
+            [191, 61],
+            [211, 58],
+            [231, 57],
+            [250, 58],
+            [267, 57]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "name": "leaf_secondary_veins",
+      "layer": "foreground",
+      "description": "Add several curved secondary veins branching from the central leaf vein.",
+      "bbox": {
+        "x": 174,
+        "y": 42,
+        "w": 77,
+        "h": 42
+      },
+      "elements": [
+        {
+          "role": "upper_leaf_veins",
+          "type": "stroke",
+          "placement": "Short veins extending upward from the main vein toward the upper leaf edge.",
+          "coordinates": [
+            [181,64,194,48],
+            [204,59,217,43],
+            [226,57,241,48]
+          ]
+        },
+        {
+          "role": "lower_leaf_veins",
+          "type": "stroke",
+          "placement": "Short veins extending downward from the main vein toward the lower leaf edge.",
+          "coordinates": [
+            [174,66,188,80],
+            [198,61,213,86],
+            [222,58,239,82],
+            [242,58,253,72]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "name": "apple_top_contour",
+      "layer": "foreground",
+      "description": "Draw the subtle curved contour visible across the upper surface of the apple.",
+      "bbox": {
+        "x": 84,
+        "y": 97,
+        "w": 117,
+        "h": 15
+      },
+      "elements": [
+        {
+          "role": "top_surface_curve",
+          "type": "path_outline",
+          "placement": "A light curved line following the top surface from the upper-left shoulder toward the stem and continuing slightly onto the right shoulder.",
+          "coordinates": [
+            [85,101],
+            [99,99],
+            [113,102],
+            [127,107],
+            [141,111],
+            [155,111],
+            [169,107],
+            [184,102],
+            [199,101]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "name": "apple_left_inner_contour",
+      "layer": "foreground",
+      "description": "Add the long curved contour line inside the left side of the apple.",
+      "bbox": {
+        "x": 48,
+        "y": 148,
+        "w": 49,
+        "h": 101
+      },
+      "elements": [
+        {
+          "role": "left_inner_curve",
+          "type": "path_outline",
+          "placement": "Long thin curve following the left outer surface of the apple from upper-left downward and inward.",
+          "coordinates": [
+            [52,149],
+            [51,166],
+            [54,185],
+            [61,204],
+            [70,221],
+            [81,236],
+            [95,248]
+          ]
+        }
+      ]
+    }
+  ]
+}

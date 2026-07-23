@@ -1,0 +1,588 @@
+{
+  "prompt": "Draw a clean black-outlined flower in a vase with one simple five-petal flower with a circular center, a long thin vertical stem, two pointed serrated-looking leaves extending left and right, and a rounded vase with a narrow neck and small rim.",
+  "canvas": {
+    "w": 434,
+    "h": 401
+  },
+  "brush_type": "b) Basic-5 Size",
+  "brush_size": 2,
+  "steps": [
+    {
+      "step": 1,
+      "name": "flower_center",
+      "layer": "foreground",
+      "description": "Draw the circular center of the flower.",
+      "bbox": {
+        "x": 199,
+        "y": 76,
+        "w": 33,
+        "h": 33
+      },
+      "elements": [
+        {
+          "role": "flower_center_circle",
+          "type": "ellipse_outline",
+          "placement": "Small circular flower center located near the upper middle of the canvas.",
+          "coordinates": {
+            "x": 199,
+            "y": 76,
+            "w": 33,
+            "h": 33
+          }
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "name": "top_flower_petal",
+      "layer": "foreground",
+      "description": "Draw the tall upper petal rising from the flower center.",
+      "bbox": {
+        "x": 196,
+        "y": 21,
+        "w": 44,
+        "h": 59
+      },
+      "elements": [
+        {
+          "role": "top_petal",
+          "type": "path_outline",
+          "placement": "Tall pointed petal centered directly above the flower center.",
+          "coordinates": [
+            [207,79],
+            [201,68],
+            [197,57],
+            [196,46],
+            [200,35],
+            [208,26],
+            [216,21],
+            [225,27],
+            [233,36],
+            [238,46],
+            [238,56],
+            [234,67],
+            [226,78],
+            [216,84],
+            [207,79]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "name": "upper_left_flower_petal",
+      "layer": "foreground",
+      "description": "Draw the upper-left petal extending diagonally outward from the center.",
+      "bbox": {
+        "x": 148,
+        "y": 55,
+        "w": 58,
+        "h": 47
+      },
+      "elements": [
+        {
+          "role": "upper_left_petal",
+          "type": "path_outline",
+          "placement": "Broad pointed petal extending toward the upper-left.",
+          "coordinates": [
+            [203,84],
+            [193,75],
+            [183,67],
+            [173,60],
+            [161,57],
+            [149,69],
+            [153,81],
+            [162,92],
+            [173,97],
+            [185,98],
+            [196,94],
+            [203,84]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "name": "upper_right_flower_petal",
+      "layer": "foreground",
+      "description": "Draw the upper-right petal extending diagonally outward from the flower center.",
+      "bbox": {
+        "x": 226,
+        "y": 58,
+        "w": 59,
+        "h": 46
+      },
+      "elements": [
+        {
+          "role": "upper_right_petal",
+          "type": "path_outline",
+          "placement": "Broad pointed petal extending toward the upper-right.",
+          "coordinates": [
+            [228,84],
+            [238,75],
+            [249,67],
+            [260,61],
+            [271,59],
+            [283,70],
+            [281,83],
+            [274,94],
+            [264,100],
+            [252,102],
+            [241,99],
+            [231,93],
+            [228,84]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "name": "lower_left_flower_petal",
+      "layer": "foreground",
+      "description": "Draw the lower-left petal extending downward-left from the flower center.",
+      "bbox": {
+        "x": 164,
+        "y": 99,
+        "w": 49,
+        "h": 52
+      },
+      "elements": [
+        {
+          "role": "lower_left_petal",
+          "type": "path_outline",
+          "placement": "Rounded pointed petal extending downward-left.",
+          "coordinates": [
+            [205,101],
+            [196,107],
+            [185,113],
+            [176,121],
+            [167,130],
+            [164,139],
+            [169,149],
+            [181,147],
+            [192,143],
+            [201,135],
+            [207,125],
+            [210,113],
+            [205,101]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "name": "lower_right_flower_petal",
+      "layer": "foreground",
+      "description": "Draw the lower-right petal extending downward-right from the flower center.",
+      "bbox": {
+        "x": 219,
+        "y": 100,
+        "w": 44,
+        "h": 53
+      },
+      "elements": [
+        {
+          "role": "lower_right_petal",
+          "type": "path_outline",
+          "placement": "Rounded pointed petal extending downward-right.",
+          "coordinates": [
+            [226,101],
+            [235,108],
+            [245,114],
+            [254,121],
+            [260,130],
+            [262,141],
+            [260,151],
+            [249,149],
+            [238,145],
+            [230,137],
+            [224,127],
+            [220,114],
+            [226,101]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "name": "flower_stem_above_vase",
+      "layer": "foreground",
+      "description": "Draw the thin stem descending vertically from the flower center toward the vase opening.",
+      "bbox": {
+        "x": 211,
+        "y": 108,
+        "w": 10,
+        "h": 122
+      },
+      "elements": [
+        {
+          "role": "stem_left_edge",
+          "type": "path_outline",
+          "placement": "Left side of the narrow stem beginning directly below the flower center.",
+          "coordinates": [
+            [211,108],
+            [211,132],
+            [211,156],
+            [211,181],
+            [211,205],
+            [212,228]
+          ]
+        },
+        {
+          "role": "stem_right_edge",
+          "type": "path_outline",
+          "placement": "Right side of the stem, almost parallel to the left edge.",
+          "coordinates": [
+            [217,108],
+            [217,132],
+            [217,156],
+            [217,181],
+            [217,205],
+            [218,228]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "name": "left_leaf",
+      "layer": "foreground",
+      "description": "Draw the pointed leaf extending from the stem toward the lower-left.",
+      "bbox": {
+        "x": 145,
+        "y": 172,
+        "w": 69,
+        "h": 51
+      },
+      "elements": [
+        {
+          "role": "left_leaf_outer_shape",
+          "type": "path_outline",
+          "placement": "Long pointed leaf attached to the stem near the vase, extending diagonally toward the left.",
+          "coordinates": [
+            [213,221],
+            [203,214],
+            [195,207],
+            [188,201],
+            [181,197],
+            [174,190],
+            [166,187],
+            [159,180],
+            [146,174],
+            [158,174],
+            [169,176],
+            [178,180],
+            [188,184],
+            [197,191],
+            [204,200],
+            [209,210],
+            [213,221]
+          ]
+        },
+        {
+          "role": "left_leaf_center_vein",
+          "type": "path_outline",
+          "placement": "Single curved vein running from the stem toward the pointed end of the leaf.",
+          "coordinates": [
+            [212,220],
+            [200,209],
+            [188,198],
+            [176,188],
+            [163,181],
+            [147,174]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 9,
+      "name": "right_leaf",
+      "layer": "foreground",
+      "description": "Draw the larger pointed leaf extending from the stem toward the upper-right.",
+      "bbox": {
+        "x": 217,
+        "y": 160,
+        "w": 74,
+        "h": 58
+      },
+      "elements": [
+        {
+          "role": "right_leaf_outer_shape",
+          "type": "path_outline",
+          "placement": "Long pointed leaf attached to the stem and extending diagonally toward the right.",
+          "coordinates": [
+            [218,216],
+            [226,207],
+            [232,198],
+            [238,190],
+            [244,183],
+            [250,175],
+            [258,169],
+            [268,166],
+            [278,163],
+            [289,161],
+            [282,168],
+            [276,174],
+            [269,180],
+            [264,188],
+            [256,192],
+            [251,200],
+            [242,204],
+            [235,211],
+            [226,214],
+            [218,216]
+          ]
+        },
+        {
+          "role": "right_leaf_center_vein",
+          "type": "path_outline",
+          "placement": "Curved central vein extending from the stem toward the right leaf tip.",
+          "coordinates": [
+            [219,214],
+            [231,205],
+            [243,195],
+            [254,185],
+            [266,175],
+            [278,167],
+            [289,161]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 10,
+      "name": "vase_top_rim",
+      "layer": "foreground",
+      "description": "Draw the narrow oval-like rim at the mouth of the vase.",
+      "bbox": {
+        "x": 194,
+        "y": 226,
+        "w": 44,
+        "h": 10
+      },
+      "elements": [
+        {
+          "role": "vase_rim",
+          "type": "path_outline",
+          "placement": "Thin horizontal oval-like opening centered around the flower stem.",
+          "coordinates": [
+            [195,228],
+            [202,227],
+            [210,227],
+            [218,227],
+            [227,227],
+            [236,228],
+            [236,232],
+            [228,234],
+            [218,234],
+            [208,234],
+            [199,233],
+            [195,231],
+            [195,228]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 11,
+      "name": "vase_neck",
+      "layer": "foreground",
+      "description": "Draw the narrow neck descending from the vase rim before the body begins to widen.",
+      "bbox": {
+        "x": 199,
+        "y": 232,
+        "w": 35,
+        "h": 47
+      },
+      "elements": [
+        {
+          "role": "vase_neck_left",
+          "type": "path_outline",
+          "placement": "Left edge of the vase neck, initially vertical and then beginning to curve outward.",
+          "coordinates": [
+            [200,232],
+            [201,244],
+            [201,255],
+            [199,265],
+            [195,275]
+          ]
+        },
+        {
+          "role": "vase_neck_right",
+          "type": "path_outline",
+          "placement": "Right edge of the vase neck, mirroring the left side.",
+          "coordinates": [
+            [232,232],
+            [231,244],
+            [231,255],
+            [234,266],
+            [239,276]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 12,
+      "name": "vase_body",
+      "layer": "foreground",
+      "description": "Draw the large rounded vase body, widening below the neck and tapering again toward the base.",
+      "bbox": {
+        "x": 165,
+        "y": 265,
+        "w": 102,
+        "h": 113
+      },
+      "elements": [
+        {
+          "role": "vase_body_outline",
+          "type": "path_outline",
+          "placement": "Symmetrical bulb-shaped vase with broad rounded shoulders and a narrower base.",
+          "coordinates": [
+            [195,266],
+            [187,277],
+            [179,288],
+            [172,299],
+            [168,310],
+            [166,322],
+            [166,334],
+            [169,346],
+            [174,357],
+            [181,367],
+            [189,374],
+            [201,377],
+            [216,378],
+            [231,377],
+            [243,373],
+            [251,365],
+            [258,355],
+            [263,344],
+            [266,332],
+            [266,319],
+            [263,306],
+            [258,294],
+            [251,284],
+            [244,275],
+            [239,266]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 13,
+      "name": "vase_bottom_base",
+      "layer": "foreground",
+      "description": "Add the small curved base detail at the bottom of the vase.",
+      "bbox": {
+        "x": 184,
+        "y": 371,
+        "w": 63,
+        "h": 13
+      },
+      "elements": [
+        {
+          "role": "base_upper_curve",
+          "type": "path_outline",
+          "placement": "Shallow curved line near the bottom of the vase.",
+          "coordinates": [
+            [184,371],
+            [197,374],
+            [211,375],
+            [225,375],
+            [238,373],
+            [247,371]
+          ]
+        },
+        {
+          "role": "base_lower_curve",
+          "type": "path_outline",
+          "placement": "Lower curved line forming the narrow bottom foot of the vase.",
+          "coordinates": [
+            [189,376],
+            [199,381],
+            [211,383],
+            [224,382],
+            [237,379],
+            [242,375]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 14,
+      "name": "stem_inside_vase",
+      "layer": "foreground",
+      "description": "Continue the flower stem visibly through the vase from the opening toward the lower interior. Keep it narrow and slightly curved.",
+      "bbox": {
+        "x": 211,
+        "y": 232,
+        "w": 15,
+        "h": 116
+      },
+      "elements": [
+        {
+          "role": "visible_inner_stem_left",
+          "type": "path_outline",
+          "placement": "Left edge of the stem visible inside the vase.",
+          "coordinates": [
+            [212,233],
+            [213,255],
+            [214,278],
+            [215,301],
+            [216,323],
+            [218,345]
+          ]
+        },
+        {
+          "role": "visible_inner_stem_right",
+          "type": "path_outline",
+          "placement": "Right edge of the visible stem inside the vase.",
+          "coordinates": [
+            [217,233],
+            [218,255],
+            [219,278],
+            [220,301],
+            [221,323],
+            [223,345]
+          ]
+        },
+        {
+          "role": "inner_stem_bottom",
+          "type": "path_outline",
+          "placement": "Small rounded connection closing the visible stem at its lower end.",
+          "coordinates": [
+            [218,345],
+            [220,347],
+            [223,345]
+          ]
+        }
+      ]
+    },
+    {
+      "step": 15,
+      "name": "vase_rim_front_edge",
+      "layer": "foreground",
+      "description": "Redraw the front edge of the vase mouth over the stem so the stem appears to pass naturally into the vase.",
+      "bbox": {
+        "x": 195,
+        "y": 229,
+        "w": 41,
+        "h": 6
+      },
+      "elements": [
+        {
+          "role": "vase_front_rim",
+          "type": "path_outline",
+          "placement": "Visible front arc of the vase opening.",
+          "coordinates": [
+            [195,230],
+            [203,232],
+            [211,233],
+            [220,233],
+            [228,232],
+            [236,230]
+          ]
+        }
+      ]
+    }
+  ]
+}

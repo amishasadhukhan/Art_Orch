@@ -1,0 +1,106 @@
+{ "Query": {"Draw a mountain landscape with three peaks of different heights: a smaller peak on the left, a taller center peak catching a streak of light on its slope, and a broad peak on the right, set beneath a sky lined with soft rolling clouds. Below, a calm lake mirrors the mountains, framed by low shrubs along the shoreline and a grassy bank in the foreground."},
+  "canvas": {"w": 850, "h": 510},
+  "brush_type": "c) Pencil-2",
+  "brush_size": 2,
+  "steps": [
+    {
+      "step": 1, "name": "distant_mountain_outline", "layer": "background",
+      "description": "Faded bluish-gray distant peak behind the main mountains, upper right.",
+      "bbox": {"x": 480, "y": 170, "w": 370, "h": 160},
+      "elements": [
+        {"role": "distant_peak_silhouette", "type": "path_outline",
+         "placement": "broad gentle ridge, peak near right-center of bbox, sloping down to baseline both sides",
+         "coordinates": [[480,330],[560,240],[650,175],[740,210],[850,300]]}
+      ]
+    },
+    {
+      "step": 2, "name": "cloud_bank_outline", "layer": "background",
+      "description": "Puffy cloud mass along the horizon, behind and around the mountain peaks.",
+      "bbox": {"x": 0, "y": 20, "w": 850, "h": 200},
+      "elements": [
+        {"role": "cloud_bank_silhouette", "type": "path_outline",
+         "placement": "scalloped lower edge with several rounded lobes, spanning full width, top edge cut by canvas",
+         "coordinates": [[0,120],[60,90],[140,140],[220,100],[310,150],[400,110],[490,160],[580,100],[670,150],[760,100],[850,140]]}
+      ]
+    },
+    {
+      "step": 3, "name": "mountain_left_outline", "layer": "midground",
+      "description": "Smaller dark peak, leftmost mountain.",
+      "bbox": {"x": 0, "y": 195, "w": 230, "h": 135},
+      "elements": [
+        {"role": "left_peak_silhouette", "type": "path_outline",
+         "placement": "triangular peak near left third of bbox, descending to baseline on both sides",
+         "coordinates": [[0,300],[95,200],[230,330]]}
+      ]
+    },
+    {
+      "step": 4, "name": "mountain_center_outline", "layer": "midground",
+      "description": "Largest central peak with a diagonal light streak on its right-facing slope.",
+      "bbox": {"x": 180, "y": 170, "w": 320, "h": 160},
+      "elements": [
+        {"role": "center_peak_silhouette", "type": "path_outline",
+         "placement": "two-lobed ridge, main peak left-of-center, smaller shoulder right, descending to baseline",
+         "coordinates": [[180,330],[260,220],[310,175],[370,205],[420,190],[500,330]]},
+        {"role": "highlight_streak", "type": "stroke",
+         "placement": "diagonal band of short strokes running down the right slope from near the peak toward the base",
+         "coordinates": [[350,200,365,215],[365,225,382,240],[382,250,400,265],[400,275,418,290],[418,300,435,315]]}
+      ]
+    },
+    {
+      "step": 5, "name": "lake_water_outline", "layer": "midground",
+      "description": "Still water surface below the mountains, bounded above by the irregular shoreline.",
+      "bbox": {"x": 0, "y": 330, "w": 850, "h": 130},
+      "elements": [
+        {"role": "water_area_outline", "type": "polygon_outline",
+         "placement": "irregular wavy top edge following the shoreline, straight bottom edge at grass line",
+         "coordinates": [[0,340],[150,335],[300,345],[450,340],[600,350],[850,340],[850,460],[0,460]]}
+      ]
+    },
+    {
+      "step": 6, "name": "reflection_lines", "layer": "midground",
+      "description": "Faint horizontal ripple distortion suggesting mirrored mountain reflections in the water.",
+      "bbox": {"x": 0, "y": 340, "w": 850, "h": 80},
+      "elements": [
+        {"role": "reflection_ripples", "type": "stroke",
+         "placement": "short mostly-horizontal wavy strokes scattered across the width at varying depths below the shoreline",
+         "coordinates": [[40,355,90,358],[120,370,175,368],[250,360,300,363],[380,378,430,375],[500,365,555,368],[650,382,705,379],[780,360,830,363]]}
+      ]
+    },
+    {
+      "step": 7, "name": "shoreline_bushes_outline", "layer": "foreground",
+      "description": "Three irregular shrub clusters along the shoreline, roughly under each mountain base.",
+      "bbox": {"x": 0, "y": 300, "w": 850, "h": 60},
+      "elements": [
+        {"role": "bush_cluster_left", "type": "path_outline",
+         "placement": "bumpy blob strip, left third of bbox",
+         "coordinates": [[0,330],[60,310],[130,325],[200,315],[260,335]]},
+        {"role": "bush_cluster_center", "type": "path_outline",
+         "placement": "bumpy blob strip, center of bbox",
+         "coordinates": [[350,335],[420,315],[490,328],[560,318],[620,340]]},
+        {"role": "bush_cluster_right", "type": "path_outline",
+         "placement": "bumpy blob strip, right third of bbox",
+         "coordinates": [[600,340],[680,320],[750,332],[820,322],[850,338]]}
+      ]
+    },
+    {
+      "step": 8, "name": "foreground_grass_strokes", "layer": "foreground",
+      "description": "Dense band of grass blades along the very bottom edge of the canvas.",
+      "bbox": {"x": 0, "y": 460, "w": 850, "h": 50},
+      "elements": [
+        {"role": "grass_blades", "type": "stroke",
+         "placement": "many short near-vertical tapering strokes, slight curve, varied length and angle, densely overlapping across full width — sample shown, interpolate similarly across the bbox",
+         "coordinates": [[10,505,5,470],[35,505,45,465],[70,505,60,475],[110,505,125,468],[150,505,140,472],[200,505,215,465],[260,505,250,478],[320,505,335,470],[390,505,378,468],[460,505,475,472],[530,505,518,465],[600,505,615,470],[670,505,658,475],[740,505,755,465],[810,505,798,472]]}
+      ]
+    },
+    {
+      "step": 9, "name": "flower_cluster_outline", "layer": "foreground",
+      "description": "Small red flower cluster at the bottom-left corner.",
+      "bbox": {"x": 0, "y": 490, "w": 45, "h": 20},
+      "elements": [
+        {"role": "flower_petals", "type": "path_outline",
+         "placement": "tiny rounded cluster shape, bottom-left corner",
+         "coordinates": [[0,500],[15,492],[30,498],[35,508],[15,510]]}
+      ]
+    }
+  ]
+}
