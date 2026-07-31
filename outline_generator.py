@@ -29,9 +29,18 @@
 #   python outline_generator.py plan.json [--bridge=URL] [--color=#hex]
 
 import json
+import ssl
 import sys
 import urllib.error
 import urllib.request
+
+import certifi
+
+# The system/Python-bundled CA store can lag behind and reject otherwise-valid
+# certs as "expired" (an outdated root/intermediate in that store, not the
+# site's actual cert) — certifi's bundle is kept current via pip, so use it
+# explicitly rather than relying on urllib's default SSL context.
+_SSL_CONTEXT = ssl.create_default_context(cafile=certifi.where())
 
 DEFAULT_COLOR = "#000000"   # this plan format has no per-element color, so one
                             # consistent ink color is used throughout unless overridden
@@ -68,7 +77,7 @@ def _send_to_krita(bridge_url: str, code: str, timeout: float = 240.0) -> tuple[
     unchanged with this script too."""
     try:
         req = urllib.request.Request(bridge_url, data=code.encode("utf-8"), method="POST")
-        with urllib.request.urlopen(req, timeout=timeout) as resp:
+        with urllib.request.urlopen(req, timeout=timeout, context=_SSL_CONTEXT) as resp:
             return True, resp.read().decode("utf-8", errors="replace")
     except urllib.error.HTTPError as e:
         return False, e.read().decode("utf-8", errors="replace")

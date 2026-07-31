@@ -164,17 +164,26 @@ Return the COMPLETE final JSON only.
 FOLLOW-UP CORRECTION PROMPT (for subsequent iterations)
 ================================================================
 
-For subsequent corrections, you can then give me the generated output image + existing JSON and say:
+For subsequent corrections, you are given the generated output image, the
+reference image, the existing JSON, AND a separate critic pass's written
+findings diagnosing what is wrong. Treat the critic findings as authoritative
+— you are not diagnosing from scratch, you are fixing what has already been
+diagnosed.
 
 This is the output produced by the current JSON.
 
-Compare it carefully with the reference image and diagnose the geometric errors.
+For each critic finding, identify the specific JSON element(s) responsible
+(match the finding's description of location/part to the step/element roles
+and coordinates in the existing JSON), then fix ONLY those elements' geometry.
 
 Modify the EXISTING JSON rather than redesigning the object unnecessarily.
 
-Preserve every part that is already correct and change only the geometry responsible for the visible errors.
+Preserve every part that is already correct and change only the geometry
+responsible for the errors the critic identified. If you notice an
+additional clear error the critic missed, you may fix that too, but do not
+use this as license to rewrite parts the critic did not flag.
 
-Pay special attention to:
+Pay special attention to (whether or not the critic explicitly named it):
 - incorrect junctions
 - disconnected components
 - unwanted intersections
@@ -185,8 +194,7 @@ Pay special attention to:
 - occlusion errors
 - symmetry
 - lines extending beyond their intended boundaries
-
-Before changing coordinates, determine which specific JSON elements caused each visible error.
+- any element's coordinates escaping its own declared bbox
 
 Then return the COMPLETE corrected JSON, including unchanged steps.
 
@@ -194,3 +202,55 @@ OUTPUT ONLY JSON.
 Do not generate an image.
 Do not provide explanations.
 Do not provide a patch or partial correction.
+
+
+================================================================
+CRITIC PROMPT (diagnosis-only pass, run before correction)
+================================================================
+
+You are a strict visual critic. You are given two images:
+1. The REFERENCE image — the target that should be matched.
+2. The GENERATED image — the current output produced by an existing JSON
+   drawing plan for outline_generator.py.
+
+Your ONLY job is to compare the GENERATED image against the REFERENCE image
+and produce a precise written critique of what is geometrically wrong.
+Do NOT propose or write any JSON. Do NOT redesign the object. Do NOT
+describe what is already correct in detail — focus on the errors.
+
+For each problem you find, state:
+- WHAT is wrong (e.g. "the leaf extends diagonally across the entire
+  canvas instead of staying near the stem").
+- WHERE it is wrong, in concrete visual terms (e.g. "top-right area",
+  "the shape spans from roughly one corner to the opposite corner",
+  "the two halves do not meet at the top").
+- WHICH structural part is likely responsible (e.g. "the leaf_outline
+  element", "the stem", "the main body silhouette") — infer this from the
+  step/element names and roles that would plausibly produce that error,
+  even without seeing the JSON directly.
+
+Check specifically for:
+- elements or contours that span far outside where a small/local part
+  should stay (a classic failure: a small part's coordinates accidentally
+  walk diagonally across the whole canvas instead of staying compact)
+- disconnected components that should be touching or attached
+- unwanted crossings or self-intersections
+- duplicated or doubled edges
+- wrong proportions (too large, too small, wrong aspect ratio) relative
+  to the reference
+- wrong curvature (too angular where the reference is round, or vice
+  versa; wrong direction of curvature)
+- occlusion errors (a part visible that should be hidden behind another,
+  or vice versa)
+- broken symmetry where the reference is symmetric
+- missing parts that are clearly present in the reference
+- extra parts/artifacts not present in the reference
+
+Order your findings from most severe/most visually obvious to least.
+Be concrete and specific enough that another model, given only your
+critique text (not the images), could locate and fix each problem in the
+JSON.
+
+Output format: plain text only, a numbered list of findings. No JSON, no
+markdown code fences, no preamble or closing remarks — just the numbered
+findings.
