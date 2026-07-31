@@ -81,3 +81,75 @@ import outline_generator as og
 og.fetch_canvas_image(BRIDGE_URL, "generated.png")
 og.compare_images("generated.png", "/content/Screenshot 2026-07-22 214327.png")
 
+
+FULL REFERENCE-IMAGE-TO-PLAN PIPELINE (image_to_plan.py) — LOCAL TERMINAL
+----------------------------------------------
+This is the full loop: reference image -> plan JSON -> render in Krita ->
+export the result -> critique it against the reference -> auto-correct the
+JSON -> repeat. Run these from a local PowerShell terminal in the repo
+folder (not Colab) — image_to_plan.py calls the HF model directly.
+
+STEP 0 — Set your Hugging Face API key for this terminal session
+(get one from https://huggingface.co/settings/tokens if you don't have it;
+rotate/regenerate it if it's ever been pasted anywhere insecure):
+
+    $env:HF_TOKEN = "hf_your_actual_token_here"
+
+    This only lasts for this terminal window/session — you'll need to set
+    it again next time you open a new terminal. To make it permanent
+    instead:
+        [Environment]::SetEnvironmentVariable("HF_TOKEN", "hf_your_actual_token_here", "User")
+    (then close and reopen the terminal for it to take effect).
+
+
+STEP 1 — Generate the initial plan JSON from a reference image
+(use any file under Dataset/ as the schema example — it just needs to be
+a valid plan JSON, it doesn't have to resemble your new reference image):
+
+    python image_to_plan.py generate <reference_image.png> Dataset/boy_outline1.json --out plan.json
+
+    If this fails with a JSON parse error, check last_raw_model_output.txt
+    (auto-saved on failure) — usually means the model's response got cut
+    off; raise max_tokens in image_to_plan.py if so.
+
+
+STEP 2 — Make sure Krita + the bridge + ngrok are running (see the
+EVERY SESSION steps above), then render the plan into Krita:
+
+    python -c "import outline_generator as og; og.run('plan.json', bridge_url='https://tipoff-thieving-greasily.ngrok-free.dev')"
+
+    Note: this adds new layers on top of whatever's already open in Krita
+    rather than clearing the canvas — close and reopen the Krita document
+    before re-rendering a corrected plan, so old attempts don't visually
+    stack underneath the new one.
+
+
+STEP 3 — Pull the actual rendered canvas back as a PNG, so you (and the
+critic model) can see what was actually painted:
+
+    python -c "import outline_generator as og; og.fetch_canvas_image('https://tipoff-thieving-greasily.ngrok-free.dev', 'generated.png')"
+
+    Open generated.png to look at it yourself (e.g. `start generated.png`).
+
+
+STEP 4 — Run the correction pass. This ALONE both diagnoses the errors
+(prints the critic's findings to the terminal) AND fixes the plan JSON
+using that diagnosis, in one model-call pair — do not run a separate
+"critique" command first, that just wastes an extra API call:
+
+    python image_to_plan.py correct plan.json generated.png <reference_image.png> --out plan.json
+
+    (--out plan.json overwrites the same file so the loop can repeat
+    cleanly; use a different name if you want to keep each version.)
+
+
+STEP 5 — Repeat from STEP 2 (re-render the corrected plan.json, re-export,
+re-correct) until the picture matches the reference closely enough.
+
+
+OPTIONAL — check similarity numerically instead of just eyeballing it:
+
+    python -c "import outline_generator as og; og.compare_images('generated.png', '<reference_image.png>')"
+
+    (requires: pip install scikit-image pillow numpy)
+
